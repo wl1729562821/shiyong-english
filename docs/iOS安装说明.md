@@ -10,7 +10,7 @@ iOS 版和 Android / Windows 版是同一套代码（Flutter），编译出来�
 
 | 签名用的账号 | 费用 | App 有效期 |
 |---|---|---|
-| 普通 Apple ID（免费） | 0 | 7 天，到期重新装一次，学习记录不丢 |
+| 普通 Apple ID（免费，本项目用这个） | 0 | 7 天；Sideloadly 开自动续签后会在到期前自动续上 |
 | Apple 开发者账号 | 99 美元 / 年 | 1 年；还能用 TestFlight 安装 |
 
 ---
@@ -60,20 +60,40 @@ git config --local --unset http.https://github.com/.proxy
 私有仓库每月有免费的 Actions 时间，Mac 机器按 10 倍扣，大约够编译 10 次；
 公开仓库不限。具体额度以 GitHub 当前规则为准。
 
-### 3. 用 Sideloadly 装到 iPhone（在 Windows 上操作）
+### 3. 用 Sideloadly 装到 iPhone，并开启 7 天自动续签（在 Windows 上操作）
 
-1. 安装苹果官网下载版的 **iTunes** 和 **iCloud**（不要用微软商店版），用来识别 iPhone
+用免费 Apple ID 签名，App 每 7 天到期一次。Sideloadly 装好后会在电脑上留一个后台服务（开机自启），
+在到期前自动重新签名：电脑开着、手机能连到电脑（同一个 Wi‑Fi，或插着数据线）就行，平时基本感觉不到。
+
+**一次性准备**
+
+1. 安装苹果官网版 **iTunes**（64 位）：https://www.apple.com/itunes/download/win64
+   - 必须是官网下载版，**不要用微软商店版**（Sideloadly 用不了商店版）
+   - iCloud 一般不用装；如果后面 Sideloadly 报错找不到组件，再装官网版 iCloud
 2. 安装 **Sideloadly**：https://sideloadly.io
-3. iPhone 用数据线连电脑，手机上点“信任此电脑”
-4. 把 `.ipa` 拖进 Sideloadly，填你的 Apple ID，点 **Start**，按提示输入密码
-   （建议用一个专门的 Apple ID；密码只在 Sideloadly 里输入）
-5. iPhone 上：
-   - **设置 → 通用 → VPN 与设备管理** → 点你的 Apple ID → 信任
-   - iOS 16 及以上：**设置 → 隐私与安全性 → 开发者模式** 打开，按提示重启
-6. 桌面上出现「实用英语」，打开就能用
+3. iPhone 用数据线连电脑，手机上点「信任此电脑」，然后打开一次 iTunes，确认能看到手机
+4. **打开无线同步**（不插线也能自动续签的关键）：iTunes 左上角点手机图标 → **摘要** → **选项** →
+   勾选「通过 Wi‑Fi 与此 iPhone 同步」→ 点 **应用**
 
-**7 天到期后**：App 打不开时，用 Sideloadly 把同一个 `.ipa` 再装一次即可，学习进度和标注都在。
-Sideloadly 也可以开启自动续签（电脑和手机在同一个 Wi-Fi 下）。
+**安装**
+
+5. 打开 Sideloadly：把 `.ipa` 拖进去，**Apple account** 填你的 Apple ID
+6. 把窗口**左下角的自动续签（刷新）开关打开**，再点 **Start**
+7. 按提示输入 Apple ID 密码；开了双重认证的会再要一个验证码
+   - 密码只在 Sideloadly 里输入，它直接登录苹果服务器
+   - 想更放心可以专门注册一个 Apple ID 用来签名
+8. iPhone 上：
+   - **设置 → 通用 → VPN 与设备管理** → 点你的 Apple ID → 信任
+   - iOS 16 及以上：**设置 → 隐私与安全性 → 开发者模式** 打开，按提示重启后再确认一次
+9. 桌面上出现「实用英语」，打开就能用
+
+**平时**
+
+- 电脑别一直关机；手机和电脑在同一个 Wi‑Fi 下，到期前会自动续签
+- 如果超过 7 天没续上（比如出差没带电脑），App 会打不开：回来插上数据线，在 Sideloadly 里把同一个
+  `.ipa` 再装一次即可，学习进度和标注都还在
+- 免费 Apple ID 同时最多只能装 3 个这样签名的 App
+- 以后更新 App（比如改了课程内容）：重新推送 → 下载新的 `.ipa` → 在 Sideloadly 里覆盖安装，数据保留
 
 ---
 
