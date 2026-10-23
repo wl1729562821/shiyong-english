@@ -58,6 +58,19 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('见面打招呼，回 Not bad / Pretty good 就行'), findsOneWidget);
     await shot(tester, '2b_lesson_words_with_note');
+    // 语速面板：调到 1.5x 试听（真实语音引擎），再调回来
+    await tester.tap(find.byKey(const ValueKey('speed-button')));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('很快 1.6x'));
+    await tester.tap(find.byTooltip('调慢'));
+    await tester.pumpAndSettle();
+    expect(find.text('1.5x'), findsWidgets);
+    await shot(tester, '2c_speed_panel');
+    await tester.tap(find.text('试听'));
+    await Future<void>.delayed(const Duration(seconds: 3));
+    await tester.tap(find.text('正常 1.0x'));
+    await tester.tapAt(const Offset(20, 20));
+    await tester.pumpAndSettle();
     await tester.tap(find.byType(BackButton));
     await tester.pumpAndSettle();
 

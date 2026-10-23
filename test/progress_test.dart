@@ -122,6 +122,28 @@ void main() {
     expect(p.annotationOf('w|visa'), '签证');
   });
 
+  test('语速：限制在 0.5x–2.0x，按 0.1 取整，调快调慢一档 0.1x', () async {
+    await setUpApp();
+    final p = ProgressService.to;
+    expect(p.speed.value, 0.9); // 默认稍慢
+    p.changeSpeed(1);
+    expect(p.speed.value, 1.0); // 不是 0.99999…
+    p.changeSpeed(3);
+    expect(p.speed.value, 1.3);
+    p.setSpeed(5);
+    expect(p.speed.value, ProgressService.maxSpeed);
+    p.changeSpeed(1);
+    expect(p.speed.value, 2.0);
+    p.setSpeed(0.1);
+    expect(p.speed.value, ProgressService.minSpeed);
+    p.changeSpeed(-1);
+    expect(p.speed.value, 0.5);
+    p.setSpeed(0.74);
+    expect(p.speed.value, 0.7);
+    final again = ProgressService(await SharedPreferences.getInstance());
+    expect(again.speed.value, 0.7);
+  });
+
   testWidgets('QuizController：全答对完成这一课，答错进生词本', (tester) async {
     await tester.runAsync(setUpApp);
     final progress = ProgressService.to;

@@ -277,10 +277,27 @@ class ProgressService extends GetxService {
 
   // ---------- 设置 ----------
 
+  /// 语速范围（倍速）。三个平台的原生引擎都能读到 2 倍
+  static const minSpeed = 0.5;
+  static const maxSpeed = 2.0;
+
+  /// 语速面板上的快捷档位
+  static const speedPresets = [
+    (0.7, '慢'),
+    (1.0, '正常'),
+    (1.3, '快'),
+    (1.6, '很快'),
+  ];
+
+  /// 设置语速：限制在 [minSpeed, maxSpeed]，按 0.1 取整（0.9 + 0.1 正好是 1.0，不会变成 0.99999）
   void setSpeed(double value) {
-    speed.value = value;
-    _prefs.setDouble(_kSpeed, value);
+    final v = (value.clamp(minSpeed, maxSpeed) * 10).round() / 10;
+    speed.value = v;
+    _prefs.setDouble(_kSpeed, v);
   }
+
+  /// 调快（正数）或调慢（负数）几档，每档 0.1x
+  void changeSpeed(int steps) => setSpeed(speed.value + steps * 0.1);
 
   void setTextScale(double value) {
     textScale.value = value;

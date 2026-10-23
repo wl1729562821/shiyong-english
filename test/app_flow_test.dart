@@ -190,6 +190,42 @@ void main() {
     await tester.pump(const Duration(seconds: 1));
   });
 
+  testWidgets('语速：课程页右上角随时调快调慢，下一句就生效', (tester) async {
+    await start(tester);
+    await openLesson(tester, 'basics', 1);
+    expect(find.text('0.9x'), findsOneWidget);
+
+    await tester.tap(find.byKey(const ValueKey('speed-button')));
+    await tester.pumpAndSettle();
+    expect(find.text('语速'), findsOneWidget);
+    await tester.tap(find.text('快 1.3x'));
+    await tester.pump();
+    expect(ProgressService.to.speed.value, 1.3);
+    await tester.tap(find.byTooltip('调快'));
+    await tester.pump();
+    expect(ProgressService.to.speed.value, 1.4);
+    await tester.tap(find.text('试听'));
+    await tester.pump(const Duration(milliseconds: 100));
+    expect(tts.speeds.last, 1.4);
+
+    // 关掉面板，顶部按钮显示新语速
+    await tester.tapAt(const Offset(10, 10));
+    await tester.pumpAndSettle();
+    expect(find.text('1.4x'), findsOneWidget);
+
+    // 全部播放途中调慢：正在读的这个词不变，下一个词按新语速读
+    await tester.tap(find.text('全部播放'));
+    await tester.pump(const Duration(milliseconds: 10));
+    expect(tts.speeds.last, 1.4);
+    ProgressService.to.setSpeed(0.6);
+    await tester.pump(const Duration(milliseconds: 60));
+    await tester.pump(const Duration(milliseconds: 800));
+    expect(tts.spoken.last, 'B, C, D, E, G, P, T, V, Z');
+    expect(tts.speeds.last, 0.6);
+    await tester.tap(find.text('停止'));
+    await tester.pump(const Duration(seconds: 2));
+  });
+
   testWidgets('单词下面加标注、修改、删除', (tester) async {
     await start(tester);
     await openLesson(tester, 'basics', 3);

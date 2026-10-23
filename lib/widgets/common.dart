@@ -80,6 +80,127 @@ IconData lessonIcon(String name) => switch (name) {
       _ => Icons.menu_book_outlined,
     };
 
+/// 语速按钮（课程页、测验页顶部）：显示当前倍速，点开调快调慢
+class SpeedButton extends StatelessWidget {
+  const SpeedButton({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final progress = ProgressService.to;
+    return Obx(() => TextButton.icon(
+          key: const ValueKey('speed-button'),
+          onPressed: () => showSpeedPanel(context),
+          icon: const Icon(Icons.speed, size: 20),
+          label: Text('${progress.speed.value.toStringAsFixed(1)}x'),
+        ));
+  }
+}
+
+/// 从底部弹出语速面板
+Future<void> showSpeedPanel(BuildContext context) => showModalBottomSheet<void>(
+      context: context,
+      showDragHandle: true,
+      builder: (_) => const SpeedPanel(),
+    );
+
+/// 语速面板：滑块、调慢 / 调快按钮、快捷档位、试听。
+/// 改了马上保存；正在连续播放时从下一句开始按新语速读
+class SpeedPanel extends StatelessWidget {
+  const SpeedPanel({super.key});
+
+  static const sample = 'Could you speak more slowly, please?';
+
+  @override
+  Widget build(BuildContext context) {
+    final progress = ProgressService.to;
+    final scheme = Theme.of(context).colorScheme;
+    return Obx(() {
+      final v = progress.speed.value;
+      return SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(20, 0, 20, 16),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(children: [
+                Text('语速', style: Theme.of(context).textTheme.titleMedium),
+                const Spacer(),
+                Text('${v.toStringAsFixed(1)}x',
+                    style: TextStyle(
+                        fontSize: 26,
+                        fontWeight: FontWeight.bold,
+                        color: scheme.primary)),
+              ]),
+              const SizedBox(height: 8),
+              Row(children: [
+                IconButton.outlined(
+                  tooltip: '调慢',
+                  onPressed: v > ProgressService.minSpeed
+                      ? () => progress.changeSpeed(-1)
+                      : null,
+                  icon: const Icon(Icons.remove),
+                ),
+                Expanded(
+                  child: Slider(
+                    value: v,
+                    min: ProgressService.minSpeed,
+                    max: ProgressService.maxSpeed,
+                    divisions:
+                        ((ProgressService.maxSpeed - ProgressService.minSpeed) *
+                                10)
+                            .round(),
+                    label: '${v.toStringAsFixed(1)}x',
+                    onChanged: progress.setSpeed,
+                  ),
+                ),
+                IconButton.outlined(
+                  tooltip: '调快',
+                  onPressed: v < ProgressService.maxSpeed
+                      ? () => progress.changeSpeed(1)
+                      : null,
+                  icon: const Icon(Icons.add),
+                ),
+              ]),
+              const SizedBox(height: 8),
+              Wrap(
+                spacing: 8,
+                runSpacing: 8,
+                children: [
+                  for (final (speed, label) in ProgressService.speedPresets)
+                    ChoiceChip(
+                      label: Text('$label ${speed.toStringAsFixed(1)}x'),
+                      selected: v == speed,
+                      onSelected: (_) => progress.setSpeed(speed),
+                    ),
+                ],
+              ),
+              const SizedBox(height: 12),
+              Row(children: [
+                FilledButton.tonalIcon(
+                  onPressed: () => TtsService.to.say(sample),
+                  icon: const Icon(Icons.volume_up_outlined),
+                  label: const Text('试听'),
+                ),
+                const SizedBox(width: 12),
+                Expanded(
+                  child: Text(
+                    isDesktop
+                        ? '刚开始用 0.7x–0.9x 听清每个词，熟练后调到 1.0x 以上。快捷键：- 调慢，= 调快'
+                        : '刚开始用 0.7x–0.9x 听清每个词，熟练后调到 1.0x 以上',
+                    style: TextStyle(
+                        fontSize: 12.5, color: scheme.onSurfaceVariant),
+                  ),
+                ),
+              ]),
+            ],
+          ),
+        ),
+      );
+    });
+  }
+}
+
 /// 朗读按钮：正在读这句时显示声波图标，再点一下停止
 class SpeakButton extends StatelessWidget {
   const SpeakButton(this.text, {super.key, this.speed, this.tooltip = '朗读'});

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
+import '../../services/progress_service.dart';
 import '../../services/tts_service.dart';
 import '../../widgets/common.dart';
 import 'dialogue_view.dart';
@@ -85,6 +86,15 @@ class _LessonPageState extends State<LessonPage>
         const SingleActivator(LogicalKeyboardKey.enter): () {
           if (_tabs.index == 3) PracticeView.startQuiz(_c);
         },
+        // - 调慢，= 调快（每次 0.1x）
+        const SingleActivator(LogicalKeyboardKey.minus): () =>
+            ProgressService.to.changeSpeed(-1),
+        const SingleActivator(LogicalKeyboardKey.numpadSubtract): () =>
+            ProgressService.to.changeSpeed(-1),
+        const SingleActivator(LogicalKeyboardKey.equal): () =>
+            ProgressService.to.changeSpeed(1),
+        const SingleActivator(LogicalKeyboardKey.numpadAdd): () =>
+            ProgressService.to.changeSpeed(1),
       },
       child: Focus(autofocus: true, child: _buildPage(context)),
     );
@@ -96,6 +106,8 @@ class _LessonPageState extends State<LessonPage>
     return Scaffold(
       appBar: AppBar(
         titleSpacing: 0,
+        // 语速随时可调：点开面板，或桌面上按 - / =
+        actions: const [SpeedButton(), SizedBox(width: 8)],
         title: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [

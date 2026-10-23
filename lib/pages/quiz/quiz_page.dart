@@ -180,6 +180,15 @@ class _QuizPageState extends State<QuizPage> {
         const SingleActivator(LogicalKeyboardKey.numpadEnter): _enter,
         const SingleActivator(LogicalKeyboardKey.escape): () =>
             Navigator.of(context).maybePop(),
+        // - 调慢，= 调快（每次 0.1x）
+        const SingleActivator(LogicalKeyboardKey.minus): () =>
+            ProgressService.to.changeSpeed(-1),
+        const SingleActivator(LogicalKeyboardKey.numpadSubtract): () =>
+            ProgressService.to.changeSpeed(-1),
+        const SingleActivator(LogicalKeyboardKey.equal): () =>
+            ProgressService.to.changeSpeed(1),
+        const SingleActivator(LogicalKeyboardKey.numpadAdd): () =>
+            ProgressService.to.changeSpeed(1),
       };
 
   @override
@@ -195,6 +204,7 @@ class _QuizPageState extends State<QuizPage> {
       appBar: AppBar(
         title: Text(widget.title),
         actions: [
+          const SpeedButton(),
           Obx(() => _c.finished.value || _c.questions.isEmpty
               ? const SizedBox()
               : Padding(

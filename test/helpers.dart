@@ -10,6 +10,9 @@ const ttsChannel = MethodChannel('travel_english/tts');
 /// 假的原生语音通道：记录读了什么，50ms 后回调 onEnd，模拟“读完了”
 class FakeTts {
   final spoken = <String>[];
+
+  /// 每次朗读时传给原生的倍速，和 [spoken] 一一对应
+  final speeds = <double>[];
   bool stopped = false;
 
   void install() {
@@ -24,6 +27,7 @@ class FakeTts {
         case 'speak':
           final args = call.arguments as Map;
           spoken.add(args['text'] as String);
+          speeds.add(args['speed'] as double);
           final id = args['id'] as int;
           Future.delayed(
               const Duration(milliseconds: 50), () => _sendOnEnd(id));

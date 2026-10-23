@@ -32,9 +32,12 @@ class SettingsTab extends StatelessWidget {
                   title: Text('语速 ${progress.speed.value.toStringAsFixed(1)}x'),
                   subtitle: Slider(
                     value: progress.speed.value,
-                    min: 0.5,
-                    max: 1.3,
-                    divisions: 8,
+                    min: ProgressService.minSpeed,
+                    max: ProgressService.maxSpeed,
+                    divisions:
+                        ((ProgressService.maxSpeed - ProgressService.minSpeed) *
+                                10)
+                            .round(),
                     label: '${progress.speed.value.toStringAsFixed(1)}x',
                     onChanged: progress.setSpeed,
                     onChangeEnd: (_) => tts.say(_sample),
@@ -43,7 +46,7 @@ class SettingsTab extends StatelessWidget {
                 )),
             Padding(
               padding: const EdgeInsets.fromLTRB(72, 0, 16, 8),
-              child: Text('刚开始用 0.8x 听清每个词；最后一周调到 1.0x 以上，适应真实语速。',
+              child: Text('刚开始用 0.8x 听清每个词，熟练后调到 1.0x 以上。学习时也能随时调：课程页、测验页右上角的语速按钮。',
                   style: TextStyle(
                       fontSize: 12.5, color: scheme.onSurfaceVariant)),
             ),

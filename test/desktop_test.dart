@@ -232,6 +232,34 @@ void main() {
     await tester.pump(const Duration(seconds: 1));
   }, variant: windows);
 
+  testWidgets('- / = 键调慢调快（课程页和测验页）', (tester) async {
+    await start(tester);
+    await openLesson(tester, 'daily', 1);
+    expect(find.text('0.9x'), findsOneWidget);
+    await tester.sendKeyEvent(LogicalKeyboardKey.equal);
+    await tester.sendKeyEvent(LogicalKeyboardKey.equal);
+    await tester.pump();
+    expect(ProgressService.to.speed.value, 1.1);
+    expect(find.text('1.1x'), findsOneWidget);
+    await tester.sendKeyEvent(LogicalKeyboardKey.minus);
+    await tester.pump();
+    expect(find.text('1.0x'), findsOneWidget);
+
+    await tester.tap(find.text('测验'));
+    await tester.pumpAndSettle();
+    await tester.sendKeyEvent(LogicalKeyboardKey.enter);
+    await tester.pumpAndSettle();
+    expect(find.text('1.0x'), findsOneWidget); // 测验页顶部也有语速按钮
+    await tester.sendKeyEvent(LogicalKeyboardKey.numpadAdd);
+    await tester.pump();
+    expect(ProgressService.to.speed.value, 1.1);
+    // 答题后一定会读正确答案（空格“再听一遍”在看中文选英文的题里不出声，不能用它判断）
+    await tester.sendKeyEvent(LogicalKeyboardKey.digit1);
+    await tester.pump(const Duration(milliseconds: 10));
+    expect(tts.speeds.last, 1.1);
+    await tester.pump(const Duration(seconds: 1));
+  }, variant: windows);
+
   testWidgets('写标注时按空格、R 不会触发课程页的快捷键', (tester) async {
     await start(tester);
     await openLesson(tester, 'daily', 2);
