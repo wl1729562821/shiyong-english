@@ -19,15 +19,39 @@ iOS 版和 Android / Windows 版是同一套代码（Flutter），编译出来�
 
 ### 1. 把项目放到 GitHub
 
-1. 注册 GitHub 账号：https://github.com
-2. 新建一个 **私有（Private）** 仓库，比如叫 `shiyong-english`
-3. 把 `E:\androidFluttetProject\travel_english` 整个项目上传上去：
-   - 最简单：装 GitHub Desktop，File → Add local repository 选这个文件夹，提交后 Publish
-   - `.gitignore` 已经排除了 `build/`、`release/`，不会把几十 MB 的安装包传上去
+项目已经是 git 仓库（`main` 分支），代码都已提交；`.gitignore` 排除了 `build/`、`release/`，
+不会把几十 MB 的安装包传上去。这台电脑上的仓库还设置了“连 GitHub 不走 7890 代理”。
+
+1. （只做一次）删掉 git 全局配置里失效的 GitHub 镜像改写，否则推送会被转到已经关闭的 hub.fastgit.org：
+
+   ```bash
+   git config --global --unset url.https://hub.fastgit.org/.insteadof
+   ```
+
+2. 登录 https://github.com → 右上角 **+** → **New repository**：名字填 `shiyong-english`，
+   选 **Private**，**不要**勾选 README / .gitignore / license，点 Create
+3. 在项目目录（`E:\androidFluttetProject\travel_english`）打开终端，把下面的“你的用户名”换成 GitHub 用户名：
+
+   ```bash
+   git remote add origin https://github.com/你的用户名/shiyong-english.git
+   ```
+
+   ```bash
+   git push -u origin main
+   ```
+
+   第一次推送会弹出浏览器让你登录 GitHub 并授权，登录完推送就会继续
+4. 推送成功后会自动开始编译（推送到 main 分支就触发）
+
+如果直连 GitHub 很慢或连不上：打开 Clash（7890 端口），再让这个仓库走代理：
+
+```bash
+git config --local --unset http.https://github.com/.proxy
+```
 
 ### 2. 在云端 Mac 上编译
 
-1. 打开仓库网页 → **Actions** → 左边选 **iOS build** → **Run workflow**
+1. 打开仓库网页 → **Actions** → 左边选 **iOS build**，能看到正在运行的那一次（也可以点 **Run workflow** 手动再跑一次）
    （以后每次推送到 main 分支也会自动编译）
 2. 等 15–20 分钟。会先跑一遍 44 个自动测试，再编译 iOS 版
 3. 完成后打开这次运行的页面，最下面 **Artifacts** 里下载 `ShiYongYingYu-ios-unsigned`，
