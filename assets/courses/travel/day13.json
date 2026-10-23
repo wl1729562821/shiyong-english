@@ -1,0 +1,57 @@
+{
+  "day": 13,
+  "title": "机场到市区：换钱、电话卡、打车",
+  "en": "Getting into the City",
+  "icon": "taxi",
+  "goal": "在机场换钱、买电话卡，坐出租车或火车去酒店，听懂车费和路程时间。",
+  "tips": [
+    "英式说 single / return（单程/往返），美式说 one-way / round-trip。",
+    "机场换汇的汇率和手续费通常不划算，只换少量现金，其余用卡或到市区再换。",
+    "打车上车先给司机看手机上的酒店地址（英文），说 To this address, please."
+  ],
+  "words": [
+    {"en": "currency exchange", "zh": "货币兑换"},
+    {"en": "exchange rate", "zh": "汇率"},
+    {"en": "commission", "zh": "手续费；佣金"},
+    {"en": "ATM", "zh": "自动取款机"},
+    {"en": "SIM card", "zh": "电话卡"},
+    {"en": "data", "zh": "（手机）流量"},
+    {"en": "top up", "zh": "充值"},
+    {"en": "taxi stand", "zh": "出租车候车点"},
+    {"en": "airport shuttle", "zh": "机场班车"},
+    {"en": "ticket machine", "zh": "售票机"},
+    {"en": "one-way", "zh": "单程（美式）"},
+    {"en": "round-trip", "zh": "往返（美式）"},
+    {"en": "downtown", "zh": "市中心（美式）"},
+    {"en": "city center", "zh": "市中心"},
+    {"en": "fare", "zh": "车费"},
+    {"en": "meter", "zh": "计价器"},
+    {"en": "trunk", "zh": "后备箱"}
+  ],
+  "exchanges": [
+    {"hear": "What currency would you like?", "hearZh": "您要换什么货币？", "reply": "Euros, please. What's the exchange rate?", "replyZh": "欧元，谢谢。汇率是多少？"},
+    {"hear": "There's a five percent commission.", "hearZh": "收取百分之五的手续费。", "reply": "That's too much. Never mind, thanks.", "replyZh": "太多了。算了，谢谢。"},
+    {"hear": "This SIM card has twenty gigabytes of data for thirty days.", "hearZh": "这张电话卡30天有20G流量。", "reply": "Great. Can you set it up for me?", "replyZh": "好的。您能帮我装好吗？"},
+    {"hear": "Where to?", "hearZh": "去哪儿？", "reply": "To this address, please.", "replyZh": "请到这个地址。"},
+    {"hear": "It's about forty minutes to downtown.", "hearZh": "到市中心大约四十分钟。", "reply": "How much will it cost, roughly?", "replyZh": "大概要多少钱？"},
+    {"hear": "The train leaves every fifteen minutes from platform two.", "hearZh": "火车每15分钟一班，从2号站台发车。", "reply": "Where can I buy a ticket?", "replyZh": "在哪里买票？"},
+    {"hear": "Single or return?", "hearZh": "单程还是往返？", "reply": "Single, please.", "replyZh": "单程，谢谢。"},
+    {"hear": "Would you like a receipt?", "hearZh": "您需要收据吗？", "reply": "Yes, please.", "replyZh": "要的，谢谢。", "generic": true}
+  ],
+  "dialogue": {
+    "title": "坐出租车去酒店",
+    "other": "司机",
+    "lines": [
+      {"s": "o", "en": "Hi. Where to?", "zh": "你好，去哪儿？"},
+      {"s": "me", "en": "The Hilton Hotel downtown, please. Here's the address.", "zh": "市中心的希尔顿酒店。这是地址。"},
+      {"s": "o", "en": "Sure. Let me put your bags in the trunk.", "zh": "好的。我把您的行李放进后备箱。"},
+      {"s": "me", "en": "Thank you. How long does it take to get there?", "zh": "谢谢。到那里要多久？"},
+      {"s": "o", "en": "About thirty-five minutes, if the traffic is OK.", "zh": "不堵车的话大约三十五分钟。"},
+      {"s": "me", "en": "Could you turn on the meter, please?", "zh": "请打开计价器好吗？"},
+      {"s": "o", "en": "Sure, it's on.", "zh": "好的，已经开了。"},
+      {"s": "o", "en": "Here we are. That's forty-two fifty.", "zh": "到了。一共42块5。"},
+      {"s": "me", "en": "Here's fifty. Keep the change.", "zh": "给您50，不用找了。"},
+      {"s": "o", "en": "Thanks! Have a great stay.", "zh": "谢谢！祝您住得愉快。"}
+    ]
+  }
+}

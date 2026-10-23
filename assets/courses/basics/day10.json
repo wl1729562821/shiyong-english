@@ -1,0 +1,37 @@
+{
+  "day": 10,
+  "title": "复习 + 模拟：认识一个新朋友",
+  "en": "Review: Making a New Friend",
+  "icon": "review",
+  "goal": "复习第 1–9 课；完整演练一次和新朋友的对话：拼名字、来自哪里、工作、家人、约时间。",
+  "review": [1, 9],
+  "tips": [
+    "复习日不学新词。先把生词本过一遍，再做复习测验。",
+    "角色扮演时尽量不看中文提示，直接用自己的话回答，意思对就行。",
+    "目标：只听声音，就能回答“你叫什么、哪里人、做什么、家里几口人、哪天有空”。"
+  ],
+  "words": [],
+  "exchanges": [],
+  "dialogue": {
+    "title": "语言交换活动上认识新朋友",
+    "other": "安娜",
+    "lines": [
+      {"s": "o", "en": "Hi, is this seat free?", "zh": "你好，这个座位有人吗？"},
+      {"s": "me", "en": "Yes, please sit down. I'm Wei, by the way.", "zh": "没人，请坐。对了，我叫伟。"},
+      {"s": "o", "en": "Nice to meet you, Wei. I'm Anna. How do you spell your name?", "zh": "很高兴认识你，伟。我是安娜。你的名字怎么拼？"},
+      {"s": "me", "en": "W, E, I. It's short and easy.", "zh": "W-E-I，又短又好记。"},
+      {"s": "o", "en": "Where are you from?", "zh": "你是哪里人？"},
+      {"s": "me", "en": "I'm from Nanjing. How about you?", "zh": "我是南京人。你呢？"},
+      {"s": "o", "en": "I'm from Berlin. What do you do?", "zh": "我是柏林人。你做什么工作？"},
+      {"s": "me", "en": "I'm an accountant. And you?", "zh": "我是会计。你呢？"},
+      {"s": "o", "en": "I'm a student. Do you have any brothers or sisters?", "zh": "我是学生。你有兄弟姐妹吗？"},
+      {"s": "me", "en": "No, I'm an only child.", "zh": "没有，我是独生子女。"},
+      {"s": "o", "en": "Me too! Why are you learning English?", "zh": "我也是！你为什么学英语？"},
+      {"s": "me", "en": "Because I want to travel and make friends.", "zh": "因为我想去旅行、交朋友。"},
+      {"s": "o", "en": "That's great. Are you free on Saturday? We're having a picnic.", "zh": "太好了。你星期六有空吗？我们要去野餐。"},
+      {"s": "me", "en": "Saturday? Yes, I'm free. What time?", "zh": "星期六？有空。几点？"},
+      {"s": "o", "en": "At eleven, in Central Park.", "zh": "十一点，在中央公园。"},
+      {"s": "me", "en": "Great, I can't wait!", "zh": "太好了，我很期待！"}
+    ]
+  }
+}

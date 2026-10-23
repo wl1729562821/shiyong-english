@@ -1,0 +1,57 @@
+{
+  "day": 1,
+  "title": "字母与拼读",
+  "en": "The Alphabet & Spelling",
+  "icon": "abc",
+  "goal": "会读 26 个字母，能听懂别人拼写名字和邮箱，也能把自己的名字、邮箱一个字母一个字母拼出来。",
+  "tips": [
+    "Z 美式读 zee，英式读 zed；W 读 double-u。",
+    "容易听混的字母：B/V、M/N、G/J、E/I、A/E。拼写时加个例词最保险：B as in boy，V as in victory。",
+    "邮箱的读法：@ 读 at，. 读 dot，_ 读 underscore，- 读 dash。"
+  ],
+  "words": [
+    {"en": "A, H, J, K", "zh": "这几个字母都含“诶”的音 /eɪ/"},
+    {"en": "B, C, D, E, G, P, T, V, Z", "zh": "这几个字母都含“衣”的长音 /iː/"},
+    {"en": "F, L, M, N, S, X", "zh": "这几个字母都以短音 /e/ 开头"},
+    {"en": "I, Y", "zh": "这两个字母含“爱”的音 /aɪ/"},
+    {"en": "O", "zh": "读“欧” /əʊ/"},
+    {"en": "Q, U, W", "zh": "这几个字母含 /juː/ 的音（W 读 double-u）"},
+    {"en": "R", "zh": "读 /ɑːr/，美式要卷舌"},
+    {"en": "letter", "zh": "字母"},
+    {"en": "capital letter", "zh": "大写字母"},
+    {"en": "small letter", "zh": "小写字母"},
+    {"en": "vowel", "zh": "元音字母（a e i o u）"},
+    {"en": "double", "zh": "两个相同的（字母或数字）"},
+    {"en": "at", "zh": "@（邮箱里）"},
+    {"en": "dot", "zh": "点（.）"},
+    {"en": "underscore", "zh": "下划线（_）"},
+    {"en": "dash", "zh": "短横线（-）"}
+  ],
+  "exchanges": [
+    {"hear": "How do you spell your name?", "hearZh": "你的名字怎么拼？", "reply": "L, I, U. Liu.", "replyZh": "L-I-U，刘。"},
+    {"hear": "Is that B as in boy?", "hearZh": "是 boy 的那个 B 吗？", "reply": "No, V as in victory.", "replyZh": "不是，是 victory 的 V。"},
+    {"hear": "What's your email address?", "hearZh": "你的邮箱地址是什么？", "reply": "It's lily dot wang at gmail dot com.", "replyZh": "邮箱是 lily.wang@gmail.com。"},
+    {"hear": "Is that one L or two?", "hearZh": "是一个 L 还是两个？", "reply": "Double L.", "replyZh": "两个 L。"},
+    {"hear": "Is it a capital letter?", "hearZh": "是大写字母吗？", "reply": "Yes, a capital W.", "replyZh": "是，大写的 W。"},
+    {"hear": "Is it G or J?", "hearZh": "是 G 还是 J？", "reply": "J, as in John.", "replyZh": "J，John 的 J。"},
+    {"hear": "How do you pronounce this word?", "hearZh": "这个词怎么读？", "reply": "I'm not sure. Let's look it up.", "replyZh": "我不确定，我们查一下吧。", "generic": true},
+    {"hear": "Is there a dash in your email?", "hearZh": "你的邮箱里有短横线吗？", "reply": "No, it's an underscore.", "replyZh": "没有，是下划线。"}
+  ],
+  "dialogue": {
+    "title": "在前台登记名字和邮箱",
+    "other": "工作人员",
+    "lines": [
+      {"s": "o", "en": "Can I have your name, please?", "zh": "请问您叫什么名字？"},
+      {"s": "me", "en": "Lily Zhao.", "zh": "赵丽丽（Lily Zhao）。"},
+      {"s": "o", "en": "How do you spell your last name?", "zh": "您的姓怎么拼？"},
+      {"s": "me", "en": "Z, H, A, O. Zhao.", "zh": "Z-H-A-O，赵。"},
+      {"s": "o", "en": "Is that Z as in zoo?", "zh": "是 zoo 的那个 Z 吗？"},
+      {"s": "me", "en": "Yes, Z as in zoo.", "zh": "对，zoo 的 Z。"},
+      {"s": "o", "en": "And your email address?", "zh": "您的邮箱呢？"},
+      {"s": "me", "en": "It's lily underscore zhao at outlook dot com.", "zh": "邮箱是 lily_zhao@outlook.com。"},
+      {"s": "o", "en": "Lily with an I or a Y at the end?", "zh": "Lily 结尾是 I 还是 Y？"},
+      {"s": "me", "en": "With a Y. L, I, L, Y.", "zh": "是 Y。L-I-L-Y。"},
+      {"s": "o", "en": "Got it. Thank you.", "zh": "好的，谢谢。"}
+    ]
+  }
+}

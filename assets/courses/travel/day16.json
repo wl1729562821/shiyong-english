@@ -1,0 +1,54 @@
+{
+  "day": 16,
+  "title": "客房服务与需求",
+  "en": "Room Service & Requests",
+  "icon": "room_service",
+  "goal": "打电话给前台要毛巾、转换插头、叫醒服务，听懂客房清洁和送餐的询问。",
+  "tips": [
+    "打前台电话先报房间号：Hi, this is room eight-oh-two. 房间号常按两位两位读。",
+    "门口挂 Do Not Disturb（请勿打扰）牌，就不会有人来打扫；想打扫就挂 Please Make Up Room。",
+    "国外插座和国内不一样，提前问前台借转换插头：Do you have a plug adapter I can borrow?"
+  ],
+  "words": [
+    {"en": "room service", "zh": "客房送餐服务"},
+    {"en": "housekeeping", "zh": "客房清洁部"},
+    {"en": "towel", "zh": "毛巾"},
+    {"en": "toilet paper", "zh": "卫生纸"},
+    {"en": "extra pillow", "zh": "多一个枕头"},
+    {"en": "wake-up call", "zh": "叫醒服务"},
+    {"en": "laundry service", "zh": "洗衣服务"},
+    {"en": "hair dryer", "zh": "吹风机"},
+    {"en": "plug adapter", "zh": "转换插头"},
+    {"en": "toothbrush", "zh": "牙刷"},
+    {"en": "slippers", "zh": "拖鞋"},
+    {"en": "kettle", "zh": "烧水壶"},
+    {"en": "Do Not Disturb", "zh": "请勿打扰"},
+    {"en": "send up", "zh": "送上楼"},
+    {"en": "right away", "zh": "马上"}
+  ],
+  "exchanges": [
+    {"hear": "Front desk. How can I help you?", "hearZh": "前台，有什么可以帮您？", "reply": "Hi, this is room five-twelve. Could I have two more towels, please?", "replyZh": "你好，这里是512房。能再给我两条毛巾吗？"},
+    {"hear": "Housekeeping. May I come in?", "hearZh": "客房清洁，我可以进来吗？", "reply": "Could you come back later, please?", "replyZh": "您能晚点再来吗？"},
+    {"hear": "What time would you like your wake-up call?", "hearZh": "您想几点叫醒？", "reply": "At six thirty tomorrow morning, please.", "replyZh": "明早六点半。"},
+    {"hear": "Room service. What would you like to order?", "hearZh": "送餐服务，您想点什么？", "reply": "A club sandwich and a coffee, please.", "replyZh": "一份总汇三明治和一杯咖啡。"},
+    {"hear": "Is there anything else you need?", "hearZh": "您还需要别的吗？", "reply": "Yes. Do you have a plug adapter I can borrow?", "replyZh": "是的。你们有转换插头可以借我吗？"},
+    {"hear": "Please put your laundry in the bag and fill out the form.", "hearZh": "请把要洗的衣服放进袋子里并填好单子。", "reply": "When will it be ready?", "replyZh": "什么时候能洗好？"},
+    {"hear": "Would you like your room cleaned today?", "hearZh": "今天需要打扫房间吗？", "reply": "Just change the towels, please.", "replyZh": "换一下毛巾就行。"},
+    {"hear": "I'll send someone up right away.", "hearZh": "我马上派人送上去。", "reply": "Great, thank you.", "replyZh": "太好了，谢谢。", "generic": true}
+  ],
+  "dialogue": {
+    "title": "给前台打电话",
+    "other": "前台",
+    "lines": [
+      {"s": "o", "en": "Front desk, this is Anna speaking. How can I help you?", "zh": "前台，我是安娜。有什么可以帮您？"},
+      {"s": "me", "en": "Hello, this is room eight-oh-two. Could I have some extra towels and toilet paper, please?", "zh": "你好，这里是802房。能多给我一些毛巾和卫生纸吗？"},
+      {"s": "o", "en": "Of course. I'll send them up right away.", "zh": "当然，我马上送上去。"},
+      {"s": "me", "en": "Also, could I have a wake-up call at six tomorrow?", "zh": "另外，明早六点能叫醒我吗？"},
+      {"s": "o", "en": "Sure. Six a.m. tomorrow. Anything else?", "zh": "好的，明早六点。还有别的吗？"},
+      {"s": "me", "en": "Yes. Do you have a plug adapter I can borrow?", "zh": "有。你们有转换插头可以借我吗？"},
+      {"s": "o", "en": "Yes, we can lend you one. Housekeeping will bring it with the towels.", "zh": "有，可以借给您。客房部会和毛巾一起送过去。"},
+      {"s": "me", "en": "Perfect. Thank you.", "zh": "太好了，谢谢。"},
+      {"s": "o", "en": "You're welcome. Have a good evening.", "zh": "不客气，祝您晚上愉快。"}
+    ]
+  }
+}

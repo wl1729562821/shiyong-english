@@ -1,0 +1,56 @@
+{
+  "day": 1,
+  "title": "礼貌用语与“没听懂”怎么办",
+  "en": "Greetings & Asking Again",
+  "icon": "waving",
+  "goal": "掌握最常用的礼貌用语；没听懂时会请对方重复、说慢一点、写下来——这是听懂外国人的第一步。",
+  "tips": [
+    "没听懂千万别乱答 Yes。说 Sorry? 或 Pardon?（语调上扬），对方就会重复一遍。",
+    "Excuse me 用来引起注意（打扰一下、借过），Sorry 用来道歉；在英国，请人重复时也常说 Sorry?",
+    "地址、价格、时间这类信息听不清，就说 Could you write it down, please? 让对方写下来，最稳妥。"
+  ],
+  "words": [
+    {"en": "hello", "zh": "你好"},
+    {"en": "good morning", "zh": "早上好"},
+    {"en": "good afternoon", "zh": "下午好"},
+    {"en": "good evening", "zh": "晚上好"},
+    {"en": "please", "zh": "请"},
+    {"en": "thank you", "zh": "谢谢"},
+    {"en": "thanks a lot", "zh": "非常感谢"},
+    {"en": "you're welcome", "zh": "不客气"},
+    {"en": "excuse me", "zh": "打扰一下；劳驾"},
+    {"en": "sorry", "zh": "对不起"},
+    {"en": "pardon?", "zh": "请再说一遍？"},
+    {"en": "no problem", "zh": "没问题"},
+    {"en": "of course", "zh": "当然"},
+    {"en": "I see", "zh": "我明白了"},
+    {"en": "slowly", "zh": "慢慢地"},
+    {"en": "repeat", "zh": "重复"},
+    {"en": "goodbye", "zh": "再见"}
+  ],
+  "exchanges": [
+    {"hear": "Hi, how are you?", "hearZh": "嗨，你好吗？", "reply": "I'm good, thanks. How about you?", "replyZh": "我很好，谢谢。你呢？"},
+    {"hear": "Do you speak English?", "hearZh": "你会说英语吗？", "reply": "A little. Could you speak slowly, please?", "replyZh": "会一点。请您说慢一点好吗？"},
+    {"hear": "Did you get that?", "hearZh": "你听明白了吗？", "reply": "Sorry, I didn't catch that. Could you repeat it?", "replyZh": "抱歉，我没听清。您能再说一遍吗？", "generic": true},
+    {"hear": "The address is twenty-five Baker Street.", "hearZh": "地址是贝克街25号。", "reply": "Could you write it down for me, please?", "replyZh": "您能帮我写下来吗？", "generic": true},
+    {"hear": "Excuse me, is this seat taken?", "hearZh": "打扰一下，这个座位有人吗？", "reply": "No, go ahead.", "replyZh": "没有，请坐吧。"},
+    {"hear": "Thank you so much for your help.", "hearZh": "非常感谢你的帮助。", "reply": "You're welcome.", "replyZh": "不客气。"},
+    {"hear": "Can I help you?", "hearZh": "需要帮忙吗？", "reply": "Yes, please. Where is the restroom?", "replyZh": "是的，谢谢。洗手间在哪里？"},
+    {"hear": "Have a nice day!", "hearZh": "祝你今天愉快！", "reply": "Thanks, you too!", "replyZh": "谢谢，你也是！"}
+  ],
+  "dialogue": {
+    "title": "在机场向工作人员问路",
+    "other": "工作人员",
+    "lines": [
+      {"s": "me", "en": "Excuse me. Do you speak English?", "zh": "打扰一下，您会说英语吗？"},
+      {"s": "o", "en": "Yes, I do. How can I help you?", "zh": "会的。有什么可以帮您？"},
+      {"s": "me", "en": "Where is the taxi stand, please?", "zh": "请问出租车候车点在哪里？"},
+      {"s": "o", "en": "Go straight and turn left after the coffee shop. It's next to Exit B.", "zh": "直走，过了咖啡店左转，在B出口旁边。"},
+      {"s": "me", "en": "Sorry, could you speak more slowly, please?", "zh": "抱歉，您能说慢一点吗？"},
+      {"s": "o", "en": "Sure. Go straight. Turn left at the coffee shop. Exit B.", "zh": "好的。直走。在咖啡店左转。B出口。"},
+      {"s": "me", "en": "Exit B. I see. Thank you very much.", "zh": "B出口，明白了。非常感谢。"},
+      {"s": "o", "en": "You're welcome. Have a nice day!", "zh": "不客气，祝您愉快！"},
+      {"s": "me", "en": "You too. Goodbye!", "zh": "您也是。再见！"}
+    ]
+  }
+}

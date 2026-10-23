@@ -1,0 +1,57 @@
+{
+  "day": 19,
+  "title": "描述人和东西",
+  "en": "Describing People & Things",
+  "icon": "describe",
+  "goal": "会描述一个人的长相和性格、一件东西的样子，听懂别人让你帮忙认人或找东西时的描述。",
+  "tips": [
+    "长相：He's tall and slim. / She has long, curly hair. / He wears glasses.",
+    "性格：friendly 友好，funny 风趣，shy 害羞，kind 善良，hard-working 勤奋。",
+    "问长相用 What does he look like?；问性格用 What's he like?（两个不一样！）"
+  ],
+  "words": [
+    {"en": "tall", "zh": "高的"},
+    {"en": "short", "zh": "矮的；短的"},
+    {"en": "slim", "zh": "苗条的"},
+    {"en": "long hair", "zh": "长发"},
+    {"en": "curly", "zh": "卷曲的"},
+    {"en": "wear glasses", "zh": "戴眼镜"},
+    {"en": "beard", "zh": "胡子（络腮胡）"},
+    {"en": "friendly", "zh": "友好的"},
+    {"en": "funny", "zh": "风趣的；好笑的"},
+    {"en": "shy", "zh": "害羞的"},
+    {"en": "kind", "zh": "善良的"},
+    {"en": "hard-working", "zh": "勤奋的"},
+    {"en": "round", "zh": "圆的"},
+    {"en": "square", "zh": "方的"},
+    {"en": "heavy", "zh": "重的"},
+    {"en": "light", "zh": "轻的；浅色的"},
+    {"en": "made of", "zh": "由……制成"}
+  ],
+  "exchanges": [
+    {"hear": "What does your brother look like?", "hearZh": "你哥哥长什么样？", "reply": "He's tall, with short black hair, and he wears glasses.", "replyZh": "他个子高，黑色短发，戴眼镜。"},
+    {"hear": "What's your new boss like?", "hearZh": "你的新老板人怎么样？", "reply": "She's really friendly and hard-working.", "replyZh": "她很友好，也很勤奋。"},
+    {"hear": "Which one is your suitcase?", "hearZh": "哪个是你的行李箱？", "reply": "The big gray one with a red tag.", "replyZh": "那个灰色的大箱子，挂着红色的牌子。"},
+    {"hear": "Can you describe your wallet?", "hearZh": "你能描述一下你的钱包吗？", "reply": "It's small and brown, made of leather.", "replyZh": "小小的，棕色，皮的。"},
+    {"hear": "Is your sister shy?", "hearZh": "你妹妹害羞吗？", "reply": "Not at all. She's very outgoing.", "replyZh": "一点也不，她非常外向。"},
+    {"hear": "How will I recognize you at the station?", "hearZh": "在车站我怎么认出你？", "reply": "I'll be wearing a blue jacket and a white hat.", "replyZh": "我会穿蓝色夹克，戴白色帽子。"},
+    {"hear": "What kind of person is your best friend?", "hearZh": "你最好的朋友是什么样的人？", "reply": "He's funny and kind. He always makes me laugh.", "replyZh": "他很风趣，也很善良，总能逗我笑。"},
+    {"hear": "Is the box heavy?", "hearZh": "那个箱子重吗？", "reply": "No, it's pretty light.", "replyZh": "不重，挺轻的。"}
+  ],
+  "dialogue": {
+    "title": "请朋友帮忙去车站接人",
+    "other": "朋友",
+    "lines": [
+      {"s": "me", "en": "Could you pick up my cousin at the station tomorrow? I have to work.", "zh": "明天你能帮我去车站接一下我表弟吗？我要上班。"},
+      {"s": "o", "en": "Sure. But I've never met him. What does he look like?", "zh": "好啊。可我没见过他，他长什么样？"},
+      {"s": "me", "en": "He's tall and slim, with curly hair.", "zh": "他又高又瘦，卷头发。"},
+      {"s": "o", "en": "Does he wear glasses?", "zh": "他戴眼镜吗？"},
+      {"s": "me", "en": "No, but he has a small beard.", "zh": "不戴，不过留了点胡子。"},
+      {"s": "o", "en": "OK. What's he like? Is he talkative?", "zh": "好。他性格怎么样？爱说话吗？"},
+      {"s": "me", "en": "He's a bit shy at first, but he's really friendly.", "zh": "刚开始有点害羞，不过人很友好。"},
+      {"s": "o", "en": "Great. What will he be carrying?", "zh": "好的。他会拿着什么？"},
+      {"s": "me", "en": "A big black backpack. I'll send you his photo.", "zh": "一个黑色的大双肩包。我把他的照片发给你。"},
+      {"s": "o", "en": "Perfect. Don't worry, I'll find him.", "zh": "好的，放心，我会找到他的。"}
+    ]
+  }
+}

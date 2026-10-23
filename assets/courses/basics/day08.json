@@ -1,0 +1,57 @@
+{
+  "day": 8,
+  "title": "家人与亲戚",
+  "en": "Family & Relatives",
+  "icon": "family",
+  "goal": "会介绍家里有几口人、家人是做什么的，听懂别人问你的家庭情况。",
+  "tips": [
+    "brother / sister 不分大小：哥哥 older brother，弟弟 younger brother。",
+    "uncle、aunt、cousin 不区分父亲这边还是母亲这边，比中文简单。",
+    "外国人常问 Do you have any brothers or sisters?（你有兄弟姐妹吗）"
+  ],
+  "words": [
+    {"en": "family", "zh": "家庭；家人"},
+    {"en": "parents", "zh": "父母"},
+    {"en": "dad", "zh": "爸爸"},
+    {"en": "mom", "zh": "妈妈"},
+    {"en": "husband", "zh": "丈夫"},
+    {"en": "wife", "zh": "妻子"},
+    {"en": "son", "zh": "儿子"},
+    {"en": "daughter", "zh": "女儿"},
+    {"en": "brother", "zh": "兄弟（哥哥或弟弟）"},
+    {"en": "sister", "zh": "姐妹（姐姐或妹妹）"},
+    {"en": "grandparents", "zh": "祖父母；外祖父母"},
+    {"en": "uncle", "zh": "叔叔、伯伯、舅舅等"},
+    {"en": "aunt", "zh": "阿姨、姑姑、舅妈等"},
+    {"en": "cousin", "zh": "堂兄弟姐妹；表兄弟姐妹"},
+    {"en": "kids", "zh": "孩子们"},
+    {"en": "only child", "zh": "独生子女"},
+    {"en": "look like", "zh": "长得像"}
+  ],
+  "exchanges": [
+    {"hear": "Do you have any brothers or sisters?", "hearZh": "你有兄弟姐妹吗？", "reply": "Yes, I have an older brother.", "replyZh": "有，我有一个哥哥。"},
+    {"hear": "How many people are there in your family?", "hearZh": "你家有几口人？", "reply": "Four. My parents, my sister, and me.", "replyZh": "四口人：爸妈、妹妹和我。"},
+    {"hear": "Do you have kids?", "hearZh": "你有孩子吗？", "reply": "Yes, a son. He's six.", "replyZh": "有，一个儿子，六岁了。"},
+    {"hear": "Are you an only child?", "hearZh": "你是独生子女吗？", "reply": "Yes, I don't have any brothers or sisters.", "replyZh": "是的，我没有兄弟姐妹。"},
+    {"hear": "Who do you live with?", "hearZh": "你和谁住在一起？", "reply": "I live with my parents.", "replyZh": "我和父母住。"},
+    {"hear": "What does your wife do?", "hearZh": "你妻子是做什么的？", "reply": "She's a teacher.", "replyZh": "她是老师。"},
+    {"hear": "How old is your daughter?", "hearZh": "你女儿几岁了？", "reply": "She's three and a half.", "replyZh": "三岁半。"},
+    {"hear": "Who does he look like?", "hearZh": "他长得像谁？", "reply": "He looks like his dad.", "replyZh": "他像他爸爸。"}
+  ],
+  "dialogue": {
+    "title": "给朋友看全家福",
+    "other": "朋友",
+    "lines": [
+      {"s": "o", "en": "Is this your family photo?", "zh": "这是你的全家福吗？"},
+      {"s": "me", "en": "Yes. This is my dad, and this is my mom.", "zh": "是的。这是我爸爸，这是我妈妈。"},
+      {"s": "o", "en": "They look young! Who's this?", "zh": "他们看起来好年轻！这是谁？"},
+      {"s": "me", "en": "That's my younger sister. She's a college student.", "zh": "那是我妹妹，她在上大学。"},
+      {"s": "o", "en": "And the little boy?", "zh": "那个小男孩呢？"},
+      {"s": "me", "en": "That's my son, Leo. He's five.", "zh": "那是我儿子利奥，五岁。"},
+      {"s": "o", "en": "He looks like you!", "zh": "他长得像你！"},
+      {"s": "me", "en": "Everybody says that.", "zh": "大家都这么说。"},
+      {"s": "o", "en": "Do your parents live with you?", "zh": "你父母和你住一起吗？"},
+      {"s": "me", "en": "No, they live in my hometown, but they visit us every summer.", "zh": "不，他们住在老家，不过每年夏天都来看我们。"}
+    ]
+  }
+}

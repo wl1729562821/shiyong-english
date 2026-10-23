@@ -1,0 +1,55 @@
+{
+  "day": 14,
+  "title": "表达观点：同意与不同意",
+  "en": "Giving Opinions",
+  "icon": "opinion",
+  "goal": "会说“我觉得……”，礼貌地同意或不同意别人，问别人的看法。",
+  "tips": [
+    "说观点：I think ... / In my opinion ... / To be honest, ...（说实话）",
+    "同意：I agree. / Exactly. / You're right. 不同意要软一点：I'm not sure about that. / I see your point, but ...",
+    "问看法：What do you think? / How do you feel about ...?"
+  ],
+  "words": [
+    {"en": "I think", "zh": "我觉得"},
+    {"en": "in my opinion", "zh": "在我看来"},
+    {"en": "to be honest", "zh": "说实话"},
+    {"en": "agree", "zh": "同意"},
+    {"en": "disagree", "zh": "不同意"},
+    {"en": "Exactly.", "zh": "完全正确。"},
+    {"en": "You're right.", "zh": "你说得对。"},
+    {"en": "I'm not sure about that.", "zh": "这个我不太确定。"},
+    {"en": "I see your point, but", "zh": "我明白你的意思，但是……"},
+    {"en": "What do you think?", "zh": "你觉得呢？"},
+    {"en": "it depends", "zh": "看情况"},
+    {"en": "better", "zh": "更好的"},
+    {"en": "worse", "zh": "更差的"},
+    {"en": "boring", "zh": "无聊的"},
+    {"en": "interesting", "zh": "有意思的"},
+    {"en": "expensive", "zh": "贵的"},
+    {"en": "worth it", "zh": "值得的"}
+  ],
+  "exchanges": [
+    {"hear": "What do you think of the new mall?", "hearZh": "你觉得新商场怎么样？", "reply": "I think it's nice, but it's a bit expensive.", "replyZh": "我觉得挺好，就是有点贵。"},
+    {"hear": "The movie was so boring, wasn't it?", "hearZh": "那电影太无聊了，是吧？", "reply": "Really? I thought it was interesting.", "replyZh": "是吗？我觉得挺有意思的。"},
+    {"hear": "I think we should take the train. It's faster.", "hearZh": "我觉得我们该坐火车，更快。", "reply": "I agree. And it's cheaper too.", "replyZh": "同意，而且还更便宜。"},
+    {"hear": "Is it better to rent or to buy a house?", "hearZh": "租房好还是买房好？", "reply": "It depends on how long you want to stay.", "replyZh": "看你想住多久。"},
+    {"hear": "Was the concert worth it?", "hearZh": "那场演唱会值吗？", "reply": "To be honest, the tickets were too expensive.", "replyZh": "说实话，票太贵了。"},
+    {"hear": "Everyone should learn to cook.", "hearZh": "每个人都应该学做饭。", "reply": "Exactly. It's a really useful skill.", "replyZh": "完全同意，这是很有用的技能。"},
+    {"hear": "Working from home is better than going to the office.", "hearZh": "在家办公比去办公室好。", "reply": "I see your point, but I miss my colleagues.", "replyZh": "我明白你的意思，但我会想念同事。"},
+    {"hear": "How do you feel about online shopping?", "hearZh": "你怎么看网购？", "reply": "It's convenient, but I like to see things first.", "replyZh": "很方便，不过我喜欢先看到实物。"}
+  ],
+  "dialogue": {
+    "title": "和朋友讨论去哪儿度假",
+    "other": "朋友",
+    "lines": [
+      {"s": "o", "en": "So where should we go for the holiday? I think Japan would be great.", "zh": "假期去哪儿？我觉得日本不错。"},
+      {"s": "me", "en": "Japan sounds nice, but isn't it expensive?", "zh": "日本听起来不错，不过是不是很贵？"},
+      {"s": "o", "en": "It's not that bad if we book early.", "zh": "早点订的话也没那么贵。"},
+      {"s": "me", "en": "You're right. What do you think about Thailand, though?", "zh": "你说得对。不过你觉得泰国怎么样？"},
+      {"s": "o", "en": "Thailand is fun, but it's too hot in summer.", "zh": "泰国好玩，但夏天太热了。"},
+      {"s": "me", "en": "I see your point. To be honest, I'd prefer somewhere cool.", "zh": "有道理。说实话，我更想去凉快的地方。"},
+      {"s": "o", "en": "Exactly. So Japan, then?", "zh": "就是啊。那就日本？"},
+      {"s": "me", "en": "OK, I agree. Let's look at flights tonight.", "zh": "好，同意。我们今晚看看机票。"}
+    ]
+  }
+}

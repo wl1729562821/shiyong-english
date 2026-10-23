@@ -1,0 +1,54 @@
+{
+  "day": 4,
+  "title": "基本句型（一）：我是、这是、有",
+  "en": "Basic Sentences (1): be & there is",
+  "icon": "chat",
+  "goal": "会用 I'm / It's / There is 说出自己的状态和身边的东西，听懂 Are you ...? / Is there ...? 这类问句。",
+  "tips": [
+    "口语里几乎都用缩写：I am → I'm，you are → you're，it is → it's，is not → isn't。听的时候要能反应过来。",
+    "问句把 be 提到前面：You are ready. → Are you ready? 回答 Yes, I am. / No, I'm not.",
+    "There is + 一个东西，There are + 多个东西，表示“某处有……”：There's a bank near here."
+  ],
+  "words": [
+    {"en": "I'm", "zh": "我是；我（处于某种状态）"},
+    {"en": "you're", "zh": "你是；你们是"},
+    {"en": "he's, she's", "zh": "他是，她是"},
+    {"en": "it's", "zh": "它是；这是"},
+    {"en": "we're, they're", "zh": "我们是，他们是"},
+    {"en": "isn't", "zh": "不是（is not）"},
+    {"en": "aren't", "zh": "不是（are not）"},
+    {"en": "hungry", "zh": "饿的"},
+    {"en": "thirsty", "zh": "渴的"},
+    {"en": "tired", "zh": "累的"},
+    {"en": "busy", "zh": "忙的"},
+    {"en": "ready", "zh": "准备好的"},
+    {"en": "cold", "zh": "冷的"},
+    {"en": "late", "zh": "迟到的；晚的"},
+    {"en": "there is", "zh": "有（一个）"},
+    {"en": "there are", "zh": "有（多个）"}
+  ],
+  "exchanges": [
+    {"hear": "Are you hungry?", "hearZh": "你饿了吗？", "reply": "Yes, I'm starving.", "replyZh": "饿了，我饿坏了。"},
+    {"hear": "Are you ready?", "hearZh": "你准备好了吗？", "reply": "Not yet. Give me five minutes.", "replyZh": "还没有，再给我五分钟。"},
+    {"hear": "Is this your bag?", "hearZh": "这是你的包吗？", "reply": "No, it isn't. Mine is black.", "replyZh": "不是，我的是黑色的。"},
+    {"hear": "Where's your sister?", "hearZh": "你姐姐在哪儿？", "reply": "She's at work.", "replyZh": "她在上班。"},
+    {"hear": "Is there a supermarket near here?", "hearZh": "这附近有超市吗？", "reply": "Yes, there's one across the street.", "replyZh": "有，街对面就有一个。"},
+    {"hear": "Are your parents in China?", "hearZh": "你父母在中国吗？", "reply": "Yes, they're in Shanghai.", "replyZh": "是的，他们在上海。"},
+    {"hear": "You look tired.", "hearZh": "你看起来很累。", "reply": "I am. I didn't sleep well.", "replyZh": "是啊，我没睡好。"},
+    {"hear": "Are there any chairs in the room?", "hearZh": "房间里有椅子吗？", "reply": "There are two, next to the window.", "replyZh": "有两把，在窗户旁边。"}
+  ],
+  "dialogue": {
+    "title": "早上和室友出门",
+    "other": "室友",
+    "lines": [
+      {"s": "o", "en": "Good morning! Are you ready? We're late.", "zh": "早上好！你准备好了吗？我们要迟到了。"},
+      {"s": "me", "en": "Not yet. I'm still hungry. Is there any bread?", "zh": "还没有，我还饿着。有面包吗？"},
+      {"s": "o", "en": "Yes, there's some bread on the table.", "zh": "有，桌上有面包。"},
+      {"s": "me", "en": "Thanks. Where are my keys?", "zh": "谢谢。我的钥匙在哪儿？"},
+      {"s": "o", "en": "They're next to the door.", "zh": "在门旁边。"},
+      {"s": "me", "en": "Oh, here they are. Is it cold outside?", "zh": "哦，在这儿。外面冷吗？"},
+      {"s": "o", "en": "Yes, it's very cold. Take your jacket.", "zh": "很冷，穿上你的夹克。"},
+      {"s": "me", "en": "OK. I'm ready. Let's go!", "zh": "好，我准备好了，走吧！"}
+    ]
+  }
+}

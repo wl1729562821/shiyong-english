@@ -1,0 +1,57 @@
+{
+  "day": 15,
+  "title": "酒店入住",
+  "en": "Checking In",
+  "icon": "key",
+  "goal": "在前台办理入住：报预订名、交押金、问早餐时间和无线网密码；房间没准备好时会寄存行李。",
+  "tips": [
+    "开口就说 I have a reservation under the name ...（我用……的名字预订了）。",
+    "很多酒店入住时会在信用卡上冻结一笔押金（deposit），退房后解冻，不是扣款。",
+    "欧洲很多城市要交城市税（city tax / tourist tax），通常入住时在前台现付。"
+  ],
+  "words": [
+    {"en": "front desk", "zh": "前台（美式）"},
+    {"en": "reception", "zh": "前台（英式）"},
+    {"en": "check in", "zh": "办理入住"},
+    {"en": "under the name", "zh": "以……的名字（预订）"},
+    {"en": "credit card", "zh": "信用卡"},
+    {"en": "deposit", "zh": "押金"},
+    {"en": "refund", "zh": "退还；退款"},
+    {"en": "key card", "zh": "房卡"},
+    {"en": "floor", "zh": "楼层"},
+    {"en": "elevator", "zh": "电梯（美式）"},
+    {"en": "lift", "zh": "电梯（英式）"},
+    {"en": "Wi-Fi password", "zh": "无线网密码"},
+    {"en": "upgrade", "zh": "升级"},
+    {"en": "city tax", "zh": "城市税"},
+    {"en": "leave my luggage", "zh": "寄存我的行李"}
+  ],
+  "exchanges": [
+    {"hear": "Welcome. Are you checking in?", "hearZh": "欢迎。您是要办理入住吗？", "reply": "Yes. I have a reservation under the name Wang.", "replyZh": "是的。我用“王”这个名字预订了。"},
+    {"hear": "Can I see your passport and a credit card, please?", "hearZh": "请出示您的护照和一张信用卡。", "reply": "Sure, here you are.", "replyZh": "好的，给您。"},
+    {"hear": "We need a deposit of one hundred dollars. It'll be refunded when you check out.", "hearZh": "需要100美元押金，退房时退还。", "reply": "OK. Can I pay the deposit by card?", "replyZh": "好的。押金可以刷卡吗？"},
+    {"hear": "I'm sorry, your room isn't ready yet. Check-in is at three p.m.", "hearZh": "抱歉，您的房间还没准备好。入住时间是下午三点。", "reply": "Can I leave my luggage here?", "replyZh": "我能把行李寄存在这里吗？"},
+    {"hear": "Your room is on the eighth floor.", "hearZh": "您的房间在八楼。", "reply": "Where is the elevator?", "replyZh": "电梯在哪里？"},
+    {"hear": "Breakfast is served from six thirty to ten on the second floor.", "hearZh": "早餐时间是六点半到十点，在二楼。", "reply": "Great. And what's the Wi-Fi password?", "replyZh": "好的。无线网密码是什么？"},
+    {"hear": "There's a city tax of three euros per night.", "hearZh": "每晚收3欧元城市税。", "reply": "Do I pay it now or when I check out?", "replyZh": "现在付还是退房时付？"},
+    {"hear": "Would you like to upgrade to a room with a view for twenty dollars more?", "hearZh": "加20美元可以升级到景观房，您需要吗？", "reply": "No, thanks. The standard room is fine.", "replyZh": "不用了，谢谢。标准间就行。"}
+  ],
+  "dialogue": {
+    "title": "在前台办理入住",
+    "other": "前台",
+    "lines": [
+      {"s": "o", "en": "Good evening. Welcome to the Grand Hotel. Are you checking in?", "zh": "晚上好，欢迎来到格兰德酒店。您是办理入住吗？"},
+      {"s": "me", "en": "Yes. I have a reservation under the name Liu.", "zh": "是的。我用“刘”这个名字预订了。"},
+      {"s": "o", "en": "Let me see. Liu Yang, a double room for three nights?", "zh": "我看一下。刘洋，大床房，住三晚？"},
+      {"s": "me", "en": "That's right.", "zh": "对。"},
+      {"s": "o", "en": "May I have your passport and a credit card for the deposit?", "zh": "请给我您的护照，押金需要一张信用卡。"},
+      {"s": "me", "en": "Here you are. How much is the deposit?", "zh": "给您。押金多少？"},
+      {"s": "o", "en": "Fifty dollars per night. It will be refunded when you check out.", "zh": "每晚50美元，退房时退还。"},
+      {"s": "me", "en": "OK. Is breakfast included?", "zh": "好的。含早餐吗？"},
+      {"s": "o", "en": "Yes. Breakfast is from seven to ten on the first floor. Your room is twelve-oh-six, on the twelfth floor.", "zh": "含。早餐七点到十点，在一楼。您的房间是1206，在12楼。"},
+      {"s": "me", "en": "What's the Wi-Fi password?", "zh": "无线网密码是什么？"},
+      {"s": "o", "en": "It's on this card. The elevators are on your right.", "zh": "写在这张卡上。电梯在您右手边。"},
+      {"s": "me", "en": "Thank you very much.", "zh": "非常感谢。"}
+    ]
+  }
+}

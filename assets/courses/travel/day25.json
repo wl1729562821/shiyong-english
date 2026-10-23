@@ -1,0 +1,38 @@
+{
+  "day": 25,
+  "title": "总复习 + 全流程模拟",
+  "en": "Final Review & Full Trip Simulation",
+  "icon": "flag",
+  "goal": "复习全部 24 天内容；完整演练：酒店入住 → 房间出问题 → 问路 → 拜访客户。",
+  "review": [1, 24],
+  "tips": [
+    "先把生词本里答错次数最多的词句过一遍，再做总复习测验，目标正确率 80% 以上。",
+    "出发前把最常用的句子加到生词本，旅途中打开“速查”或“生词本”随时看、随时播放。",
+    "真到了现场，听不懂就说 Sorry, could you say that again? 说慢点、写下来、看地图——你已经全都会了。"
+  ],
+  "words": [],
+  "exchanges": [],
+  "dialogue": {
+    "title": "全流程模拟：从酒店到客户公司",
+    "other": "工作人员",
+    "lines": [
+      {"s": "o", "who": "前台", "en": "Good evening. Are you checking in?", "zh": "晚上好。您是办理入住吗？"},
+      {"s": "me", "en": "Yes. I have a reservation under the name Zhou.", "zh": "是的。我用“周”这个名字预订了。"},
+      {"s": "o", "who": "前台", "en": "Could I see your passport and a credit card, please?", "zh": "请出示您的护照和一张信用卡。"},
+      {"s": "me", "en": "Here you are. Is breakfast included?", "zh": "给您。含早餐吗？"},
+      {"s": "o", "who": "前台", "en": "Yes, from six thirty to ten. Your room is fifteen-oh-eight.", "zh": "含，六点半到十点。您的房间是1508。"},
+      {"s": "o", "who": "前台", "en": "Front desk. How can I help you?", "zh": "前台，有什么可以帮您？"},
+      {"s": "me", "en": "Hi, this is room fifteen-oh-eight. There's no hot water in the shower.", "zh": "你好，这里是1508房。淋浴没有热水。"},
+      {"s": "o", "who": "前台", "en": "I'm sorry about that. We'll send someone up right away.", "zh": "很抱歉，我们马上派人上去。"},
+      {"s": "me", "en": "Excuse me. How do I get to Victoria Tower?", "zh": "打扰一下，请问维多利亚大厦怎么走？"},
+      {"s": "o", "who": "路人", "en": "Go straight for two blocks and turn right. It's across from the bank.", "zh": "直走两个街区然后右转，在银行对面。"},
+      {"s": "me", "en": "Two blocks, then right. Thanks a lot.", "zh": "两个街区，然后右转。非常感谢。"},
+      {"s": "o", "who": "客户", "en": "Hello, you must be Mr. Zhou. I'm Tom Miller. Nice to meet you.", "zh": "你好，您一定是周先生吧。我是汤姆·米勒，很高兴见到您。"},
+      {"s": "me", "en": "Nice to meet you too, Tom. Here's my business card.", "zh": "我也很高兴见到你，汤姆。这是我的名片。"},
+      {"s": "o", "who": "客户", "en": "Thank you. How was your trip?", "zh": "谢谢。旅途怎么样？"},
+      {"s": "me", "en": "Long, but everything went well. Thanks for asking.", "zh": "挺长的，不过一切顺利。谢谢关心。"},
+      {"s": "o", "who": "客户", "en": "Great. Shall we start the meeting?", "zh": "太好了。我们开始开会吧？"},
+      {"s": "me", "en": "Sure. First, I'll give a short presentation.", "zh": "好的。首先我做一个简短的介绍。"}
+    ]
+  }
+}

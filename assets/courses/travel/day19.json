@@ -1,0 +1,57 @@
+{
+  "day": 19,
+  "title": "问路与公共交通",
+  "en": "Directions & Public Transport",
+  "icon": "directions",
+  "goal": "听懂指路的说法（直走、左转、对面、几个街区），会坐地铁、公交并确认换乘和下车站。",
+  "tips": [
+    "美国说 subway，英国说 underground 或 the Tube，很多城市说 metro。",
+    "block 是“街区”（两个路口之间的一段路），go straight for two blocks = 直走过两个路口。",
+    "指路的话太长听不住，就拿出地图：Could you show me on the map?"
+  ],
+  "words": [
+    {"en": "go straight", "zh": "直走"},
+    {"en": "turn left", "zh": "左转"},
+    {"en": "turn right", "zh": "右转"},
+    {"en": "on the corner", "zh": "在拐角处"},
+    {"en": "next to", "zh": "在……旁边"},
+    {"en": "across from", "zh": "在……对面"},
+    {"en": "block", "zh": "街区"},
+    {"en": "subway", "zh": "地铁（美式）"},
+    {"en": "bus stop", "zh": "公交站"},
+    {"en": "line", "zh": "线路"},
+    {"en": "change at", "zh": "在……换乘"},
+    {"en": "stop", "zh": "站"},
+    {"en": "platform", "zh": "站台"},
+    {"en": "get off", "zh": "下车"},
+    {"en": "far", "zh": "远的"},
+    {"en": "on foot", "zh": "步行"},
+    {"en": "map", "zh": "地图"}
+  ],
+  "exchanges": [
+    {"hear": "Go straight for two blocks and turn left.", "hearZh": "直走两个街区，然后左转。", "reply": "Two blocks, then left. Is it far?", "replyZh": "两个街区，然后左转。远吗？"},
+    {"hear": "It's too far to walk. You should take the subway.", "hearZh": "走路太远了，你应该坐地铁。", "reply": "Which line should I take?", "replyZh": "我该坐哪条线？"},
+    {"hear": "Take the red line and change at Central Station.", "hearZh": "坐红线，在中央站换乘。", "reply": "How many stops is it?", "replyZh": "要坐几站？"},
+    {"hear": "It's across from the bank, next to a café.", "hearZh": "在银行对面，一家咖啡馆旁边。", "reply": "Across from the bank. Got it.", "replyZh": "银行对面，知道了。"},
+    {"hear": "Sorry, I'm not from around here.", "hearZh": "抱歉，我不是本地人。", "reply": "No problem. Thanks anyway.", "replyZh": "没关系，还是谢谢你。"},
+    {"hear": "You need to tap your card when you get on.", "hearZh": "上车时要刷卡。", "reply": "Can I pay with cash?", "replyZh": "可以付现金吗？"},
+    {"hear": "Where are you going?", "hearZh": "你要去哪里？", "reply": "To the National Museum. Could you tell me when to get off?", "replyZh": "去国家博物馆。到站时能告诉我吗？"},
+    {"hear": "You're going the wrong way.", "hearZh": "你走反了。", "reply": "Oh! Could you show me on the map?", "replyZh": "哦！你能在地图上指给我看吗？"}
+  ],
+  "dialogue": {
+    "title": "问路去博物馆",
+    "other": "路人",
+    "lines": [
+      {"s": "me", "en": "Excuse me. How do I get to the Science Museum?", "zh": "打扰一下，请问科学博物馆怎么走？"},
+      {"s": "o", "en": "Hmm, it's quite far from here. You'd better take the subway.", "zh": "嗯，离这里挺远的，你最好坐地铁。"},
+      {"s": "me", "en": "Which line?", "zh": "坐哪条线？"},
+      {"s": "o", "en": "Take the blue line going north. Get off at Park Street. That's four stops.", "zh": "坐蓝线往北，在公园街下车，四站。"},
+      {"s": "me", "en": "Four stops, Park Street. And then?", "zh": "四站，公园街。然后呢？"},
+      {"s": "o", "en": "When you come out of the station, turn right. The museum is across from the park.", "zh": "出站后右转，博物馆在公园对面。"},
+      {"s": "me", "en": "Where is the nearest subway station?", "zh": "最近的地铁站在哪里？"},
+      {"s": "o", "en": "Go straight for one block. It's on the corner.", "zh": "直走一个街区，就在拐角。"},
+      {"s": "me", "en": "Thank you so much.", "zh": "非常感谢。"},
+      {"s": "o", "en": "No problem. Enjoy the museum!", "zh": "不客气，参观愉快！"}
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "day": 7,
+  "title": "超市购物",
+  "en": "At the Supermarket",
+  "icon": "cart",
+  "goal": "会在超市找东西、问价格和保质期，结账时听懂收银员的问题。",
+  "tips": [
+    "找东西：Where can I find ...? / Which aisle is the ... in?（……在哪一排货架？）",
+    "收银员常问：Do you have a membership card?（有会员卡吗）Do you need a bag?（要袋子吗）",
+    "buy one get one free = 买一送一；on sale = 打折中；expiration date = 保质期到期日。"
+  ],
+  "words": [
+    {"en": "supermarket", "zh": "超市"},
+    {"en": "aisle", "zh": "（货架间的）过道"},
+    {"en": "shopping cart", "zh": "购物车"},
+    {"en": "basket", "zh": "购物篮"},
+    {"en": "fruit", "zh": "水果"},
+    {"en": "meat", "zh": "肉"},
+    {"en": "milk", "zh": "牛奶"},
+    {"en": "eggs", "zh": "鸡蛋"},
+    {"en": "bread", "zh": "面包"},
+    {"en": "frozen food", "zh": "冷冻食品"},
+    {"en": "a bottle of", "zh": "一瓶……"},
+    {"en": "a bag of", "zh": "一袋……"},
+    {"en": "expiration date", "zh": "保质期到期日"},
+    {"en": "buy one get one free", "zh": "买一送一"},
+    {"en": "checkout", "zh": "收银台"},
+    {"en": "membership card", "zh": "会员卡"},
+    {"en": "self-checkout", "zh": "自助结账"}
+  ],
+  "exchanges": [
+    {"hear": "Can I help you find something?", "hearZh": "需要帮您找东西吗？", "reply": "Yes, where can I find the rice?", "replyZh": "是的，大米在哪儿？"},
+    {"hear": "The milk is in aisle seven, next to the eggs.", "hearZh": "牛奶在第七排，鸡蛋旁边。", "reply": "Aisle seven. Thank you.", "replyZh": "第七排，谢谢。"},
+    {"hear": "Do you have a membership card?", "hearZh": "您有会员卡吗？", "reply": "No, I don't. Can I get one?", "replyZh": "没有，可以办一张吗？"},
+    {"hear": "Do you need a bag?", "hearZh": "要袋子吗？", "reply": "Yes, two bags, please.", "replyZh": "要，两个袋子。"},
+    {"hear": "These apples are buy one get one free.", "hearZh": "这些苹果买一送一。", "reply": "Great, I'll take two bags then.", "replyZh": "太好了，那我拿两袋。"},
+    {"hear": "Excuse me, this yogurt is out of date.", "hearZh": "打扰一下，这个酸奶过期了。", "reply": "Oh, sorry. I'll get you a new one.", "replyZh": "哦，抱歉，我给您换一盒新的。"},
+    {"hear": "The self-checkout is not working. Please use the counter.", "hearZh": "自助结账机坏了，请到柜台结账。", "reply": "OK. Which line is the shortest?", "replyZh": "好的。哪一队人最少？"},
+    {"hear": "Is that cash or card?", "hearZh": "现金还是刷卡？", "reply": "Can I pay with my phone?", "replyZh": "可以用手机付吗？"}
+  ],
+  "dialogue": {
+    "title": "在超市问店员",
+    "other": "店员",
+    "lines": [
+      {"s": "me", "en": "Excuse me. Where can I find olive oil?", "zh": "打扰一下，橄榄油在哪儿？"},
+      {"s": "o", "en": "It's in aisle four, on the top shelf.", "zh": "在第四排，最上层。"},
+      {"s": "me", "en": "Thanks. And do you have any fresh fish today?", "zh": "谢谢。今天有新鲜的鱼吗？"},
+      {"s": "o", "en": "Yes, at the seafood counter in the back.", "zh": "有，在后面的海鲜柜台。"},
+      {"s": "me", "en": "Great. Are these strawberries on sale?", "zh": "好的。这些草莓在打折吗？"},
+      {"s": "o", "en": "Yes, they're buy one get one free this week.", "zh": "是的，这周买一送一。"},
+      {"s": "me", "en": "Nice. When do they expire?", "zh": "不错。什么时候过期？"},
+      {"s": "o", "en": "Let me check. The date is on the back. Next Tuesday.", "zh": "我看看，日期在背面。下周二。"},
+      {"s": "me", "en": "Perfect. I'll take two boxes.", "zh": "完美，我拿两盒。"}
+    ]
+  }
+}

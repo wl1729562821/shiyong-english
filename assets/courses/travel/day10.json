@@ -1,0 +1,60 @@
+{
+  "day": 10,
+  "title": "海关申报",
+  "en": "Customs Declaration",
+  "icon": "customs",
+  "goal": "听懂海关关于食品、药品、现金、礼物的提问，会说“没有要申报的”或说明物品用途。",
+  "tips": [
+    "很多国家（尤其澳大利亚、新西兰、美国）严格限制肉类、水果、种子、蛋奶制品入境。不确定就申报：申报了一般没事，不申报被查出会被罚款。",
+    "Anything to declare? 是“有东西要申报吗？”。没有就说 Nothing to declare.",
+    "自用药品最好带处方或医生证明的英文版，说 It's for my own use.（自用的）。"
+  ],
+  "words": [
+    {"en": "customs", "zh": "海关"},
+    {"en": "declare", "zh": "申报"},
+    {"en": "nothing to declare", "zh": "没有要申报的"},
+    {"en": "declaration form", "zh": "申报单"},
+    {"en": "duty", "zh": "关税"},
+    {"en": "duty-free allowance", "zh": "免税额度"},
+    {"en": "fresh fruit", "zh": "新鲜水果"},
+    {"en": "meat", "zh": "肉类"},
+    {"en": "medicine", "zh": "药品"},
+    {"en": "prescription", "zh": "处方"},
+    {"en": "cigarettes", "zh": "香烟"},
+    {"en": "alcohol", "zh": "酒类"},
+    {"en": "gift", "zh": "礼物"},
+    {"en": "snacks", "zh": "零食"},
+    {"en": "for my own use", "zh": "自用的"},
+    {"en": "prohibited", "zh": "禁止的"}
+  ],
+  "exchanges": [
+    {"hear": "Do you have anything to declare?", "hearZh": "你有东西要申报吗？", "reply": "No, nothing to declare.", "replyZh": "没有，没什么要申报的。"},
+    {"hear": "Are you bringing any food into the country?", "hearZh": "你带食物入境了吗？", "reply": "Just some snacks, cookies and candy.", "replyZh": "只有一些零食，饼干和糖果。"},
+    {"hear": "Could you open your bag, please?", "hearZh": "请打开你的包。", "reply": "Sure, no problem.", "replyZh": "好的，没问题。", "generic": true},
+    {"hear": "What's this?", "hearZh": "这是什么？", "reply": "It's Chinese medicine. It's for my own use.", "replyZh": "这是中药，我自己用的。"},
+    {"hear": "Do you have a prescription for this medicine?", "hearZh": "这个药你有处方吗？", "reply": "Yes, here's the doctor's note.", "replyZh": "有，这是医生开的证明。"},
+    {"hear": "Are you carrying more than ten thousand dollars in cash?", "hearZh": "你携带的现金超过一万美元吗？", "reply": "No, less than that.", "replyZh": "没有，比这少。"},
+    {"hear": "Who are these for?", "hearZh": "这些是给谁的？", "reply": "They're gifts for my friends. It's tea.", "replyZh": "是给朋友的礼物，是茶叶。"},
+    {"hear": "You'll have to pay duty on these cigarettes.", "hearZh": "这些香烟你要交税。", "reply": "OK. How much do I need to pay?", "replyZh": "好的。我需要交多少？"}
+  ],
+  "dialogue": {
+    "title": "过海关",
+    "other": "海关官员",
+    "lines": [
+      {"s": "o", "en": "Hello. Do you have anything to declare?", "zh": "你好。有东西要申报吗？"},
+      {"s": "me", "en": "No, I don't.", "zh": "没有。"},
+      {"s": "o", "en": "Are you bringing any food into the country?", "zh": "你带食物入境了吗？"},
+      {"s": "me", "en": "Only some snacks and tea.", "zh": "只有一些零食和茶叶。"},
+      {"s": "o", "en": "Any meat or fresh fruit?", "zh": "有肉类或新鲜水果吗？"},
+      {"s": "me", "en": "No.", "zh": "没有。"},
+      {"s": "o", "en": "Could you put your bag on the table and open it, please?", "zh": "请把包放到桌上打开。"},
+      {"s": "me", "en": "Sure.", "zh": "好的。"},
+      {"s": "o", "en": "What are these?", "zh": "这些是什么？"},
+      {"s": "me", "en": "They're mooncakes. They're gifts for a friend.", "zh": "是月饼，给朋友的礼物。"},
+      {"s": "o", "en": "Do they contain meat or egg?", "zh": "里面有肉或蛋吗？"},
+      {"s": "me", "en": "No, they have red bean filling.", "zh": "没有，是红豆馅的。"},
+      {"s": "o", "en": "OK. You can close your bag. Welcome to Australia.", "zh": "好的，可以把包合上了。欢迎来到澳大利亚。"},
+      {"s": "me", "en": "Thank you.", "zh": "谢谢。"}
+    ]
+  }
+}

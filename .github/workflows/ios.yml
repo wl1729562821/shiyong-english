@@ -1,0 +1,49 @@
+# 在 GitHub 提供的 Mac 上编译 iOS 版，产出一个未签名的 .ipa（在 Actions 页面的 Artifacts 里下载）。
+# 未签名的 ipa 不能直接装，要用 Sideloadly / AltStore 用自己的 Apple ID 签名后装到 iPhone，
+# 步骤见 docs/iOS安装说明.md。
+#
+# 触发：推送到 main 分支，或在 GitHub 网页 Actions → iOS build → Run workflow 手动运行。
+name: iOS build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: macos-14
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.27.4'
+          channel: stable
+          cache: true
+
+      # 本机用的是国内镜像，pubspec.lock 里记的是镜像地址；镜像和 pub.dev 的包完全一样，
+      # GitHub 的服务器在美国，直接用 pub.dev 更稳
+      - name: Install packages
+        run: |
+          sed -i '' 's#https://pub.flutter-io.cn#https://pub.dev#g' pubspec.lock
+          flutter pub get
+
+      - name: Run tests
+        run: flutter test
+
+      - name: Build iOS app (no code signing)
+        run: flutter build ios --release --no-codesign
+
+      - name: Package unsigned IPA
+        run: |
+          mkdir -p Payload
+          cp -R build/ios/iphoneos/Runner.app Payload/
+          zip -qry ShiYongYingYu-unsigned.ipa Payload
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ShiYongYingYu-ios-unsigned
+          path: ShiYongYingYu-unsigned.ipa
+          retention-days: 30

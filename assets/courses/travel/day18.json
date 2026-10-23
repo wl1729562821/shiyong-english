@@ -1,0 +1,55 @@
+{
+  "day": 18,
+  "title": "退房结账",
+  "en": "Checking Out",
+  "icon": "receipt",
+  "goal": "退房时核对账单、质疑错误收费，会要发票、寄存行李、叫车去机场。",
+  "tips": [
+    "退房前逐项核对账单，特别是 minibar（迷你吧）和 room service，有错就问 What's this charge?",
+    "receipt 是收据；invoice 是发票（报销常用），需要公司抬头就说 with my company name on it。",
+    "退房后还要出去玩，可以把行李寄存在前台：Can I leave my luggage here until four?"
+  ],
+  "words": [
+    {"en": "check out", "zh": "退房"},
+    {"en": "check-out time", "zh": "退房时间"},
+    {"en": "late check-out", "zh": "延迟退房"},
+    {"en": "bill", "zh": "账单"},
+    {"en": "minibar", "zh": "迷你吧（房间小冰箱）"},
+    {"en": "charge", "zh": "费用；收费"},
+    {"en": "total", "zh": "总计"},
+    {"en": "mistake", "zh": "错误"},
+    {"en": "receipt", "zh": "收据"},
+    {"en": "invoice", "zh": "发票"},
+    {"en": "pay by card", "zh": "刷卡支付"},
+    {"en": "in cash", "zh": "用现金"},
+    {"en": "luggage tag", "zh": "行李寄存牌"},
+    {"en": "call a taxi", "zh": "叫出租车"}
+  ],
+  "exchanges": [
+    {"hear": "Good morning. Are you checking out?", "hearZh": "早上好。您是要退房吗？", "reply": "Yes. Room fifteen-oh-two.", "replyZh": "是的，1502房。"},
+    {"hear": "Did you use anything from the minibar?", "hearZh": "您用过迷你吧里的东西吗？", "reply": "Yes, one bottle of water and a beer.", "replyZh": "用了，一瓶水和一罐啤酒。"},
+    {"hear": "Here's your bill. Please check it.", "hearZh": "这是您的账单，请核对一下。", "reply": "Excuse me, what's this charge?", "replyZh": "请问这一项是什么费用？"},
+    {"hear": "That's for room service on Tuesday.", "hearZh": "那是周二的送餐服务费。", "reply": "I didn't order room service. I think there's a mistake.", "replyZh": "我没点过送餐。我觉得弄错了。"},
+    {"hear": "How would you like to pay?", "hearZh": "您想怎么付款？", "reply": "By credit card, please.", "replyZh": "用信用卡。"},
+    {"hear": "Would you like a receipt?", "hearZh": "您需要收据吗？", "reply": "Could I have an invoice with my company name on it?", "replyZh": "能给我开一张带公司抬头的发票吗？"},
+    {"hear": "Check-out is at noon. Late check-out until two costs thirty dollars.", "hearZh": "退房时间是中午12点，延迟到两点要收30美元。", "reply": "OK, I'll take the late check-out.", "replyZh": "好的，我要延迟退房。"},
+    {"hear": "Would you like me to call a taxi for you?", "hearZh": "需要我帮您叫出租车吗？", "reply": "Yes, please. I'm going to the airport.", "replyZh": "好的，谢谢。我去机场。"}
+  ],
+  "dialogue": {
+    "title": "退房时发现账单有误",
+    "other": "前台",
+    "lines": [
+      {"s": "me", "en": "Good morning. I'd like to check out, please. Room nine-oh-one.", "zh": "早上好，我要退房，901房。"},
+      {"s": "o", "en": "Certainly. Did you have anything from the minibar?", "zh": "好的。您用过迷你吧的东西吗？"},
+      {"s": "me", "en": "Just two bottles of water.", "zh": "只有两瓶水。"},
+      {"s": "o", "en": "OK. Here's your bill. The total is three hundred and sixty dollars.", "zh": "好的。这是您的账单，总共360美元。"},
+      {"s": "me", "en": "Sorry, what's this charge for twenty-five dollars?", "zh": "抱歉，这笔25美元是什么费用？"},
+      {"s": "o", "en": "Let me check. That's a laundry charge. Oh, I'm sorry, that's a mistake. I'll take it off.", "zh": "我查一下。这是洗衣费。哦，抱歉，弄错了，我把它去掉。"},
+      {"s": "me", "en": "Thank you. Can I pay by credit card?", "zh": "谢谢。可以用信用卡付吗？"},
+      {"s": "o", "en": "Sure. Would you like a copy of the receipt by email?", "zh": "可以。需要把收据发到您的邮箱吗？"},
+      {"s": "me", "en": "Yes, please. And can I leave my luggage here until this afternoon?", "zh": "好的。还有，我的行李能寄存到下午吗？"},
+      {"s": "o", "en": "No problem. Here's your luggage tag.", "zh": "没问题。这是您的寄存牌。"},
+      {"s": "me", "en": "Thanks a lot.", "zh": "非常感谢。"}
+    ]
+  }
+}

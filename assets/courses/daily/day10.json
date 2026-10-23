@@ -1,0 +1,56 @@
+{
+  "day": 10,
+  "title": "银行与付款",
+  "en": "Banking & Payments",
+  "icon": "bank",
+  "goal": "会在银行办卡、存取款、换钱、问转账，听懂柜员要的证件和手续费。",
+  "tips": [
+    "存钱 deposit，取钱 withdraw，转账 transfer，开户 open an account。",
+    "柜员常问：Can I see some ID?（看下证件）Please enter your PIN.（请输入密码）",
+    "银行卡被吞：The ATM ate my card. / The ATM kept my card."
+  ],
+  "words": [
+    {"en": "bank account", "zh": "银行账户"},
+    {"en": "open an account", "zh": "开户"},
+    {"en": "deposit", "zh": "存钱；押金"},
+    {"en": "withdraw", "zh": "取钱"},
+    {"en": "transfer", "zh": "转账"},
+    {"en": "balance", "zh": "余额"},
+    {"en": "debit card", "zh": "借记卡"},
+    {"en": "credit card", "zh": "信用卡"},
+    {"en": "PIN", "zh": "密码（个人识别码）"},
+    {"en": "ID", "zh": "身份证件"},
+    {"en": "fee", "zh": "手续费"},
+    {"en": "exchange rate", "zh": "汇率"},
+    {"en": "teller", "zh": "银行柜员"},
+    {"en": "ATM", "zh": "自动取款机"},
+    {"en": "receipt", "zh": "收据；回单"},
+    {"en": "online banking", "zh": "网上银行"}
+  ],
+  "exchanges": [
+    {"hear": "How can I help you today?", "hearZh": "今天办什么业务？", "reply": "I'd like to open a bank account.", "replyZh": "我想开个银行账户。"},
+    {"hear": "Can I see some ID, please?", "hearZh": "请出示一下证件。", "reply": "Here's my passport.", "replyZh": "这是我的护照。"},
+    {"hear": "How much would you like to withdraw?", "hearZh": "您要取多少钱？", "reply": "Five hundred dollars, please.", "replyZh": "五百美元。"},
+    {"hear": "Please enter your PIN.", "hearZh": "请输入密码。", "reply": "OK. Is that right?", "replyZh": "好的，这样对吗？"},
+    {"hear": "There's a three dollar fee for international transfers.", "hearZh": "国际转账收三美元手续费。", "reply": "That's fine. How long does it take?", "replyZh": "可以。要多长时间到账？"},
+    {"hear": "Would you like a receipt?", "hearZh": "需要回单吗？", "reply": "Yes, please.", "replyZh": "要的，谢谢。", "generic": true},
+    {"hear": "Is there a problem with the ATM?", "hearZh": "取款机有什么问题吗？", "reply": "Yes, it kept my card.", "replyZh": "是的，它把我的卡吞了。"},
+    {"hear": "Can I help you check your balance?", "hearZh": "要我帮您查余额吗？", "reply": "No thanks, I can check it with online banking.", "replyZh": "不用了，我可以用网银查。"}
+  ],
+  "dialogue": {
+    "title": "在银行换钱、存钱",
+    "other": "柜员",
+    "lines": [
+      {"s": "o", "en": "Good morning. How can I help you?", "zh": "早上好，办什么业务？"},
+      {"s": "me", "en": "Hi. I'd like to change some Chinese yuan into dollars.", "zh": "你好。我想把人民币换成美元。"},
+      {"s": "o", "en": "Sure. How much would you like to change?", "zh": "好的。您要换多少？"},
+      {"s": "me", "en": "Three thousand yuan. What's the exchange rate today?", "zh": "三千元。今天汇率多少？"},
+      {"s": "o", "en": "It's about seven point one yuan to one dollar.", "zh": "大约七点一元换一美元。"},
+      {"s": "me", "en": "Is there a fee?", "zh": "有手续费吗？"},
+      {"s": "o", "en": "No fee if you have an account with us.", "zh": "如果您在我们这儿有账户就免手续费。"},
+      {"s": "me", "en": "Yes, I do. And can I deposit the dollars into my account?", "zh": "我有。换好的美元能直接存进我的账户吗？"},
+      {"s": "o", "en": "Of course. Can I see some ID and your bank card, please?", "zh": "当然可以。请出示证件和银行卡。"},
+      {"s": "me", "en": "Here you are.", "zh": "给您。"}
+    ]
+  }
+}

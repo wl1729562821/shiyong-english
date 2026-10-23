@@ -1,0 +1,60 @@
+{
+  "day": 22,
+  "title": "紧急情况：生病、丢东西、求助",
+  "en": "Emergencies & Health",
+  "icon": "emergency",
+  "goal": "会描述症状、在药店买药，东西被偷或护照丢失时会报警、联系大使馆。",
+  "tips": [
+    "急救电话：美国、加拿大 911；欧盟 112；英国 999（112 也能打）；澳大利亚 000。出发前查好目的地的号码。",
+    "丢了护照：先去警察局开报案证明（police report），再联系中国驻当地使领馆补办旅行证件。",
+    "说症状：I have a fever / a headache / a stomachache. I feel sick.（我想吐/不舒服）"
+  ],
+  "words": [
+    {"en": "help", "zh": "救命；帮助"},
+    {"en": "emergency", "zh": "紧急情况"},
+    {"en": "police", "zh": "警察"},
+    {"en": "police station", "zh": "警察局"},
+    {"en": "ambulance", "zh": "救护车"},
+    {"en": "hospital", "zh": "医院"},
+    {"en": "pharmacy", "zh": "药店"},
+    {"en": "doctor", "zh": "医生"},
+    {"en": "fever", "zh": "发烧"},
+    {"en": "headache", "zh": "头痛"},
+    {"en": "stomachache", "zh": "胃痛；肚子痛"},
+    {"en": "a cold", "zh": "感冒"},
+    {"en": "tablet", "zh": "药片"},
+    {"en": "stolen", "zh": "被偷的"},
+    {"en": "wallet", "zh": "钱包"},
+    {"en": "embassy", "zh": "大使馆"},
+    {"en": "consulate", "zh": "领事馆"},
+    {"en": "travel insurance", "zh": "旅游保险"}
+  ],
+  "exchanges": [
+    {"hear": "What's your emergency?", "hearZh": "您有什么紧急情况？", "reply": "My friend fainted. Please send an ambulance.", "replyZh": "我朋友晕倒了，请派救护车。"},
+    {"hear": "What are your symptoms?", "hearZh": "你有什么症状？", "reply": "I have a fever and a headache.", "replyZh": "我发烧，还头痛。"},
+    {"hear": "How long have you felt like this?", "hearZh": "你这样多久了？", "reply": "Since last night.", "replyZh": "从昨晚开始。"},
+    {"hear": "Are you allergic to any medicine?", "hearZh": "你对什么药过敏吗？", "reply": "Not that I know of.", "replyZh": "据我所知没有。"},
+    {"hear": "Take one tablet three times a day after meals.", "hearZh": "一天三次，每次一片，饭后吃。", "reply": "Three times a day after meals. Got it.", "replyZh": "一天三次，饭后。明白了。"},
+    {"hear": "What was stolen?", "hearZh": "什么东西被偷了？", "reply": "My wallet and my passport.", "replyZh": "我的钱包和护照。"},
+    {"hear": "When did you last see it?", "hearZh": "你最后一次看到它是什么时候？", "reply": "On the bus, about an hour ago.", "replyZh": "大约一小时前，在公交车上。"},
+    {"hear": "You should contact your embassy for a new passport.", "hearZh": "你应该联系你们的大使馆补办护照。", "reply": "Where is the Chinese Embassy?", "replyZh": "中国大使馆在哪里？"},
+    {"hear": "Do you have travel insurance?", "hearZh": "你有旅游保险吗？", "reply": "Yes. Can I get a police report for my insurance?", "replyZh": "有。能给我一份报案证明用来理赔吗？"}
+  ],
+  "dialogue": {
+    "title": "在药店买药",
+    "other": "药剂师",
+    "lines": [
+      {"s": "o", "en": "Hi. How can I help you?", "zh": "你好，有什么可以帮你？"},
+      {"s": "me", "en": "I have a bad stomachache, and I feel sick.", "zh": "我肚子很痛，还想吐。"},
+      {"s": "o", "en": "When did it start?", "zh": "什么时候开始的？"},
+      {"s": "me", "en": "This morning, after breakfast.", "zh": "今天早上吃完早饭后。"},
+      {"s": "o", "en": "Do you have a fever?", "zh": "发烧吗？"},
+      {"s": "me", "en": "No, I don't think so.", "zh": "我觉得没有。"},
+      {"s": "o", "en": "Are you allergic to any medicine?", "zh": "对什么药过敏吗？"},
+      {"s": "me", "en": "No.", "zh": "没有。"},
+      {"s": "o", "en": "OK. Take one of these tablets three times a day after meals, and drink lots of water.", "zh": "好的。这个药一天三次，每次一片，饭后吃，多喝水。"},
+      {"s": "me", "en": "Thank you. What should I do if I don't feel better?", "zh": "谢谢。如果还不好，我该怎么办？"},
+      {"s": "o", "en": "Then you should see a doctor. There's a clinic across the street.", "zh": "那你应该去看医生。街对面有一家诊所。"}
+    ]
+  }
+}

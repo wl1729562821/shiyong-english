@@ -1,0 +1,56 @@
+{
+  "day": 5,
+  "title": "基本句型（二）：想要、需要、喜欢、会",
+  "en": "Basic Sentences (2): want, need, like, can",
+  "icon": "chat",
+  "goal": "用最常用的动词表达需求和喜好：I want / I need / I like / I can，听懂 Do you ...? / Can you ...? 并回答。",
+  "tips": [
+    "want 很直接；对不熟的人更礼貌的说法是 I'd like ...（I would like）。",
+    "否定和提问要加 do：I don't like ... / Do you like ...? 回答 Yes, I do. / No, I don't.",
+    "can 后面直接跟动词：I can swim. / Can you help me? / I can't come."
+  ],
+  "words": [
+    {"en": "want", "zh": "想要"},
+    {"en": "need", "zh": "需要"},
+    {"en": "like", "zh": "喜欢"},
+    {"en": "would like", "zh": "想要（更礼貌）"},
+    {"en": "have", "zh": "有"},
+    {"en": "can", "zh": "能；会"},
+    {"en": "can't", "zh": "不能；不会"},
+    {"en": "don't", "zh": "不（否定）"},
+    {"en": "go", "zh": "去"},
+    {"en": "come", "zh": "来"},
+    {"en": "eat", "zh": "吃"},
+    {"en": "drink", "zh": "喝"},
+    {"en": "buy", "zh": "买"},
+    {"en": "know", "zh": "知道"},
+    {"en": "understand", "zh": "明白；听懂"},
+    {"en": "help", "zh": "帮助"}
+  ],
+  "exchanges": [
+    {"hear": "What do you want to eat?", "hearZh": "你想吃什么？", "reply": "I want some noodles.", "replyZh": "我想吃面条。"},
+    {"hear": "Do you need any help?", "hearZh": "你需要帮忙吗？", "reply": "Yes, please. I can't open this door.", "replyZh": "需要，谢谢。这个门我打不开。"},
+    {"hear": "Do you like coffee?", "hearZh": "你喜欢咖啡吗？", "reply": "Not really. I like tea.", "replyZh": "不太喜欢，我喜欢茶。"},
+    {"hear": "Can you speak English?", "hearZh": "你会说英语吗？", "reply": "A little. I can understand slow English.", "replyZh": "会一点。说慢一点我能听懂。"},
+    {"hear": "Do you have a car?", "hearZh": "你有车吗？", "reply": "No, I don't. I take the subway.", "replyZh": "没有，我坐地铁。"},
+    {"hear": "Would you like some water?", "hearZh": "要来点水吗？", "reply": "Yes, please. I'm thirsty.", "replyZh": "好的，谢谢。我渴了。"},
+    {"hear": "Do you know where the station is?", "hearZh": "你知道车站在哪儿吗？", "reply": "Sorry, I don't know.", "replyZh": "抱歉，我不知道。"},
+    {"hear": "Can you come tomorrow?", "hearZh": "你明天能来吗？", "reply": "Sorry, I can't. I have to work.", "replyZh": "抱歉，来不了，我要上班。"}
+  ],
+  "dialogue": {
+    "title": "去朋友家做客",
+    "other": "朋友",
+    "lines": [
+      {"s": "o", "en": "Come in! Would you like some tea or coffee?", "zh": "进来吧！喝茶还是咖啡？"},
+      {"s": "me", "en": "Tea, please. I don't drink coffee.", "zh": "茶吧，谢谢。我不喝咖啡。"},
+      {"s": "o", "en": "Sure. Do you like green tea?", "zh": "好的。你喜欢绿茶吗？"},
+      {"s": "me", "en": "Yes, I like it very much.", "zh": "喜欢，非常喜欢。"},
+      {"s": "o", "en": "Are you hungry? I have some cake.", "zh": "饿不饿？我这儿有蛋糕。"},
+      {"s": "me", "en": "No, thanks. I'm OK.", "zh": "不用了，谢谢，我还好。"},
+      {"s": "o", "en": "By the way, can you help me with something?", "zh": "对了，你能帮我个忙吗？"},
+      {"s": "me", "en": "Of course. What do you need?", "zh": "当然。你需要什么？"},
+      {"s": "o", "en": "I need to write an email in Chinese. Can you check it?", "zh": "我要写一封中文邮件，你能帮我看看吗？"},
+      {"s": "me", "en": "Sure, I can do that.", "zh": "没问题，我可以。"}
+    ]
+  }
+}

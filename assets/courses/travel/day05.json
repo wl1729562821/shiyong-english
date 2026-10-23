@@ -1,0 +1,54 @@
+{
+  "day": 5,
+  "title": "安检、登机与延误",
+  "en": "Security, Boarding & Delays",
+  "icon": "security",
+  "goal": "听懂安检员的指令和登机广播，航班延误或改登机口时会询问。",
+  "tips": [
+    "听广播只抓关键词：航班号、Gate（登机口）、delayed（延误）、cancelled（取消）、boarding（登机）、final call（最后召集）。",
+    "take off 有两个意思：脱下（take off your shoes）和飞机起飞（the plane takes off）。",
+    "安检员说 Step forward 是“往前走”，Arms up 是“举起双臂”，Step back 是“退后”。"
+  ],
+  "words": [
+    {"en": "security check", "zh": "安检"},
+    {"en": "liquids", "zh": "液体"},
+    {"en": "laptop", "zh": "笔记本电脑"},
+    {"en": "tray", "zh": "托盘"},
+    {"en": "take off", "zh": "脱下；（飞机）起飞"},
+    {"en": "pocket", "zh": "口袋"},
+    {"en": "gate", "zh": "登机口"},
+    {"en": "boarding", "zh": "登机"},
+    {"en": "delayed", "zh": "延误的"},
+    {"en": "cancelled", "zh": "取消的"},
+    {"en": "on time", "zh": "准时"},
+    {"en": "announcement", "zh": "广播通知"},
+    {"en": "final call", "zh": "最后召集"},
+    {"en": "departure board", "zh": "航班信息屏"},
+    {"en": "meal voucher", "zh": "餐券"}
+  ],
+  "exchanges": [
+    {"hear": "Please put your laptop and liquids in a separate tray.", "hearZh": "请把笔记本电脑和液体单独放一个托盘。", "reply": "OK. Do I need to take off my shoes?", "replyZh": "好的。需要脱鞋吗？"},
+    {"hear": "Do you have anything in your pockets?", "hearZh": "你口袋里有东西吗？", "reply": "Just my phone and keys.", "replyZh": "只有手机和钥匙。"},
+    {"hear": "Is this your bag? I need to check it.", "hearZh": "这是你的包吗？我需要检查一下。", "reply": "Yes, it's mine. Go ahead.", "replyZh": "是我的，您查吧。"},
+    {"hear": "You can't take this bottle of water through.", "hearZh": "这瓶水不能带过去。", "reply": "Oh, sorry. I'll throw it away.", "replyZh": "哦，抱歉。我把它扔掉。"},
+    {"hear": "Your flight has been delayed by two hours.", "hearZh": "您的航班延误了两个小时。", "reply": "What time will it leave now?", "replyZh": "那现在几点起飞？"},
+    {"hear": "Your gate has changed to Gate forty-five.", "hearZh": "您的登机口改到了45号。", "reply": "Forty-five? How do I get there?", "replyZh": "45号？我怎么过去？"},
+    {"hear": "We are now boarding passengers in group three.", "hearZh": "现在请第三组的旅客登机。", "reply": "Excuse me, is this the flight to Paris?", "replyZh": "打扰一下，这是飞巴黎的航班吗？"},
+    {"hear": "Your flight has been cancelled because of the weather.", "hearZh": "由于天气原因，您的航班取消了。", "reply": "Can you put me on another flight?", "replyZh": "您能帮我安排别的航班吗？"}
+  ],
+  "dialogue": {
+    "title": "在登机口询问延误",
+    "other": "地勤",
+    "lines": [
+      {"s": "me", "en": "Excuse me, is this the gate for the flight to Paris?", "zh": "打扰一下，这是飞巴黎的登机口吗？"},
+      {"s": "o", "en": "Yes, it is. But the flight is delayed.", "zh": "是的。不过航班延误了。"},
+      {"s": "me", "en": "Oh no. How long is the delay?", "zh": "哦不。要延误多久？"},
+      {"s": "o", "en": "About one hour. The new departure time is eleven forty.", "zh": "大约一小时。新的起飞时间是十一点四十。"},
+      {"s": "me", "en": "Will the gate change?", "zh": "登机口会变吗？"},
+      {"s": "o", "en": "No, it's still Gate twenty-six. Please listen for announcements.", "zh": "不会，还是26号登机口。请留意广播。"},
+      {"s": "me", "en": "OK. Can I get a meal voucher?", "zh": "好的。我能领一张餐券吗？"},
+      {"s": "o", "en": "Sorry, meal vouchers are only for delays over three hours.", "zh": "抱歉，延误超过三小时才发餐券。"},
+      {"s": "me", "en": "I see. Thank you.", "zh": "明白了，谢谢。"}
+    ]
+  }
+}

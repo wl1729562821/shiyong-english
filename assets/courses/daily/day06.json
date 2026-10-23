@@ -1,0 +1,57 @@
+{
+  "day": 6,
+  "title": "吃饭与做饭",
+  "en": "Food & Cooking",
+  "icon": "cooking",
+  "goal": "会说喜欢吃什么、不吃什么、口味怎么样，能聊做饭和简单的做法。",
+  "tips": [
+    "说口味：spicy 辣，sweet 甜，sour 酸，salty 咸，bitter 苦，bland 没味道。",
+    "做法动词：boil 煮，fry 煎炸，stir-fry 炒，steam 蒸，bake 烤（面包蛋糕），grill 烤（肉）。",
+    "不吃某样东西：I don't eat pork. / I'm allergic to seafood. / I'm vegetarian."
+  ],
+  "words": [
+    {"en": "breakfast", "zh": "早餐"},
+    {"en": "lunch", "zh": "午餐"},
+    {"en": "dinner", "zh": "晚餐"},
+    {"en": "snack", "zh": "零食；小吃"},
+    {"en": "vegetables", "zh": "蔬菜"},
+    {"en": "seafood", "zh": "海鲜"},
+    {"en": "pork", "zh": "猪肉"},
+    {"en": "spicy", "zh": "辣的"},
+    {"en": "sweet", "zh": "甜的"},
+    {"en": "sour", "zh": "酸的"},
+    {"en": "salty", "zh": "咸的"},
+    {"en": "delicious", "zh": "好吃的"},
+    {"en": "boil", "zh": "煮"},
+    {"en": "stir-fry", "zh": "炒"},
+    {"en": "steam", "zh": "蒸"},
+    {"en": "recipe", "zh": "菜谱"},
+    {"en": "leftovers", "zh": "剩菜"}
+  ],
+  "exchanges": [
+    {"hear": "What's your favorite food?", "hearZh": "你最喜欢吃什么？", "reply": "Hot pot. I love spicy food.", "replyZh": "火锅，我爱吃辣。"},
+    {"hear": "Is there anything you don't eat?", "hearZh": "有什么你不吃的吗？", "reply": "I don't eat seafood. I'm allergic to it.", "replyZh": "我不吃海鲜，我过敏。"},
+    {"hear": "How does it taste?", "hearZh": "味道怎么样？", "reply": "It's delicious, but a little salty.", "replyZh": "很好吃，就是有点咸。"},
+    {"hear": "Do you cook at home?", "hearZh": "你在家做饭吗？", "reply": "Most days. I usually make something simple.", "replyZh": "大多数时候做，一般做点简单的。"},
+    {"hear": "How do you make this dish?", "hearZh": "这道菜怎么做？", "reply": "Just stir-fry the tomatoes, then add the eggs.", "replyZh": "先炒西红柿，再加鸡蛋。"},
+    {"hear": "Can you send me the recipe?", "hearZh": "能把菜谱发我吗？", "reply": "Of course. I'll send it tonight.", "replyZh": "当然，我今晚发给你。"},
+    {"hear": "What did you have for breakfast?", "hearZh": "你早饭吃了什么？", "reply": "Just some bread and a cup of milk.", "replyZh": "就一些面包和一杯牛奶。"},
+    {"hear": "Help yourself. There's plenty of food.", "hearZh": "随便吃，菜很多。", "reply": "Thanks. Everything looks amazing.", "replyZh": "谢谢，每样看起来都很棒。"}
+  ],
+  "dialogue": {
+    "title": "请朋友来家里吃饭",
+    "other": "朋友",
+    "lines": [
+      {"s": "o", "en": "Something smells great! What are you cooking?", "zh": "好香啊！你在做什么？"},
+      {"s": "me", "en": "Kung Pao chicken and some steamed fish.", "zh": "宫保鸡丁和清蒸鱼。"},
+      {"s": "o", "en": "Wow. Is the chicken spicy?", "zh": "哇，鸡丁辣吗？"},
+      {"s": "me", "en": "A little. Is that OK for you?", "zh": "有一点，你能吃吗？"},
+      {"s": "o", "en": "Sure, I like spicy food. Can I help with anything?", "zh": "能，我喜欢吃辣。要我帮忙吗？"},
+      {"s": "me", "en": "Could you wash the vegetables for me?", "zh": "能帮我洗一下菜吗？"},
+      {"s": "o", "en": "No problem. Where did you learn to cook like this?", "zh": "没问题。你在哪儿学的做饭？"},
+      {"s": "me", "en": "From my mom. And I watch a lot of cooking videos.", "zh": "跟我妈学的，我还看很多做饭视频。"},
+      {"s": "o", "en": "This fish is delicious! Can you send me the recipe?", "zh": "这鱼太好吃了！能把菜谱发我吗？"},
+      {"s": "me", "en": "Sure. It's easy. You just steam it for ten minutes.", "zh": "当然，很简单，蒸十分钟就行。"}
+    ]
+  }
+}

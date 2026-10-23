@@ -1,0 +1,58 @@
+{
+  "day": 2,
+  "title": "数字、价格与时间",
+  "en": "Numbers, Prices & Time",
+  "icon": "money",
+  "goal": "听懂价格、时间、房间号和航班号；分清 fifteen 和 fifty 这类容易听错的数字。",
+  "tips": [
+    "-teen 和 -ty 最容易听错：fif-TEEN（15）重音在后，FIF-ty（50）重音在前。听不清就直接问 Fifteen or fifty?",
+    "价格常省略单位：twenty-five ninety-nine 就是 25.99，seven fifty 就是 7.50。",
+    "房间号、航班号常两位两位读：1208 读作 twelve-oh-eight，0 常读成 oh。"
+  ],
+  "words": [
+    {"en": "fifteen", "zh": "十五"},
+    {"en": "fifty", "zh": "五十"},
+    {"en": "thirteen", "zh": "十三"},
+    {"en": "thirty", "zh": "三十"},
+    {"en": "hundred", "zh": "百"},
+    {"en": "thousand", "zh": "千"},
+    {"en": "dollar", "zh": "美元"},
+    {"en": "euro", "zh": "欧元"},
+    {"en": "cash", "zh": "现金"},
+    {"en": "change", "zh": "零钱；找零"},
+    {"en": "price", "zh": "价格"},
+    {"en": "how much", "zh": "多少钱"},
+    {"en": "o'clock", "zh": "……点整"},
+    {"en": "half past", "zh": "……点半"},
+    {"en": "a quarter to", "zh": "差一刻到……点"},
+    {"en": "minute", "zh": "分钟"},
+    {"en": "a.m.", "zh": "上午"},
+    {"en": "p.m.", "zh": "下午；晚上"}
+  ],
+  "exchanges": [
+    {"hear": "That's fifteen dollars, please.", "hearZh": "一共15美元。", "reply": "Sorry, fifteen or fifty?", "replyZh": "抱歉，是十五还是五十？"},
+    {"hear": "It's twenty-five ninety-nine.", "hearZh": "25.99。", "reply": "OK. Can I pay by card?", "replyZh": "好的。可以刷卡吗？"},
+    {"hear": "What time is it?", "hearZh": "现在几点？", "reply": "It's half past three.", "replyZh": "三点半。"},
+    {"hear": "The bus leaves at seven forty-five.", "hearZh": "大巴七点四十五分出发。", "reply": "Is that seven forty-five in the morning?", "replyZh": "是早上七点四十五吗？"},
+    {"hear": "Do you have any change?", "hearZh": "你有零钱吗？", "reply": "Sorry, I only have a fifty.", "replyZh": "抱歉，我只有一张50的。"},
+    {"hear": "Here's your change, thirty-two cents.", "hearZh": "找您32美分。", "reply": "Thank you. Could I have a receipt?", "replyZh": "谢谢。能给我一张收据吗？"},
+    {"hear": "How many people?", "hearZh": "几位？", "reply": "Two, please.", "replyZh": "两位。"},
+    {"hear": "What's your room number?", "hearZh": "你的房间号是多少？", "reply": "It's twelve-oh-eight.", "replyZh": "1208。"}
+  ],
+  "dialogue": {
+    "title": "在便利店付款",
+    "other": "收银员",
+    "lines": [
+      {"s": "o", "en": "Hi there. Is that everything?", "zh": "您好。就这些吗？"},
+      {"s": "me", "en": "Yes. How much is it?", "zh": "是的。多少钱？"},
+      {"s": "o", "en": "That's fifteen fifty.", "zh": "15块5。"},
+      {"s": "me", "en": "Sorry, fifteen or fifty?", "zh": "抱歉，是十五还是五十？"},
+      {"s": "o", "en": "Fifteen. One, five. Fifteen dollars and fifty cents.", "zh": "十五。一、五。15美元50美分。"},
+      {"s": "me", "en": "Got it. Can I pay by card?", "zh": "明白了。可以刷卡吗？"},
+      {"s": "o", "en": "Sure. Tap your card here, please.", "zh": "可以。请在这里感应您的卡。"},
+      {"s": "me", "en": "What time do you close today?", "zh": "你们今天几点关门？"},
+      {"s": "o", "en": "We close at ten p.m.", "zh": "晚上十点关门。"},
+      {"s": "me", "en": "Thanks a lot.", "zh": "非常感谢。"}
+    ]
+  }
+}

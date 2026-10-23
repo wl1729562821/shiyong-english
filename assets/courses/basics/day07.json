@@ -1,0 +1,55 @@
+{
+  "day": 7,
+  "title": "星期、月份与季节",
+  "en": "Days, Months & Seasons",
+  "icon": "calendar",
+  "goal": "会说星期几、几月、哪个季节，能约时间，听懂 yesterday / last week / the day after tomorrow 这类时间说法。",
+  "tips": [
+    "星期和月份首字母大写。on + 星期 / 日期（on Monday），in + 月份 / 季节 / 年份（in May），at + 钟点（at three）。",
+    "美国说 fall，英国说 autumn，都是秋天。",
+    "the day after tomorrow = 后天；the day before yesterday = 前天。"
+  ],
+  "words": [
+    {"en": "Monday, Tuesday, Wednesday", "zh": "星期一、星期二、星期三"},
+    {"en": "Thursday, Friday", "zh": "星期四、星期五"},
+    {"en": "Saturday, Sunday", "zh": "星期六、星期日"},
+    {"en": "weekend", "zh": "周末"},
+    {"en": "weekday", "zh": "工作日"},
+    {"en": "January, February, March", "zh": "一月、二月、三月"},
+    {"en": "April, May, June", "zh": "四月、五月、六月"},
+    {"en": "July, August, September", "zh": "七月、八月、九月"},
+    {"en": "October, November, December", "zh": "十月、十一月、十二月"},
+    {"en": "spring", "zh": "春天"},
+    {"en": "summer", "zh": "夏天"},
+    {"en": "autumn", "zh": "秋天（英式）"},
+    {"en": "fall", "zh": "秋天（美式）"},
+    {"en": "winter", "zh": "冬天"},
+    {"en": "yesterday", "zh": "昨天"},
+    {"en": "the day after tomorrow", "zh": "后天"},
+    {"en": "last week", "zh": "上周"}
+  ],
+  "exchanges": [
+    {"hear": "What day is it today?", "hearZh": "今天星期几？", "reply": "It's Wednesday.", "replyZh": "星期三。"},
+    {"hear": "When's your birthday?", "hearZh": "你生日是什么时候？", "reply": "It's in November. November eighth.", "replyZh": "在十一月，十一月八号。"},
+    {"hear": "What are you doing on Saturday?", "hearZh": "你星期六做什么？", "reply": "Nothing special. Why?", "replyZh": "没什么特别的，怎么了？"},
+    {"hear": "Are you free next Tuesday?", "hearZh": "你下周二有空吗？", "reply": "Let me check. Yes, I'm free.", "replyZh": "我看看。有空。"},
+    {"hear": "What's your favorite season?", "hearZh": "你最喜欢哪个季节？", "reply": "Autumn. It's not too hot or too cold.", "replyZh": "秋天，不太热也不太冷。"},
+    {"hear": "What time do you usually get up?", "hearZh": "你平时几点起床？", "reply": "At about seven on weekdays.", "replyZh": "工作日大约七点。"},
+    {"hear": "When did you arrive?", "hearZh": "你什么时候到的？", "reply": "The day before yesterday.", "replyZh": "前天。"},
+    {"hear": "How long is the holiday?", "hearZh": "假期有多长？", "reply": "Seven days, from October first to the seventh.", "replyZh": "七天，从十月一号到七号。"}
+  ],
+  "dialogue": {
+    "title": "约朋友看电影",
+    "other": "朋友",
+    "lines": [
+      {"s": "o", "en": "Do you want to see a movie this week?", "zh": "这周想去看电影吗？"},
+      {"s": "me", "en": "Sure. Which day?", "zh": "好啊，哪天？"},
+      {"s": "o", "en": "How about Friday night?", "zh": "星期五晚上怎么样？"},
+      {"s": "me", "en": "Sorry, I work late on Fridays. What about Saturday?", "zh": "抱歉，我星期五加班。星期六呢？"},
+      {"s": "o", "en": "Saturday afternoon is fine. What time?", "zh": "星期六下午可以。几点？"},
+      {"s": "me", "en": "Is three o'clock OK?", "zh": "三点行吗？"},
+      {"s": "o", "en": "Perfect. Saturday at three.", "zh": "完美，星期六三点。"},
+      {"s": "me", "en": "Great. See you on Saturday!", "zh": "好的，星期六见！"}
+    ]
+  }
+}

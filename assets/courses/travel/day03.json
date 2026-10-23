@@ -1,0 +1,58 @@
+{
+  "day": 3,
+  "title": "日期、拼写与个人信息",
+  "en": "Dates, Spelling & Personal Info",
+  "icon": "badge",
+  "goal": "会报姓名并逐个字母拼写，听懂出生日期、电话、国籍等登记信息。",
+  "tips": [
+    "护照上 Surname / Last name 是姓，Given name / First name 是名。外国人说名字通常名在前、姓在后。",
+    "日期写法：美式 月/日/年，英式 日/月/年。05/03 在美国是5月3日，在英国是3月5日。",
+    "拼写时一个字母一个字母说：W-A-N-G。容易混的字母可以加例词：B for boy, D for dog。"
+  ],
+  "words": [
+    {"en": "name", "zh": "名字"},
+    {"en": "first name", "zh": "名"},
+    {"en": "last name", "zh": "姓"},
+    {"en": "passport", "zh": "护照"},
+    {"en": "nationality", "zh": "国籍"},
+    {"en": "Chinese", "zh": "中国人；中文"},
+    {"en": "date of birth", "zh": "出生日期"},
+    {"en": "phone number", "zh": "电话号码"},
+    {"en": "email address", "zh": "电子邮箱"},
+    {"en": "address", "zh": "地址"},
+    {"en": "spell", "zh": "拼写"},
+    {"en": "today", "zh": "今天"},
+    {"en": "tomorrow", "zh": "明天"},
+    {"en": "next week", "zh": "下周"},
+    {"en": "sign here", "zh": "在这里签名"},
+    {"en": "signature", "zh": "签名"}
+  ],
+  "exchanges": [
+    {"hear": "What's your name?", "hearZh": "你叫什么名字？", "reply": "My name is Wang Lei. Wang is my last name.", "replyZh": "我叫王磊。王是我的姓。"},
+    {"hear": "How do you spell that?", "hearZh": "怎么拼写？", "reply": "W, A, N, G. Wang.", "replyZh": "W-A-N-G，王。"},
+    {"hear": "Where are you from?", "hearZh": "你从哪里来？", "reply": "I'm from China.", "replyZh": "我来自中国。"},
+    {"hear": "What's your date of birth?", "hearZh": "你的出生日期是？", "reply": "May twelfth, nineteen ninety.", "replyZh": "1990年5月12日。"},
+    {"hear": "What's the date today?", "hearZh": "今天几号？", "reply": "It's October twentieth.", "replyZh": "今天10月20日。"},
+    {"hear": "Can I have your phone number?", "hearZh": "能告诉我你的电话号码吗？", "reply": "Sure. It's one three eight, one two three four, five six seven eight.", "replyZh": "当然。138-1234-5678。"},
+    {"hear": "Please sign here.", "hearZh": "请在这里签名。", "reply": "Sure. Do I sign in Chinese or in English?", "replyZh": "好的。用中文签还是英文签？"},
+    {"hear": "When are you leaving?", "hearZh": "你什么时候离开？", "reply": "On Friday, the twenty-fifth.", "replyZh": "25号，星期五。"}
+  ],
+  "dialogue": {
+    "title": "登记个人信息",
+    "other": "工作人员",
+    "lines": [
+      {"s": "o", "en": "Can I have your name, please?", "zh": "请问您叫什么名字？"},
+      {"s": "me", "en": "Zhang Wei.", "zh": "张伟。"},
+      {"s": "o", "en": "Sorry, how do you spell your last name?", "zh": "抱歉，您的姓怎么拼？"},
+      {"s": "me", "en": "Z, H, A, N, G. Zhang.", "zh": "Z-H-A-N-G，张。"},
+      {"s": "o", "en": "Thank you. And your first name?", "zh": "谢谢。名字呢？"},
+      {"s": "me", "en": "Wei. W, E, I.", "zh": "伟，W-E-I。"},
+      {"s": "o", "en": "What's your date of birth?", "zh": "您的出生日期是？"},
+      {"s": "me", "en": "March third, nineteen eighty-eight.", "zh": "1988年3月3日。"},
+      {"s": "o", "en": "And your phone number?", "zh": "电话号码呢？"},
+      {"s": "me", "en": "It's plus eighty-six, one three nine, eight eight six six, two two one one.", "zh": "+86 139-8866-2211。"},
+      {"s": "o", "en": "Great. Please sign here.", "zh": "好的。请在这里签名。"},
+      {"s": "me", "en": "Sure. Here you are.", "zh": "好的，给您。"}
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "day": 4,
+  "title": "机场值机与托运",
+  "en": "Airport Check-in",
+  "icon": "flight_takeoff",
+  "goal": "能在值机柜台办理登机牌、选座位、托运行李，听懂关于行李和充电宝的提问。",
+  "tips": [
+    "check in 有两个意思：办理值机（check in for a flight）和托运行李（check in a bag）。酒店入住也叫 check in。",
+    "充电宝、锂电池必须随身携带，不能托运。被问到时说 It's in my carry-on.",
+    "登机牌上的 Gate 是登机口，Boarding 是开始登机时间，Seat 是座位号。"
+  ],
+  "words": [
+    {"en": "airport", "zh": "机场"},
+    {"en": "airline", "zh": "航空公司"},
+    {"en": "terminal", "zh": "航站楼"},
+    {"en": "check-in counter", "zh": "值机柜台"},
+    {"en": "flight", "zh": "航班"},
+    {"en": "boarding pass", "zh": "登机牌"},
+    {"en": "window seat", "zh": "靠窗座位"},
+    {"en": "aisle seat", "zh": "靠过道座位"},
+    {"en": "luggage", "zh": "行李"},
+    {"en": "suitcase", "zh": "行李箱"},
+    {"en": "check in a bag", "zh": "托运行李"},
+    {"en": "carry-on", "zh": "随身行李"},
+    {"en": "overweight", "zh": "超重的"},
+    {"en": "power bank", "zh": "充电宝"},
+    {"en": "fragile", "zh": "易碎的"},
+    {"en": "departure", "zh": "出发；离港"}
+  ],
+  "exchanges": [
+    {"hear": "Where are you flying to today?", "hearZh": "您今天飞哪里？", "reply": "I'm flying to London.", "replyZh": "我飞伦敦。"},
+    {"hear": "May I see your passport, please?", "hearZh": "请出示您的护照。", "reply": "Sure, here you are.", "replyZh": "好的，给您。"},
+    {"hear": "Do you have any bags to check in?", "hearZh": "有行李要托运吗？", "reply": "Yes, just one suitcase.", "replyZh": "有，就一个行李箱。"},
+    {"hear": "Would you like a window or an aisle seat?", "hearZh": "您想要靠窗还是靠过道的座位？", "reply": "An aisle seat, please.", "replyZh": "靠过道的，谢谢。"},
+    {"hear": "Your bag is overweight. There's an extra charge.", "hearZh": "您的行李超重了，需要额外收费。", "reply": "Can I take some things out?", "replyZh": "我能拿出来一些东西吗？"},
+    {"hear": "Are there any power banks or batteries in this bag?", "hearZh": "这个包里有充电宝或电池吗？", "reply": "No, they're all in my carry-on.", "replyZh": "没有，都在我的随身行李里。"},
+    {"hear": "Did you pack this bag yourself?", "hearZh": "这个包是您自己打包的吗？", "reply": "Yes, I did.", "replyZh": "是的，我自己打包的。"},
+    {"hear": "Boarding starts at nine fifteen at Gate thirty-two.", "hearZh": "九点十五分在32号登机口开始登机。", "reply": "Gate thirty-two at nine fifteen. Thank you.", "replyZh": "32号登机口，九点十五。谢谢。"}
+  ],
+  "dialogue": {
+    "title": "在值机柜台",
+    "other": "值机员",
+    "lines": [
+      {"s": "o", "en": "Good morning. Where are you flying today?", "zh": "早上好。您今天飞哪里？"},
+      {"s": "me", "en": "Good morning. To Sydney.", "zh": "早上好。去悉尼。"},
+      {"s": "o", "en": "May I see your passport, please?", "zh": "请出示您的护照。"},
+      {"s": "me", "en": "Here you are.", "zh": "给您。"},
+      {"s": "o", "en": "Thank you. How many bags are you checking in?", "zh": "谢谢。您要托运几件行李？"},
+      {"s": "me", "en": "Just one.", "zh": "就一件。"},
+      {"s": "o", "en": "Please put it on the scale. Are there any power banks in it?", "zh": "请把它放到秤上。里面有充电宝吗？"},
+      {"s": "me", "en": "No. My power bank is in my backpack.", "zh": "没有。我的充电宝在双肩包里。"},
+      {"s": "o", "en": "OK. Would you like a window or an aisle seat?", "zh": "好的。您想要靠窗还是靠过道？"},
+      {"s": "me", "en": "A window seat, please.", "zh": "靠窗的，谢谢。"},
+      {"s": "o", "en": "Here's your boarding pass. Boarding starts at ten thirty at Gate eighteen.", "zh": "这是您的登机牌。十点半在18号登机口开始登机。"},
+      {"s": "me", "en": "Thank you very much.", "zh": "非常感谢。"}
+    ]
+  }
+}

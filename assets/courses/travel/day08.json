@@ -1,0 +1,59 @@
+{
+  "day": 8,
+  "title": "入境检查（一）：基本问题",
+  "en": "Immigration (1): Basic Questions",
+  "icon": "badge",
+  "goal": "听懂移民官最常问的 5 个问题：来干什么、待多久、住哪里、第一次来吗、有回程票吗，并能简短回答。",
+  "tips": [
+    "回答移民官：简短、真实、前后一致。一两个词就够，比如 Sightseeing. / Ten days.",
+    "听不懂一定要说 Sorry, could you repeat that? 千万不要乱答 Yes。",
+    "提前把酒店预订单、回程机票截图存在手机相册里，被问到时直接给对方看。"
+  ],
+  "words": [
+    {"en": "immigration", "zh": "入境检查；移民局"},
+    {"en": "immigration officer", "zh": "移民官"},
+    {"en": "visa", "zh": "签证"},
+    {"en": "purpose", "zh": "目的"},
+    {"en": "visit", "zh": "访问；来访"},
+    {"en": "sightseeing", "zh": "观光"},
+    {"en": "on vacation", "zh": "度假（美式）"},
+    {"en": "on holiday", "zh": "度假（英式）"},
+    {"en": "on business", "zh": "出差"},
+    {"en": "stay", "zh": "停留；住"},
+    {"en": "return ticket", "zh": "回程机票"},
+    {"en": "hotel booking", "zh": "酒店预订"},
+    {"en": "fingerprint", "zh": "指纹"},
+    {"en": "look at the camera", "zh": "看摄像头"},
+    {"en": "line", "zh": "队伍（美式）"},
+    {"en": "queue", "zh": "队伍（英式）"},
+    {"en": "next, please", "zh": "下一位"}
+  ],
+  "exchanges": [
+    {"hear": "What's the purpose of your visit?", "hearZh": "你此行的目的是什么？", "reply": "Sightseeing. I'm here on vacation.", "replyZh": "观光，我来度假。"},
+    {"hear": "How long will you be staying?", "hearZh": "你要待多久？", "reply": "Ten days.", "replyZh": "十天。"},
+    {"hear": "Where will you be staying?", "hearZh": "你住在哪里？", "reply": "At the Holiday Inn near Central Station.", "replyZh": "住在中央车站附近的假日酒店。"},
+    {"hear": "Is this your first time here?", "hearZh": "你是第一次来吗？", "reply": "Yes, it's my first time.", "replyZh": "是的，第一次来。"},
+    {"hear": "Are you traveling alone?", "hearZh": "你是一个人旅行吗？", "reply": "No, I'm traveling with two friends.", "replyZh": "不是，我和两个朋友一起。"},
+    {"hear": "Please put your fingers on the scanner.", "hearZh": "请把手指放在扫描仪上。", "reply": "Like this?", "replyZh": "这样吗？"},
+    {"hear": "Do you have a return ticket?", "hearZh": "你有回程机票吗？", "reply": "Yes. Here's my flight itinerary.", "replyZh": "有。这是我的机票行程单。"},
+    {"hear": "Enjoy your stay.", "hearZh": "祝你玩得愉快。", "reply": "Thank you.", "replyZh": "谢谢。", "generic": true}
+  ],
+  "dialogue": {
+    "title": "过移民局（旅游）",
+    "other": "移民官",
+    "lines": [
+      {"s": "o", "en": "Next, please. Passport, please.", "zh": "下一位。请出示护照。"},
+      {"s": "me", "en": "Here you are.", "zh": "给您。"},
+      {"s": "o", "en": "What's the purpose of your visit?", "zh": "来访目的是什么？"},
+      {"s": "me", "en": "Sightseeing.", "zh": "观光。"},
+      {"s": "o", "en": "How long will you be staying?", "zh": "要待多久？"},
+      {"s": "me", "en": "Seven days.", "zh": "七天。"},
+      {"s": "o", "en": "Where are you staying?", "zh": "住在哪里？"},
+      {"s": "me", "en": "At the Park Hotel in the city center.", "zh": "市中心的公园酒店。"},
+      {"s": "o", "en": "Do you have a return ticket?", "zh": "有回程机票吗？"},
+      {"s": "me", "en": "Yes. Here it is.", "zh": "有，在这里。"},
+      {"s": "o", "en": "OK. Please look at the camera. Thank you. Enjoy your stay.", "zh": "好的。请看摄像头。谢谢，祝你玩得愉快。"},
+      {"s": "me", "en": "Thank you.", "zh": "谢谢。"}
+    ]
+  }
+}

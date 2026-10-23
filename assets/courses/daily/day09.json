@@ -1,0 +1,56 @@
+{
+  "day": 9,
+  "title": "通勤与出行",
+  "en": "Getting Around Town",
+  "icon": "commute",
+  "goal": "会聊上下班怎么走、堵不堵车，会打车、坐公交地铁时问路线和到站。",
+  "tips": [
+    "交通方式用 by：by bus, by subway, by car；但步行是 on foot，也可以说 I walk to work.",
+    "打车软件叫车：book a ride / call a car；上车后司机可能确认：Are you going to ...?",
+    "堵车：traffic jam；高峰期：rush hour。"
+  ],
+  "words": [
+    {"en": "commute", "zh": "通勤"},
+    {"en": "traffic jam", "zh": "堵车"},
+    {"en": "rush hour", "zh": "高峰期"},
+    {"en": "by bus", "zh": "坐公交"},
+    {"en": "on foot", "zh": "步行"},
+    {"en": "drive", "zh": "开车"},
+    {"en": "ride a bike", "zh": "骑自行车"},
+    {"en": "take a taxi", "zh": "打车"},
+    {"en": "book a ride", "zh": "（用软件）叫车"},
+    {"en": "bus stop", "zh": "公交站"},
+    {"en": "transfer", "zh": "换乘"},
+    {"en": "get on", "zh": "上车"},
+    {"en": "get off", "zh": "下车"},
+    {"en": "parking lot", "zh": "停车场"},
+    {"en": "gas station", "zh": "加油站"},
+    {"en": "crowded", "zh": "拥挤的"}
+  ],
+  "exchanges": [
+    {"hear": "How do you get to work?", "hearZh": "你怎么上班？", "reply": "I take the subway. It's faster than driving.", "replyZh": "坐地铁，比开车快。"},
+    {"hear": "Why are you so late?", "hearZh": "你怎么这么晚？", "reply": "Sorry, I got stuck in a traffic jam.", "replyZh": "抱歉，我堵车了。"},
+    {"hear": "Is the subway crowded in the morning?", "hearZh": "早上地铁挤吗？", "reply": "Very. Especially during rush hour.", "replyZh": "非常挤，尤其是高峰期。"},
+    {"hear": "Does this bus go to the train station?", "hearZh": "这辆公交去火车站吗？", "reply": "No, you need to take the number twelve.", "replyZh": "不去，你要坐十二路。"},
+    {"hear": "Where should I get off for the museum?", "hearZh": "去博物馆在哪站下车？", "reply": "Get off at the third stop.", "replyZh": "第三站下车。"},
+    {"hear": "Are you going to the airport?", "hearZh": "您是去机场吗？", "reply": "No, I'm going to the train station.", "replyZh": "不是，我去火车站。"},
+    {"hear": "Is there a parking lot near the mall?", "hearZh": "商场附近有停车场吗？", "reply": "Yes, there's one under the building.", "replyZh": "有，就在楼下。"},
+    {"hear": "How long is your commute?", "hearZh": "你通勤要多久？", "reply": "About half an hour each way.", "replyZh": "单程大约半小时。"}
+  ],
+  "dialogue": {
+    "title": "坐上网约车",
+    "other": "司机",
+    "lines": [
+      {"s": "o", "en": "Hi, are you Jenny?", "zh": "你好，是珍妮吗？"},
+      {"s": "me", "en": "Yes, that's me.", "zh": "是的，是我。"},
+      {"s": "o", "en": "Going to the City Library, right?", "zh": "去市图书馆，对吧？"},
+      {"s": "me", "en": "Yes. How long will it take?", "zh": "对。要多久？"},
+      {"s": "o", "en": "About twenty minutes. There's some traffic because it's rush hour.", "zh": "大约二十分钟。现在是高峰期，有点堵。"},
+      {"s": "me", "en": "That's OK. Can you drop me off at the side entrance?", "zh": "没关系。能在侧门放我下车吗？"},
+      {"s": "o", "en": "Sure. Is it on Park Road?", "zh": "可以。是在公园路上吗？"},
+      {"s": "me", "en": "Yes, next to the coffee shop.", "zh": "对，在咖啡店旁边。"},
+      {"s": "o", "en": "Here we are. Have a nice day!", "zh": "到了，祝你愉快！"},
+      {"s": "me", "en": "Thanks! You too.", "zh": "谢谢！你也是。"}
+    ]
+  }
+}

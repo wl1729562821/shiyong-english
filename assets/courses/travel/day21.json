@@ -1,0 +1,59 @@
+{
+  "day": 21,
+  "title": "购物与付款",
+  "en": "Shopping & Paying",
+  "icon": "shopping",
+  "goal": "会说随便看看、试穿、换尺码，听懂打折和价格，办理退税。",
+  "tips": [
+    "20% off = 打八折，不是二折！50% off = 半价。",
+    "店员问 Can I help you? 不想被打扰就说 I'm just looking, thanks.",
+    "退税（tax refund / tax-free）要出示护照，拿退税单，离境时在机场办理。"
+  ],
+  "words": [
+    {"en": "just looking", "zh": "随便看看"},
+    {"en": "try on", "zh": "试穿"},
+    {"en": "fitting room", "zh": "试衣间"},
+    {"en": "size", "zh": "尺码"},
+    {"en": "small", "zh": "小号"},
+    {"en": "medium", "zh": "中号"},
+    {"en": "large", "zh": "大号"},
+    {"en": "tight", "zh": "紧的"},
+    {"en": "another color", "zh": "别的颜色"},
+    {"en": "on sale", "zh": "打折中"},
+    {"en": "percent off", "zh": "减百分之……（打折）"},
+    {"en": "discount", "zh": "折扣"},
+    {"en": "cashier", "zh": "收银台；收银员"},
+    {"en": "tax refund", "zh": "退税"},
+    {"en": "souvenir", "zh": "纪念品"},
+    {"en": "exchange", "zh": "换货"},
+    {"en": "return", "zh": "退货"}
+  ],
+  "exchanges": [
+    {"hear": "Hi! Can I help you find anything?", "hearZh": "你好！需要帮您找什么吗？", "reply": "No, thanks. I'm just looking.", "replyZh": "不用了，谢谢。我随便看看。"},
+    {"hear": "What size are you?", "hearZh": "您穿什么尺码？", "reply": "Medium, I think.", "replyZh": "我想是中号。"},
+    {"hear": "The fitting room is over there.", "hearZh": "试衣间在那边。", "reply": "Thanks. Can I try on two at a time?", "replyZh": "谢谢。我可以一次试两件吗？"},
+    {"hear": "This one is on sale. It's twenty percent off.", "hearZh": "这件在打折，打八折。", "reply": "Great. I'll take it.", "replyZh": "太好了，我买了。"},
+    {"hear": "Cash or card?", "hearZh": "现金还是刷卡？", "reply": "Card, please. Can I get a tax refund?", "replyZh": "刷卡。可以退税吗？"},
+    {"hear": "Do you need a bag? It's ten cents.", "hearZh": "需要袋子吗？一毛钱一个。", "reply": "No, thanks. I have one.", "replyZh": "不用，谢谢。我有。"},
+    {"hear": "I need to see your passport for the tax refund.", "hearZh": "办理退税需要看一下您的护照。", "reply": "Here's my passport.", "replyZh": "这是我的护照。"},
+    {"hear": "Sorry, we don't give discounts.", "hearZh": "抱歉，我们不打折。", "reply": "What if I buy two?", "replyZh": "如果我买两个呢？"},
+    {"hear": "How does it fit?", "hearZh": "合身吗？", "reply": "It's a little tight. Do you have a bigger size?", "replyZh": "有点紧。有大一号的吗？"}
+  ],
+  "dialogue": {
+    "title": "买一件毛衣",
+    "other": "店员",
+    "lines": [
+      {"s": "o", "en": "Hi there. Are you looking for anything special?", "zh": "您好，想找点什么吗？"},
+      {"s": "me", "en": "Yes. I like this sweater. Do you have it in a medium?", "zh": "是的，我喜欢这件毛衣。有中号吗？"},
+      {"s": "o", "en": "Let me check. Yes, here you go. The fitting room is at the back.", "zh": "我看看。有，给您。试衣间在后面。"},
+      {"s": "me", "en": "Thanks. It's a little tight. Do you have a large?", "zh": "谢谢。有点紧，有大号吗？"},
+      {"s": "o", "en": "Sorry, we don't have a large in this color. We have a large in gray.", "zh": "抱歉，这个颜色没有大号了。灰色有大号。"},
+      {"s": "me", "en": "OK, I'll try the gray one.", "zh": "好的，我试试灰色的。"},
+      {"s": "me", "en": "This one fits. How much is it?", "zh": "这件合身。多少钱？"},
+      {"s": "o", "en": "It's sixty dollars, but it's twenty percent off today. So it's forty-eight dollars.", "zh": "原价60美元，今天打八折，所以是48美元。"},
+      {"s": "me", "en": "Great, I'll take it. Can I pay by card?", "zh": "太好了，我买了。可以刷卡吗？"},
+      {"s": "o", "en": "Of course. Do you need a bag?", "zh": "当然可以。需要袋子吗？"},
+      {"s": "me", "en": "Yes, please.", "zh": "要的，谢谢。"}
+    ]
+  }
+}

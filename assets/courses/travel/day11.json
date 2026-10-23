@@ -1,0 +1,56 @@
+{
+  "day": 11,
+  "title": "提取行李与行李丢失",
+  "en": "Baggage Claim & Lost Luggage",
+  "icon": "luggage",
+  "goal": "找到行李转盘；行李没到或损坏时，会描述行李、留联系方式、要求送到酒店。",
+  "tips": [
+    "离开行李提取区之前就去 Lost Baggage / Baggage Services 柜台登记，出了海关再回来就麻烦了。",
+    "保留行李牌（baggage tag，通常贴在登机牌或护照背面），登记时要用。",
+    "描述行李按“大小 + 颜色 + 特征”：a large black suitcase with a red ribbon on the handle。"
+  ],
+  "words": [
+    {"en": "baggage claim", "zh": "行李提取处"},
+    {"en": "carousel", "zh": "行李转盘"},
+    {"en": "luggage cart", "zh": "行李推车"},
+    {"en": "lost luggage", "zh": "丢失的行李"},
+    {"en": "baggage tag", "zh": "行李牌"},
+    {"en": "damaged", "zh": "损坏的"},
+    {"en": "missing", "zh": "不见了的"},
+    {"en": "describe", "zh": "描述"},
+    {"en": "large", "zh": "大的"},
+    {"en": "medium-size", "zh": "中号的"},
+    {"en": "handle", "zh": "把手；拉杆"},
+    {"en": "wheel", "zh": "轮子"},
+    {"en": "deliver", "zh": "送达"},
+    {"en": "fill out a form", "zh": "填表"},
+    {"en": "lost and found", "zh": "失物招领处"}
+  ],
+  "exchanges": [
+    {"hear": "Bags from your flight are on carousel five.", "hearZh": "您航班的行李在5号转盘。", "reply": "Carousel five. Where is it?", "replyZh": "5号转盘。在哪里？"},
+    {"hear": "Can I help you?", "hearZh": "需要帮忙吗？", "reply": "Yes. My suitcase didn't come out.", "replyZh": "是的，我的行李箱没出来。"},
+    {"hear": "Do you have your baggage tag?", "hearZh": "您有行李牌吗？", "reply": "Yes, it's on the back of my boarding pass.", "replyZh": "有，贴在登机牌背面。"},
+    {"hear": "Can you describe your bag?", "hearZh": "您能描述一下您的包吗？", "reply": "It's a large black suitcase with four wheels.", "replyZh": "是一个黑色的大行李箱，有四个轮子。"},
+    {"hear": "Is there a name tag on it?", "hearZh": "上面有名牌吗？", "reply": "Yes, my name and phone number are on it.", "replyZh": "有，上面有我的名字和电话。"},
+    {"hear": "Where should we deliver it?", "hearZh": "我们应该送到哪里？", "reply": "To my hotel, please. Here's the address.", "replyZh": "请送到我的酒店。这是地址。"},
+    {"hear": "We'll call you when we find it.", "hearZh": "找到后我们会给您打电话。", "reply": "How long will it take?", "replyZh": "需要多久？"},
+    {"hear": "What's the damage?", "hearZh": "哪里坏了？", "reply": "One of the wheels is broken.", "replyZh": "有一个轮子坏了。"}
+  ],
+  "dialogue": {
+    "title": "在行李服务柜台登记丢失",
+    "other": "行李服务员",
+    "lines": [
+      {"s": "me", "en": "Excuse me. My suitcase didn't come out. I was on flight UA eight five eight.", "zh": "打扰一下。我的行李箱没出来。我坐的是UA858航班。"},
+      {"s": "o", "en": "I'm sorry. Can I see your baggage tag?", "zh": "很抱歉。能看一下您的行李牌吗？"},
+      {"s": "me", "en": "Here it is.", "zh": "在这里。"},
+      {"s": "o", "en": "Thank you. Can you describe the bag?", "zh": "谢谢。您能描述一下行李吗？"},
+      {"s": "me", "en": "It's a medium-size blue suitcase. There's a red ribbon on the handle.", "zh": "一个蓝色的中号行李箱，拉杆上系着一根红丝带。"},
+      {"s": "o", "en": "OK. It looks like your bag is still in San Francisco. It'll come on the next flight.", "zh": "好的。看起来您的行李还在旧金山，会搭下一班飞机过来。"},
+      {"s": "me", "en": "When will it get here?", "zh": "什么时候能到？"},
+      {"s": "o", "en": "Tomorrow morning. Where should we deliver it?", "zh": "明天上午。我们送到哪里？"},
+      {"s": "me", "en": "To the Marriott Hotel on Fifth Avenue. Here's my phone number.", "zh": "第五大道的万豪酒店。这是我的电话号码。"},
+      {"s": "o", "en": "Great. We'll call you before delivery. Please fill out this form.", "zh": "好的。送之前我们会给您打电话。请填一下这张表。"},
+      {"s": "me", "en": "OK. Thank you.", "zh": "好的，谢谢。"}
+    ]
+  }
+}

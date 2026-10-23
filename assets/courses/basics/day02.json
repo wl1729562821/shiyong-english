@@ -1,0 +1,58 @@
+{
+  "day": 2,
+  "title": "数字：基数、序数、年份",
+  "en": "Numbers, Ordinals & Years",
+  "icon": "numbers",
+  "goal": "会说年龄、楼层、电话号码、年份，分清“第几”（序数词），听懂小数和百分数。",
+  "tips": [
+    "年份两位两位读：1998 读 nineteen ninety-eight；2026 读 twenty twenty-six 或 two thousand twenty-six。",
+    "电话号码一位一位读，0 常读 oh；两个相同的数字可以说 double：33 读 double three。",
+    "序数词：first、second、third，之后多数加 -th：fourth、fifth（five → fifth）、twelfth、twentieth。"
+  ],
+  "words": [
+    {"en": "zero", "zh": "零"},
+    {"en": "oh", "zh": "零（读电话号码、房间号时）"},
+    {"en": "eleven, twelve", "zh": "十一，十二"},
+    {"en": "twenty", "zh": "二十"},
+    {"en": "twenty-one", "zh": "二十一"},
+    {"en": "a hundred", "zh": "一百"},
+    {"en": "a thousand", "zh": "一千"},
+    {"en": "a million", "zh": "一百万"},
+    {"en": "first", "zh": "第一"},
+    {"en": "second", "zh": "第二"},
+    {"en": "third", "zh": "第三"},
+    {"en": "fifth", "zh": "第五"},
+    {"en": "half", "zh": "一半"},
+    {"en": "a quarter", "zh": "四分之一"},
+    {"en": "point", "zh": "小数点"},
+    {"en": "percent", "zh": "百分之……"},
+    {"en": "nineteen ninety-eight", "zh": "1998 年"}
+  ],
+  "exchanges": [
+    {"hear": "How old are you?", "hearZh": "你多大了？", "reply": "I'm thirty-two.", "replyZh": "我三十二岁。"},
+    {"hear": "What year were you born?", "hearZh": "你哪一年出生的？", "reply": "In nineteen ninety-four.", "replyZh": "1994 年。"},
+    {"hear": "Which floor do you live on?", "hearZh": "你住几楼？", "reply": "The fifth floor.", "replyZh": "五楼。"},
+    {"hear": "Can I have your number?", "hearZh": "能给我你的电话号码吗？", "reply": "Sure. It's one three nine, oh one two three, double four five six.", "replyZh": "好的。139-0123-4456。"},
+    {"hear": "How far is it from here?", "hearZh": "离这里多远？", "reply": "About twelve point five kilometers.", "replyZh": "大约十二点五公里。"},
+    {"hear": "How much is a hundred dollars in Chinese yuan?", "hearZh": "一百美元换成人民币是多少？", "reply": "About seven hundred yuan.", "replyZh": "大约七百元。"},
+    {"hear": "Is this your first time in a marathon?", "hearZh": "这是你第一次跑马拉松吗？", "reply": "No, it's my third time.", "replyZh": "不是，第三次了。"},
+    {"hear": "How many people came to the party?", "hearZh": "多少人来了派对？", "reply": "About fifty.", "replyZh": "大约五十个。"}
+  ],
+  "dialogue": {
+    "title": "办借书卡",
+    "other": "图书馆员",
+    "lines": [
+      {"s": "me", "en": "Hi, I'd like to get a library card.", "zh": "你好，我想办一张借书卡。"},
+      {"s": "o", "en": "Sure. How old are you?", "zh": "好的。您多大年纪？"},
+      {"s": "me", "en": "I'm twenty-eight.", "zh": "二十八岁。"},
+      {"s": "o", "en": "And what's your date of birth?", "zh": "出生日期是？"},
+      {"s": "me", "en": "The fifteenth of August, nineteen ninety-eight.", "zh": "1998 年 8 月 15 日。"},
+      {"s": "o", "en": "What's your phone number?", "zh": "电话号码是多少？"},
+      {"s": "me", "en": "One five eight, oh six two two, three nine one four.", "zh": "158-0622-3914。"},
+      {"s": "o", "en": "Thanks. You can borrow up to ten books for three weeks.", "zh": "谢谢。您最多可以借十本书，借三周。"},
+      {"s": "me", "en": "Ten books for three weeks. Great.", "zh": "十本，三周。太好了。"},
+      {"s": "o", "en": "Your card number is four oh seven two.", "zh": "您的卡号是 4072。"},
+      {"s": "me", "en": "Four oh seven two. Thank you.", "zh": "4072，谢谢。"}
+    ]
+  }
+}

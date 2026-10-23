@@ -1,0 +1,54 @@
+{
+  "day": 6,
+  "title": "飞机上",
+  "en": "On the Plane",
+  "icon": "airline_seat",
+  "goal": "听懂空乘的询问和提醒，会要毯子、水、餐食，身体不舒服时会求助。",
+  "tips": [
+    "空乘问 Chicken or beef? 直接答 Chicken, please. 就行，不需要完整句子。",
+    "Are you finished with that? / Are you done? 是在问“您用完了吗？”（准备收餐盘）。",
+    "落地前空乘会发入境卡（arrival card），记得借笔填写，护照号、航班号、酒店地址提前准备好。"
+  ],
+  "words": [
+    {"en": "flight attendant", "zh": "空乘人员"},
+    {"en": "seat belt", "zh": "安全带"},
+    {"en": "overhead bin", "zh": "头顶行李架"},
+    {"en": "blanket", "zh": "毯子"},
+    {"en": "pillow", "zh": "枕头"},
+    {"en": "meal", "zh": "餐食"},
+    {"en": "something to drink", "zh": "喝点什么"},
+    {"en": "headphones", "zh": "耳机"},
+    {"en": "restroom", "zh": "洗手间"},
+    {"en": "turbulence", "zh": "气流颠簸"},
+    {"en": "landing", "zh": "着陆"},
+    {"en": "arrival card", "zh": "入境卡"},
+    {"en": "airsick", "zh": "晕机的"},
+    {"en": "borrow a pen", "zh": "借支笔"},
+    {"en": "seat back", "zh": "座椅靠背"}
+  ],
+  "exchanges": [
+    {"hear": "Excuse me, I think you're in my seat.", "hearZh": "打扰一下，您好像坐了我的座位。", "reply": "Oh, sorry. Let me check my boarding pass.", "replyZh": "哦，抱歉。我看一下登机牌。"},
+    {"hear": "Chicken or beef?", "hearZh": "鸡肉还是牛肉？", "reply": "Chicken, please.", "replyZh": "鸡肉，谢谢。"},
+    {"hear": "Would you like something to drink?", "hearZh": "您想喝点什么？", "reply": "Orange juice, please.", "replyZh": "橙汁，谢谢。"},
+    {"hear": "Could you put your seat back up, please?", "hearZh": "请把您的座椅靠背调直。", "reply": "Sure, no problem.", "replyZh": "好的，没问题。", "generic": true},
+    {"hear": "Would you like an arrival card?", "hearZh": "您需要入境卡吗？", "reply": "Yes, please. Could I borrow a pen?", "replyZh": "要的，谢谢。能借我一支笔吗？"},
+    {"hear": "Are you finished with that?", "hearZh": "您用完了吗？", "reply": "Yes, thank you. You can take it.", "replyZh": "用完了，谢谢。您可以收走了。"},
+    {"hear": "Please put your bag in the overhead bin.", "hearZh": "请把您的包放到头顶行李架上。", "reply": "It's too heavy. Could you help me?", "replyZh": "太重了。您能帮我一下吗？"},
+    {"hear": "Are you OK? You look pale.", "hearZh": "您还好吗？您脸色有点苍白。", "reply": "I feel a bit airsick. Could I have some water?", "replyZh": "我有点晕机。能给我点水吗？"}
+  ],
+  "dialogue": {
+    "title": "向空乘要东西",
+    "other": "空乘",
+    "lines": [
+      {"s": "me", "en": "Excuse me. Could I have a blanket, please?", "zh": "打扰一下，能给我一条毯子吗？"},
+      {"s": "o", "en": "Sure. Anything else?", "zh": "好的。还需要别的吗？"},
+      {"s": "me", "en": "Could I also have some water?", "zh": "能再给我点水吗？"},
+      {"s": "o", "en": "Of course. Here you go. We'll serve the meal in thirty minutes. We have chicken with rice or beef with noodles.", "zh": "当然，给您。三十分钟后供餐，有鸡肉饭和牛肉面。"},
+      {"s": "me", "en": "Chicken with rice, please. And where is the restroom?", "zh": "鸡肉饭，谢谢。还有，洗手间在哪里？"},
+      {"s": "o", "en": "It's at the back of the plane. But please wait, the seat belt sign is on now.", "zh": "在飞机后部。不过请稍等，现在安全带指示灯亮着。"},
+      {"s": "me", "en": "OK. Is it because of turbulence?", "zh": "好的。是因为气流颠簸吗？"},
+      {"s": "o", "en": "Yes. It should be over in a few minutes.", "zh": "是的。几分钟后应该就过去了。"},
+      {"s": "me", "en": "Thank you.", "zh": "谢谢。"}
+    ]
+  }
+}

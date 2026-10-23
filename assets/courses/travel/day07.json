@@ -1,0 +1,53 @@
+{
+  "day": 7,
+  "title": "转机",
+  "en": "Transfers & Connections",
+  "icon": "connecting",
+  "goal": "会跟着指示牌转机，确认行李是否直挂，误机时会要求改签。",
+  "tips": [
+    "转机跟着 Transfers / Flight Connections 指示牌走，不要跟着 Exit / Baggage Claim 走。",
+    "值机时就问清楚：Is my bag checked through to ...? 直挂的行李中转站不用取。",
+    "layover = 中转停留时间。不同国家对过境签证要求不同，出发前查清楚。"
+  ],
+  "words": [
+    {"en": "transfer", "zh": "转机；换乘"},
+    {"en": "connecting flight", "zh": "转乘航班"},
+    {"en": "transit", "zh": "过境"},
+    {"en": "layover", "zh": "中转停留"},
+    {"en": "transfer desk", "zh": "转机柜台"},
+    {"en": "final destination", "zh": "最终目的地"},
+    {"en": "checked through", "zh": "（行李）直挂"},
+    {"en": "miss a flight", "zh": "误机"},
+    {"en": "rebook", "zh": "改签"},
+    {"en": "next flight", "zh": "下一班航班"},
+    {"en": "follow the signs", "zh": "跟着指示牌走"},
+    {"en": "transit visa", "zh": "过境签证"},
+    {"en": "duty-free shop", "zh": "免税店"},
+    {"en": "shuttle train", "zh": "（航站楼间）摆渡列车"}
+  ],
+  "exchanges": [
+    {"hear": "Is this your final destination?", "hearZh": "这是您的最终目的地吗？", "reply": "No, I'm transferring to Berlin.", "replyZh": "不是，我要转机去柏林。"},
+    {"hear": "Your bag is checked through to Berlin.", "hearZh": "您的行李直挂到柏林。", "reply": "So I don't need to pick it up here?", "replyZh": "所以我在这里不用取行李？"},
+    {"hear": "Follow the signs for Flight Connections.", "hearZh": "跟着“转机”指示牌走。", "reply": "Do I need to go through security again?", "replyZh": "我需要再过一次安检吗？"},
+    {"hear": "I'm afraid you've missed your connecting flight.", "hearZh": "恐怕您已经错过了转乘航班。", "reply": "Can you rebook me on the next flight?", "replyZh": "您能帮我改签到下一班吗？"},
+    {"hear": "The next flight is tomorrow morning.", "hearZh": "下一班是明天早上。", "reply": "Will the airline provide a hotel?", "replyZh": "航空公司会提供酒店吗？"},
+    {"hear": "Your connecting flight leaves from Terminal five.", "hearZh": "您的转乘航班从5号航站楼出发。", "reply": "How do I get to Terminal five?", "replyZh": "我怎么去5号航站楼？"},
+    {"hear": "How long is your layover?", "hearZh": "您中转停留多久？", "reply": "About four hours.", "replyZh": "大约四个小时。"},
+    {"hear": "You need a transit visa to leave the airport.", "hearZh": "您需要过境签证才能出机场。", "reply": "That's OK. I'll stay inside the airport.", "replyZh": "没关系，我就待在机场里。"}
+  ],
+  "dialogue": {
+    "title": "误机后在转机柜台改签",
+    "other": "转机柜台",
+    "lines": [
+      {"s": "me", "en": "Excuse me. My first flight was delayed, and I missed my connecting flight.", "zh": "打扰一下。我的第一程航班延误了，我错过了转乘航班。"},
+      {"s": "o", "en": "I'm sorry to hear that. May I see your boarding pass?", "zh": "很遗憾。能看一下您的登机牌吗？"},
+      {"s": "me", "en": "Here you are. I was going to Madrid.", "zh": "给您。我本来要去马德里。"},
+      {"s": "o", "en": "Let me check. The next flight to Madrid leaves at six fifteen this evening.", "zh": "我查一下。下一班去马德里的航班是今晚六点十五分。"},
+      {"s": "me", "en": "Can you rebook me on that flight?", "zh": "您能帮我改签到那一班吗？"},
+      {"s": "o", "en": "Yes. Here's your new boarding pass. Your bag will go on the same flight.", "zh": "可以。这是您的新登机牌。您的行李也会上同一班飞机。"},
+      {"s": "me", "en": "Great. Do I need to go through security again?", "zh": "太好了。我需要再过一次安检吗？"},
+      {"s": "o", "en": "Yes. Follow the signs for Flight Connections.", "zh": "需要。跟着“转机”指示牌走。"},
+      {"s": "me", "en": "Thank you for your help.", "zh": "谢谢您的帮助。"}
+    ]
+  }
+}

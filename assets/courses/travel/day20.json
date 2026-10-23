@@ -1,0 +1,61 @@
+{
+  "day": 20,
+  "title": "餐厅点餐",
+  "en": "At the Restaurant",
+  "icon": "restaurant",
+  "goal": "会订位、点菜、说忌口和过敏，听懂服务员的询问，会结账和分开付。",
+  "tips": [
+    "美国说 check，英国说 bill：Could we have the check / bill, please?",
+    "美国餐厅一般要付 15%–20% 小费（tip），很多欧洲国家不强制。",
+    "欧洲餐厅的水通常要钱，想要免费的自来水就说 tap water, please."
+  ],
+  "words": [
+    {"en": "a table for two", "zh": "两人桌"},
+    {"en": "reservation", "zh": "订位；预订"},
+    {"en": "menu", "zh": "菜单"},
+    {"en": "order", "zh": "点菜"},
+    {"en": "recommend", "zh": "推荐"},
+    {"en": "starter", "zh": "前菜；开胃菜"},
+    {"en": "main course", "zh": "主菜"},
+    {"en": "dessert", "zh": "甜点"},
+    {"en": "spicy", "zh": "辣的"},
+    {"en": "allergic to", "zh": "对……过敏"},
+    {"en": "vegetarian", "zh": "素食者；素食的"},
+    {"en": "medium rare", "zh": "（牛排）三分熟"},
+    {"en": "well-done", "zh": "（牛排）全熟"},
+    {"en": "tap water", "zh": "自来水（免费）"},
+    {"en": "to go", "zh": "外带（美式）"},
+    {"en": "the check", "zh": "账单（美式）"},
+    {"en": "tip", "zh": "小费"},
+    {"en": "pay separately", "zh": "分开付"}
+  ],
+  "exchanges": [
+    {"hear": "Do you have a reservation?", "hearZh": "您有预订吗？", "reply": "No, we don't. A table for two, please.", "replyZh": "没有。两个人。"},
+    {"hear": "Are you ready to order?", "hearZh": "可以点菜了吗？", "reply": "Not yet. Could we have a few more minutes?", "replyZh": "还没有。能再给我们几分钟吗？"},
+    {"hear": "Still or sparkling water?", "hearZh": "要无气矿泉水还是气泡水？", "reply": "Just tap water, please.", "replyZh": "自来水就行，谢谢。"},
+    {"hear": "How would you like your steak?", "hearZh": "牛排要几分熟？", "reply": "Medium, please.", "replyZh": "五分熟。"},
+    {"hear": "Do you have any allergies?", "hearZh": "您有什么过敏的吗？", "reply": "Yes, I'm allergic to peanuts.", "replyZh": "有，我对花生过敏。"},
+    {"hear": "How is everything?", "hearZh": "菜品都还满意吗？", "reply": "It's delicious, thanks.", "replyZh": "很好吃，谢谢。"},
+    {"hear": "Can I get you anything else? Some dessert?", "hearZh": "还需要别的吗？来点甜点？", "reply": "No, thanks. Could we have the check, please?", "replyZh": "不用了，谢谢。可以结账吗？"},
+    {"hear": "For here or to go?", "hearZh": "堂食还是外带？", "reply": "To go, please.", "replyZh": "外带。"},
+    {"hear": "Is this together or separate?", "hearZh": "一起付还是分开付？", "reply": "Separate, please.", "replyZh": "分开付。"}
+  ],
+  "dialogue": {
+    "title": "在餐厅点菜结账",
+    "other": "服务员",
+    "lines": [
+      {"s": "o", "en": "Good evening. How many?", "zh": "晚上好，几位？"},
+      {"s": "me", "en": "Two, please.", "zh": "两位。"},
+      {"s": "o", "en": "Right this way. Here are your menus. Can I get you something to drink?", "zh": "这边请。这是菜单。先给您上点喝的吗？"},
+      {"s": "me", "en": "Just water for now, thanks. What do you recommend?", "zh": "先来点水就行，谢谢。你们推荐什么？"},
+      {"s": "o", "en": "Our grilled salmon is very popular, and the beef stew is great too.", "zh": "我们的烤三文鱼很受欢迎，炖牛肉也很好吃。"},
+      {"s": "me", "en": "We'll have one salmon and one beef stew. Is the stew spicy?", "zh": "我们要一份三文鱼和一份炖牛肉。炖牛肉辣吗？"},
+      {"s": "o", "en": "No, not at all. Any allergies I should know about?", "zh": "一点也不辣。有什么需要注意的过敏吗？"},
+      {"s": "me", "en": "No, thanks. That's all for now.", "zh": "没有，谢谢。先点这些。"},
+      {"s": "me", "en": "Excuse me, could we have the check, please?", "zh": "打扰一下，我们可以结账吗？"},
+      {"s": "o", "en": "Sure. Is this together or separate?", "zh": "好的。一起付还是分开付？"},
+      {"s": "me", "en": "Together. Can I pay by card?", "zh": "一起付。可以刷卡吗？"},
+      {"s": "o", "en": "Of course. I'll bring the card machine.", "zh": "当然，我把刷卡机拿过来。"}
+    ]
+  }
+}

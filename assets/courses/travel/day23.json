@@ -1,0 +1,55 @@
+{
+  "day": 23,
+  "title": "商务：见面与寒暄",
+  "en": "Business: Meeting & Small Talk",
+  "icon": "handshake",
+  "goal": "商务场合会自我介绍、递名片、介绍同事，能接住对方的寒暄（航班、倒时差、对城市的印象）。",
+  "tips": [
+    "初次见面说 Nice to meet you，告别时说 Nice meeting you / It was nice to meet you.",
+    "对方说 Please call me Mark. 之后就直接叫名字，不用再加 Mr.",
+    "寒暄常见三问：How was your flight? / Is this your first time here? / How do you like the city? 准备好一两句回答。"
+  ],
+  "words": [
+    {"en": "nice to meet you", "zh": "很高兴见到你"},
+    {"en": "business card", "zh": "名片"},
+    {"en": "colleague", "zh": "同事"},
+    {"en": "job title", "zh": "职位"},
+    {"en": "in charge of", "zh": "负责"},
+    {"en": "department", "zh": "部门"},
+    {"en": "headquarters", "zh": "总部"},
+    {"en": "branch", "zh": "分公司"},
+    {"en": "customer", "zh": "顾客；客户"},
+    {"en": "partner", "zh": "合作伙伴"},
+    {"en": "product", "zh": "产品"},
+    {"en": "jet lag", "zh": "时差反应"},
+    {"en": "introduce", "zh": "介绍"},
+    {"en": "purchasing manager", "zh": "采购经理"},
+    {"en": "quality control", "zh": "质量控制；质检"}
+  ],
+  "exchanges": [
+    {"hear": "Hi, I'm Mark Johnson from ABC Company. Nice to meet you.", "hearZh": "你好，我是ABC公司的马克·约翰逊。很高兴见到你。", "reply": "Nice to meet you too. I'm Li Na. Here's my card.", "replyZh": "我也很高兴见到你。我是李娜，这是我的名片。"},
+    {"hear": "How was your flight?", "hearZh": "航班怎么样？", "reply": "It was long, but it was OK. Thanks for asking.", "replyZh": "挺长的，不过还好。谢谢关心。"},
+    {"hear": "Is this your first time in New York?", "hearZh": "你是第一次来纽约吗？", "reply": "No, I was here two years ago.", "replyZh": "不是，我两年前来过。"},
+    {"hear": "Are you jet-lagged?", "hearZh": "你有时差反应吗？", "reply": "A little. I didn't sleep well last night.", "replyZh": "有一点，昨晚没睡好。"},
+    {"hear": "What do you do at your company?", "hearZh": "你在公司负责什么？", "reply": "I'm in charge of overseas sales.", "replyZh": "我负责海外销售。"},
+    {"hear": "Let me introduce my colleague, Sarah.", "hearZh": "我来介绍一下我的同事莎拉。", "reply": "Hi, Sarah. Nice to meet you.", "replyZh": "你好，莎拉，很高兴认识你。"},
+    {"hear": "How do you like the city so far?", "hearZh": "到目前为止你觉得这座城市怎么样？", "reply": "I love it. The food is great.", "replyZh": "我很喜欢，这里的食物很棒。"},
+    {"hear": "Can I get you some coffee or tea?", "hearZh": "给您来点咖啡还是茶？", "reply": "Coffee would be great, thanks.", "replyZh": "咖啡就好，谢谢。"}
+  ],
+  "dialogue": {
+    "title": "第一次拜访客户",
+    "other": "客户",
+    "lines": [
+      {"s": "o", "en": "Good morning! You must be Mr. Zhao. I'm Emily Brown, the purchasing manager.", "zh": "早上好！您一定是赵先生吧。我是采购经理艾米丽·布朗。"},
+      {"s": "me", "en": "Good morning, Ms. Brown. Nice to meet you. Here's my card.", "zh": "早上好，布朗女士。很高兴见到您，这是我的名片。"},
+      {"s": "o", "en": "Thank you. Please call me Emily. How was your trip?", "zh": "谢谢。叫我艾米丽就好。旅途怎么样？"},
+      {"s": "me", "en": "It was a long flight, but everything went well.", "zh": "飞行时间挺长的，不过一切顺利。"},
+      {"s": "o", "en": "Are you staying nearby?", "zh": "您住在附近吗？"},
+      {"s": "me", "en": "Yes, at the Westin. It's just ten minutes from here.", "zh": "是的，住在威斯汀，离这里只有十分钟。"},
+      {"s": "o", "en": "Great. Can I get you a coffee before the meeting?", "zh": "太好了。开会前给您来杯咖啡吗？"},
+      {"s": "me", "en": "Yes, please. Black, no sugar.", "zh": "好的，谢谢。黑咖啡，不加糖。"},
+      {"s": "o", "en": "Let me introduce you to my colleague, David. He's in charge of quality control.", "zh": "我给您介绍一下我的同事大卫，他负责质量控制。"},
+      {"s": "me", "en": "Nice to meet you, David.", "zh": "很高兴认识你，大卫。"}
+    ]
+  }
+}

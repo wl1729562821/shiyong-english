@@ -1,0 +1,59 @@
+{
+  "day": 24,
+  "title": "商务：预约、会议与电话",
+  "en": "Business: Appointments, Meetings & Calls",
+  "icon": "phone",
+  "goal": "会打电话找人、留言、约会议时间，听懂报价、交货期、价格谈判的基本说法。",
+  "tips": [
+    "电话里 Hold on, please. = 请稍等；I'll put you through. = 我帮你转接；He's in a meeting. = 他在开会。",
+    "约时间最后一定复述确认：So that's ten a.m. on Wednesday, right?",
+    "价格、数量、日期这些关键信息，会后用邮件再确认一遍：I'll follow up by email."
+  ],
+  "words": [
+    {"en": "appointment", "zh": "预约"},
+    {"en": "schedule", "zh": "日程"},
+    {"en": "free", "zh": "有空的"},
+    {"en": "meeting room", "zh": "会议室"},
+    {"en": "agenda", "zh": "议程"},
+    {"en": "presentation", "zh": "演示；汇报"},
+    {"en": "sample", "zh": "样品"},
+    {"en": "price list", "zh": "价目表"},
+    {"en": "quotation", "zh": "报价单"},
+    {"en": "order", "zh": "订单"},
+    {"en": "delivery time", "zh": "交货期"},
+    {"en": "contract", "zh": "合同"},
+    {"en": "deadline", "zh": "截止日期"},
+    {"en": "follow up", "zh": "跟进"},
+    {"en": "hold on", "zh": "（电话）稍等"},
+    {"en": "put you through", "zh": "帮你转接"},
+    {"en": "leave a message", "zh": "留言"}
+  ],
+  "exchanges": [
+    {"hear": "Are you free on Thursday afternoon?", "hearZh": "你周四下午有空吗？", "reply": "Yes, I'm free after two.", "replyZh": "有空，两点以后都可以。"},
+    {"hear": "Hello, ABC Company. How may I help you?", "hearZh": "您好，ABC公司。有什么可以帮您？", "reply": "Hello. Could I speak to Mr. Smith, please?", "replyZh": "你好。请找一下史密斯先生。"},
+    {"hear": "Hold on, please. I'll put you through.", "hearZh": "请稍等，我帮您转接。", "reply": "Thank you.", "replyZh": "谢谢。", "generic": true},
+    {"hear": "I'm afraid he's in a meeting. Would you like to leave a message?", "hearZh": "恐怕他在开会。您要留言吗？", "reply": "Yes, please ask him to call me back.", "replyZh": "好的，请让他给我回个电话。"},
+    {"hear": "Could you send us a quotation?", "hearZh": "能给我们发一份报价吗？", "reply": "Sure. I'll email it to you today.", "replyZh": "当然，我今天发邮件给您。"},
+    {"hear": "What's the delivery time?", "hearZh": "交货期多久？", "reply": "About four weeks after we receive the order.", "replyZh": "收到订单后大约四周。"},
+    {"hear": "Can you give us a better price?", "hearZh": "价格能再优惠点吗？", "reply": "If you order more than one thousand pieces, we can give you five percent off.", "replyZh": "如果订一千件以上，我们可以优惠5%。"},
+    {"hear": "Let's go over the agenda.", "hearZh": "我们过一下议程吧。", "reply": "Sure. First, I'll give a short presentation.", "replyZh": "好的。首先我做一个简短的介绍。"},
+    {"hear": "Let's keep in touch.", "hearZh": "我们保持联系。", "reply": "Sure. I'll follow up by email next week.", "replyZh": "好的，我下周发邮件跟进。", "generic": true}
+  ],
+  "dialogue": {
+    "title": "打电话约会议",
+    "other": "前台",
+    "lines": [
+      {"s": "o", "en": "Good afternoon, Global Trading. How can I help you?", "zh": "下午好，环球贸易。有什么可以帮您？"},
+      {"s": "me", "en": "Good afternoon. This is Wang Fang from Sunrise Electronics. Could I speak to Mr. Lee, please?", "zh": "下午好。我是日升电子的王芳。请找一下李先生。"},
+      {"s": "o", "en": "One moment, please. I'm sorry, Mr. Lee is in a meeting right now.", "zh": "请稍等。抱歉，李先生现在在开会。"},
+      {"s": "me", "en": "I see. Could I leave a message?", "zh": "明白了。我能留个言吗？"},
+      {"s": "o", "en": "Of course.", "zh": "当然。"},
+      {"s": "me", "en": "I'd like to set up a meeting with him next week. Is he free on Wednesday morning?", "zh": "我想下周和他约个会议。他周三上午有空吗？"},
+      {"s": "o", "en": "Let me check his schedule. Yes, he's free at ten a.m.", "zh": "我查一下他的日程。有空，上午十点可以。"},
+      {"s": "me", "en": "Great. So that's ten a.m. on Wednesday, right? I'll bring the samples and the price list.", "zh": "太好了。那就是周三上午十点，对吧？我会带上样品和价目表。"},
+      {"s": "o", "en": "Perfect. Could you spell your name, please?", "zh": "好的。能拼一下您的名字吗？"},
+      {"s": "me", "en": "Wang, W, A, N, G. Fang, F, A, N, G.", "zh": "王，W-A-N-G。芳，F-A-N-G。"},
+      {"s": "o", "en": "Thank you. I'll let him know.", "zh": "谢谢，我会转告他。"}
+    ]
+  }
+}

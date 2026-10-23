@@ -1,0 +1,56 @@
+{
+  "day": 18,
+  "title": "计划与打算",
+  "en": "Future Plans",
+  "icon": "future",
+  "goal": "会说接下来的打算（明天、周末、明年），听懂 Are you going to ...? / What are your plans? 并回答。",
+  "tips": [
+    "已经决定的计划用 be going to：I'm going to visit my parents. 已经约好的用现在进行时：I'm meeting Tom at six.",
+    "临时决定、承诺用 will：I'll call you later. / I'll help you.",
+    "不确定：I might ... / I'm thinking about ...ing（我在考虑……）"
+  ],
+  "words": [
+    {"en": "plan", "zh": "计划"},
+    {"en": "be going to", "zh": "打算；将要"},
+    {"en": "will", "zh": "将会"},
+    {"en": "might", "zh": "可能会"},
+    {"en": "thinking about", "zh": "在考虑"},
+    {"en": "tomorrow", "zh": "明天"},
+    {"en": "this weekend", "zh": "这个周末"},
+    {"en": "next month", "zh": "下个月"},
+    {"en": "next year", "zh": "明年"},
+    {"en": "soon", "zh": "很快"},
+    {"en": "someday", "zh": "将来某一天"},
+    {"en": "goal", "zh": "目标"},
+    {"en": "save money", "zh": "存钱"},
+    {"en": "move", "zh": "搬家"},
+    {"en": "change jobs", "zh": "换工作"},
+    {"en": "hopefully", "zh": "但愿；希望"}
+  ],
+  "exchanges": [
+    {"hear": "What are your plans for the weekend?", "hearZh": "你周末有什么安排？", "reply": "I'm going to visit my grandparents.", "replyZh": "我要去看我爷爷奶奶。"},
+    {"hear": "Are you going to the party tonight?", "hearZh": "你今晚去派对吗？", "reply": "I might. It depends on how I feel.", "replyZh": "可能去，看我感觉怎么样。"},
+    {"hear": "What are you doing after work?", "hearZh": "你下班后干什么？", "reply": "I'm meeting a friend for dinner.", "replyZh": "我约了朋友吃晚饭。"},
+    {"hear": "Do you have any big plans for next year?", "hearZh": "明年有什么大计划吗？", "reply": "I'm thinking about changing jobs.", "replyZh": "我在考虑换工作。"},
+    {"hear": "When are you moving?", "hearZh": "你什么时候搬家？", "reply": "Next month, hopefully.", "replyZh": "希望是下个月。"},
+    {"hear": "I can't carry all these bags.", "hearZh": "这么多袋子我拿不动。", "reply": "Don't worry, I'll help you.", "replyZh": "别担心，我来帮你。"},
+    {"hear": "What's your goal for this year?", "hearZh": "你今年的目标是什么？", "reply": "I want to save money and travel abroad.", "replyZh": "我想存钱，然后出国旅行。"},
+    {"hear": "Call me when you get home, OK?", "hearZh": "到家给我打个电话，好吗？", "reply": "OK, I will.", "replyZh": "好的，我会的。"}
+  ],
+  "dialogue": {
+    "title": "聊新年计划",
+    "other": "朋友",
+    "lines": [
+      {"s": "o", "en": "So, what are your plans for next year?", "zh": "那么，你明年有什么计划？"},
+      {"s": "me", "en": "I'm going to take an English course. I want to travel more.", "zh": "我打算上个英语课，我想多去旅行。"},
+      {"s": "o", "en": "That's a great goal. Where do you want to go?", "zh": "很好的目标。想去哪儿？"},
+      {"s": "me", "en": "I might go to Australia. My cousin lives there.", "zh": "可能去澳大利亚，我表姐住在那儿。"},
+      {"s": "o", "en": "Cool! When are you thinking of going?", "zh": "好酷！打算什么时候去？"},
+      {"s": "me", "en": "Maybe in March. I need to save some money first.", "zh": "也许三月吧。我得先存点钱。"},
+      {"s": "o", "en": "Good idea. I'm going to change jobs next year, hopefully.", "zh": "好主意。我明年打算换工作，但愿能成。"},
+      {"s": "me", "en": "Really? What kind of job are you looking for?", "zh": "真的？你想找什么样的工作？"},
+      {"s": "o", "en": "Something in design. I'll start applying soon.", "zh": "设计方面的。我很快就开始投简历。"},
+      {"s": "me", "en": "Good luck! I'm sure you'll find something great.", "zh": "祝你好运！你一定能找到好工作。"}
+    ]
+  }
+}

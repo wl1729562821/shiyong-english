@@ -1,0 +1,56 @@
+{
+  "day": 3,
+  "title": "工作与学习",
+  "en": "Work & Study",
+  "icon": "work",
+  "goal": "会介绍自己的工作内容、上下班时间、喜欢或不喜欢工作的哪些方面，也能聊学习和专业。",
+  "tips": [
+    "What do you do? 问职业；What does your job involve? 问具体做什么。",
+    "说工作内容：I'm in charge of ... / I deal with ... / I work in sales（在销售部门）。",
+    "抱怨工作也很常见：I have to work overtime a lot.（经常加班）"
+  ],
+  "words": [
+    {"en": "job", "zh": "工作"},
+    {"en": "office", "zh": "办公室"},
+    {"en": "boss", "zh": "老板；上司"},
+    {"en": "colleague", "zh": "同事"},
+    {"en": "meeting", "zh": "会议"},
+    {"en": "deadline", "zh": "截止日期"},
+    {"en": "work overtime", "zh": "加班"},
+    {"en": "day off", "zh": "休息日；请假的一天"},
+    {"en": "salary", "zh": "工资"},
+    {"en": "part-time", "zh": "兼职的"},
+    {"en": "full-time", "zh": "全职的"},
+    {"en": "work from home", "zh": "在家办公"},
+    {"en": "major", "zh": "专业；主修"},
+    {"en": "university", "zh": "大学"},
+    {"en": "graduate", "zh": "毕业"},
+    {"en": "exam", "zh": "考试"}
+  ],
+  "exchanges": [
+    {"hear": "What does your job involve?", "hearZh": "你的工作具体做什么？", "reply": "I deal with customers and answer their questions.", "replyZh": "我负责对接客户、回答他们的问题。"},
+    {"hear": "What time do you finish work?", "hearZh": "你几点下班？", "reply": "Usually at six, but sometimes I work overtime.", "replyZh": "一般六点，不过有时候加班。"},
+    {"hear": "Do you like your job?", "hearZh": "你喜欢你的工作吗？", "reply": "Yes, I do. My colleagues are really nice.", "replyZh": "喜欢，同事们人都很好。"},
+    {"hear": "Can you work from home?", "hearZh": "你可以在家办公吗？", "reply": "Two days a week.", "replyZh": "每周可以两天。"},
+    {"hear": "What did you study at university?", "hearZh": "你大学学的什么？", "reply": "I majored in computer science.", "replyZh": "我学的是计算机。"},
+    {"hear": "When do you graduate?", "hearZh": "你什么时候毕业？", "reply": "Next June.", "replyZh": "明年六月。"},
+    {"hear": "You look stressed. Busy day?", "hearZh": "你看起来压力很大，今天很忙？", "reply": "Yes, I have a big deadline on Friday.", "replyZh": "是啊，周五有个重要的截止日期。"},
+    {"hear": "Are you taking a day off tomorrow?", "hearZh": "你明天请假吗？", "reply": "Yes, I need a break.", "replyZh": "是的，我需要休息一下。"}
+  ],
+  "dialogue": {
+    "title": "朋友问你的新工作",
+    "other": "朋友",
+    "lines": [
+      {"s": "o", "en": "I heard you got a new job. Congratulations!", "zh": "听说你找到新工作了，恭喜！"},
+      {"s": "me", "en": "Thanks! I started last month.", "zh": "谢谢！上个月开始上班的。"},
+      {"s": "o", "en": "What do you do there?", "zh": "你在那里做什么？"},
+      {"s": "me", "en": "I work in marketing. I'm in charge of social media.", "zh": "我在市场部，负责社交媒体。"},
+      {"s": "o", "en": "Sounds interesting. How do you like it so far?", "zh": "听起来挺有意思。到目前为止觉得怎么样？"},
+      {"s": "me", "en": "I like it a lot. The only problem is the commute.", "zh": "我很喜欢，唯一的问题是通勤。"},
+      {"s": "o", "en": "Oh, how long does it take?", "zh": "哦，路上要多久？"},
+      {"s": "me", "en": "About an hour each way. But I can work from home on Fridays.", "zh": "单程大约一小时。不过周五可以在家办公。"},
+      {"s": "o", "en": "That's not bad. And are your colleagues nice?", "zh": "那还行。同事人好吗？"},
+      {"s": "me", "en": "Yes, they're very friendly. My boss is great too.", "zh": "很友好，我老板也很好。"}
+    ]
+  }
+}

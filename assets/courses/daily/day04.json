@@ -1,0 +1,56 @@
+{
+  "day": 4,
+  "title": "邀请与约定",
+  "en": "Invitations & Making Plans",
+  "icon": "event",
+  "goal": "会邀请别人、接受或委婉拒绝邀请、改时间，并确认见面的时间地点。",
+  "tips": [
+    "邀请：Do you want to ...? / Would you like to ...? / How about ...?",
+    "接受：I'd love to! / Sounds great! 拒绝要先表示感谢再给理由：I'd love to, but I'm busy that day.",
+    "改时间：Can we make it another day? / Can we move it to Sunday?"
+  ],
+  "words": [
+    {"en": "invite", "zh": "邀请"},
+    {"en": "Would you like to", "zh": "你想不想……（礼貌邀请）"},
+    {"en": "How about", "zh": "……怎么样？"},
+    {"en": "I'd love to.", "zh": "我很乐意。"},
+    {"en": "Sounds great.", "zh": "听起来不错。"},
+    {"en": "plan", "zh": "计划；安排"},
+    {"en": "free", "zh": "有空的"},
+    {"en": "busy", "zh": "忙的"},
+    {"en": "another time", "zh": "下次；改天"},
+    {"en": "make it", "zh": "赶得上；能来"},
+    {"en": "pick you up", "zh": "去接你"},
+    {"en": "meet up", "zh": "见面；碰头"},
+    {"en": "on time", "zh": "准时"},
+    {"en": "a little late", "zh": "晚一点"},
+    {"en": "Let me know.", "zh": "告诉我一声。"},
+    {"en": "Count me in.", "zh": "算我一个。"}
+  ],
+  "exchanges": [
+    {"hear": "Do you want to grab lunch tomorrow?", "hearZh": "明天一起吃个午饭吗？", "reply": "Sure! Where do you want to go?", "replyZh": "好啊！你想去哪儿？"},
+    {"hear": "Would you like to come to my birthday party on Saturday?", "hearZh": "星期六来参加我的生日派对吗？", "reply": "I'd love to! What time does it start?", "replyZh": "很乐意！几点开始？"},
+    {"hear": "How about going to the beach this weekend?", "hearZh": "这个周末去海边怎么样？", "reply": "I'd love to, but I have to work on Saturday.", "replyZh": "我很想去，可是星期六要上班。"},
+    {"hear": "Can you make it at seven?", "hearZh": "七点你能到吗？", "reply": "I might be a little late. Is seven thirty OK?", "replyZh": "我可能会晚一点，七点半行吗？"},
+    {"hear": "Where should we meet?", "hearZh": "我们在哪儿见面？", "reply": "Let's meet in front of the subway station.", "replyZh": "在地铁站门口见吧。"},
+    {"hear": "Do you want me to pick you up?", "hearZh": "要我去接你吗？", "reply": "That would be great, thanks.", "replyZh": "那太好了，谢谢。", "generic": true},
+    {"hear": "Sorry, something came up. Can we make it another day?", "hearZh": "抱歉，临时有事。能改天吗？", "reply": "No problem. How about next Tuesday?", "replyZh": "没问题，下周二怎么样？"},
+    {"hear": "We're going hiking on Sunday. Want to join us?", "hearZh": "我们星期天去徒步，要一起来吗？", "reply": "Count me in!", "replyZh": "算我一个！", "generic": true}
+  ],
+  "dialogue": {
+    "title": "约朋友周末吃饭",
+    "other": "朋友",
+    "lines": [
+      {"s": "me", "en": "Hey, are you free this Saturday?", "zh": "嘿，你这周六有空吗？"},
+      {"s": "o", "en": "I think so. What's up?", "zh": "应该有空。怎么了？"},
+      {"s": "me", "en": "Would you like to try the new Thai restaurant with me?", "zh": "要不要和我一起去试试那家新开的泰国餐厅？"},
+      {"s": "o", "en": "I'd love to! What time?", "zh": "好啊！几点？"},
+      {"s": "me", "en": "How about six thirty?", "zh": "六点半怎么样？"},
+      {"s": "o", "en": "Hmm, I have a yoga class until six. Can we make it seven?", "zh": "嗯，我瑜伽课上到六点。能改成七点吗？"},
+      {"s": "me", "en": "Sure, seven is fine. Should I book a table?", "zh": "行，七点可以。要我订位吗？"},
+      {"s": "o", "en": "Yes, please. Where should we meet?", "zh": "好的，麻烦了。我们在哪儿见？"},
+      {"s": "me", "en": "Let's meet at the restaurant. I'll send you the address.", "zh": "直接在餐厅见吧，我把地址发给你。"},
+      {"s": "o", "en": "Perfect. See you on Saturday!", "zh": "完美，星期六见！"}
+    ]
+  }
+}

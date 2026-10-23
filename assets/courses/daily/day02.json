@@ -1,0 +1,57 @@
+{
+  "day": 2,
+  "title": "爱好与空闲时间",
+  "en": "Hobbies & Free Time",
+  "icon": "hobby",
+  "goal": "会聊自己喜欢做什么、多久做一次，能对别人的爱好表示兴趣并追问。",
+  "tips": [
+    "问爱好：What do you like to do in your free time? / What do you do for fun?",
+    "说频率：every day, once a week, twice a month, sometimes, rarely（很少）。",
+    "对别人的爱好表示兴趣：That sounds fun! / How did you get into that?（你怎么开始玩这个的？）"
+  ],
+  "words": [
+    {"en": "hobby", "zh": "爱好"},
+    {"en": "free time", "zh": "空闲时间"},
+    {"en": "for fun", "zh": "为了消遣"},
+    {"en": "read", "zh": "读书；阅读"},
+    {"en": "watch movies", "zh": "看电影"},
+    {"en": "listen to music", "zh": "听音乐"},
+    {"en": "play basketball", "zh": "打篮球"},
+    {"en": "go hiking", "zh": "去徒步"},
+    {"en": "go swimming", "zh": "去游泳"},
+    {"en": "work out", "zh": "健身；锻炼"},
+    {"en": "cook", "zh": "做饭"},
+    {"en": "take photos", "zh": "拍照"},
+    {"en": "play the guitar", "zh": "弹吉他"},
+    {"en": "be into", "zh": "很喜欢；对……着迷"},
+    {"en": "once a week", "zh": "一周一次"},
+    {"en": "sometimes", "zh": "有时候"},
+    {"en": "rarely", "zh": "很少"}
+  ],
+  "exchanges": [
+    {"hear": "What do you like to do in your free time?", "hearZh": "你空闲时喜欢做什么？", "reply": "I like reading and going hiking.", "replyZh": "我喜欢看书和徒步。"},
+    {"hear": "How often do you work out?", "hearZh": "你多久锻炼一次？", "reply": "About three times a week.", "replyZh": "大约一周三次。"},
+    {"hear": "What kind of music are you into?", "hearZh": "你喜欢哪类音乐？", "reply": "Mostly pop, and some jazz.", "replyZh": "主要是流行，也听些爵士。"},
+    {"hear": "Do you play any sports?", "hearZh": "你做什么运动吗？", "reply": "I play badminton with my friends on weekends.", "replyZh": "周末和朋友打羽毛球。"},
+    {"hear": "I've just started learning the guitar.", "hearZh": "我刚开始学吉他。", "reply": "That sounds fun! How's it going?", "replyZh": "听起来很好玩！学得怎么样？"},
+    {"hear": "Have you seen any good movies lately?", "hearZh": "最近看了什么好电影吗？", "reply": "Yes, I watched a great comedy last week.", "replyZh": "看了，上周看了一部很棒的喜剧。"},
+    {"hear": "Do you like cooking?", "hearZh": "你喜欢做饭吗？", "reply": "I love it, but I'm not very good at it.", "replyZh": "很喜欢，不过做得不太好。"},
+    {"hear": "How did you get into photography?", "hearZh": "你是怎么喜欢上摄影的？", "reply": "My dad gave me a camera when I was a kid.", "replyZh": "我小时候爸爸送了我一台相机。"}
+  ],
+  "dialogue": {
+    "title": "和新同事聊爱好",
+    "other": "同事",
+    "lines": [
+      {"s": "o", "en": "So, what do you like to do in your free time?", "zh": "那么，你空闲时喜欢做什么？"},
+      {"s": "me", "en": "I'm really into hiking. I go almost every weekend.", "zh": "我特别喜欢徒步，几乎每个周末都去。"},
+      {"s": "o", "en": "Wow, every weekend? Where do you usually go?", "zh": "哇，每个周末？一般去哪儿？"},
+      {"s": "me", "en": "The mountains near the city. How about you?", "zh": "城市附近的山。你呢？"},
+      {"s": "o", "en": "I like playing the guitar, and I sometimes go swimming.", "zh": "我喜欢弹吉他，有时候去游泳。"},
+      {"s": "me", "en": "That's cool. How long have you played the guitar?", "zh": "真酷。你弹吉他多久了？"},
+      {"s": "o", "en": "About ten years. I play in a small band.", "zh": "大约十年了，我在一个小乐队里弹。"},
+      {"s": "me", "en": "Really? I'd love to hear you play sometime.", "zh": "真的吗？哪天想听你弹一下。"},
+      {"s": "o", "en": "Sure! We have a show next Friday. You should come.", "zh": "好啊！我们下周五有演出，你一定要来。"},
+      {"s": "me", "en": "Sounds great. Count me in!", "zh": "听起来不错，算我一个！"}
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "day": 1,
+  "title": "寒暄与聊天气",
+  "en": "Small Talk & the Weather",
+  "icon": "weather",
+  "goal": "能和邻居、同事简单寒暄，聊天气，并让对话自然地继续或结束。",
+  "tips": [
+    "How's it going? / How are you doing? / What's up? 都是“最近怎么样”，回答 Not bad. / Pretty good. 就行，不用说太多。",
+    "天气是最安全的话题：It's a nice day, isn't it? 后面的 isn't it 是在找你认同，回答 Yes, it is. 就好。",
+    "想结束聊天：Well, I'd better get going. / Nice talking to you."
+  ],
+  "words": [
+    {"en": "How's it going?", "zh": "最近怎么样？"},
+    {"en": "not bad", "zh": "还不错"},
+    {"en": "pretty good", "zh": "挺好的"},
+    {"en": "weather", "zh": "天气"},
+    {"en": "sunny", "zh": "晴朗的"},
+    {"en": "cloudy", "zh": "多云的"},
+    {"en": "rainy", "zh": "下雨的"},
+    {"en": "windy", "zh": "刮风的"},
+    {"en": "snow", "zh": "雪；下雪"},
+    {"en": "hot", "zh": "热的"},
+    {"en": "warm", "zh": "暖和的"},
+    {"en": "cool", "zh": "凉爽的"},
+    {"en": "freezing", "zh": "冻死人的；极冷的"},
+    {"en": "humid", "zh": "潮湿闷热的"},
+    {"en": "umbrella", "zh": "雨伞"},
+    {"en": "forecast", "zh": "天气预报"},
+    {"en": "I'd better get going.", "zh": "我得走了。"}
+  ],
+  "exchanges": [
+    {"hear": "Hey, how's it going?", "hearZh": "嘿，最近怎么样？", "reply": "Pretty good, thanks. How about you?", "replyZh": "挺好的，谢谢。你呢？"},
+    {"hear": "Lovely day, isn't it?", "hearZh": "天气真好，是吧？", "reply": "Yes, it's beautiful. Finally some sun!", "replyZh": "是啊，真好，终于出太阳了！"},
+    {"hear": "Is it going to rain today?", "hearZh": "今天会下雨吗？", "reply": "The forecast says it will rain this afternoon.", "replyZh": "天气预报说下午有雨。"},
+    {"hear": "It's freezing today!", "hearZh": "今天冷死了！", "reply": "I know. I'm wearing two sweaters.", "replyZh": "是啊，我穿了两件毛衣。"},
+    {"hear": "What's the weather like in your hometown?", "hearZh": "你家乡的天气怎么样？", "reply": "It's hot and humid in summer, and cold in winter.", "replyZh": "夏天又热又潮，冬天很冷。"},
+    {"hear": "Did you get caught in the rain?", "hearZh": "你被雨淋了吗？", "reply": "Yes, I forgot my umbrella.", "replyZh": "是啊，我忘带伞了。"},
+    {"hear": "Long time no see! What have you been up to?", "hearZh": "好久不见！最近在忙什么？", "reply": "Not much. Just busy with work.", "replyZh": "没什么，就是忙工作。"},
+    {"hear": "Well, I'd better get going.", "hearZh": "那我得走了。", "reply": "OK, nice talking to you. Have a good one!", "replyZh": "好的，聊得很开心。祝你愉快！"}
+  ],
+  "dialogue": {
+    "title": "在电梯里遇到邻居",
+    "other": "邻居",
+    "lines": [
+      {"s": "o", "en": "Morning! How's it going?", "zh": "早！最近怎么样？"},
+      {"s": "me", "en": "Not bad, thanks. And you?", "zh": "还不错，谢谢。你呢？"},
+      {"s": "o", "en": "Pretty good. It's really cold today, isn't it?", "zh": "挺好的。今天真冷啊，是吧？"},
+      {"s": "me", "en": "Yes, it's freezing. I think it's going to snow.", "zh": "是啊，冷死了。我觉得要下雪了。"},
+      {"s": "o", "en": "The forecast says snow tonight. Do you have an umbrella?", "zh": "天气预报说今晚有雪。你带伞了吗？"},
+      {"s": "me", "en": "Yes, it's in my bag. Are you going to work?", "zh": "带了，在包里。你去上班吗？"},
+      {"s": "o", "en": "Yes, I'm taking the bus today. Too cold to ride my bike.", "zh": "是的，今天坐公交，太冷了骑不了车。"},
+      {"s": "me", "en": "Good idea. Well, this is my floor. Have a good day!", "zh": "好主意。我到了，祝你今天愉快！"},
+      {"s": "o", "en": "You too. Stay warm!", "zh": "你也是，注意保暖！"}
+    ]
+  }
+}

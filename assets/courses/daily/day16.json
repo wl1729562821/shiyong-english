@@ -1,0 +1,54 @@
+{
+  "day": 16,
+  "title": "道歉、感谢与婉拒",
+  "en": "Apologizing, Thanking & Saying No",
+  "icon": "thanks",
+  "goal": "会根据场合道歉和感谢，回应别人的道歉，礼貌地拒绝推销或邀请。",
+  "tips": [
+    "道歉加原因更真诚：Sorry I'm late. The traffic was terrible.；正式一点：I apologize for the delay.",
+    "回应道歉：No worries. / Don't worry about it. / That's OK. 回应感谢：You're welcome. / No problem. / My pleasure.",
+    "拒绝推销：No, thank you. I'm just looking. / I'm not interested, thanks."
+  ],
+  "words": [
+    {"en": "I'm so sorry.", "zh": "真的很抱歉。"},
+    {"en": "apologize", "zh": "道歉（正式）"},
+    {"en": "my fault", "zh": "我的错"},
+    {"en": "on purpose", "zh": "故意地"},
+    {"en": "No worries.", "zh": "没关系。"},
+    {"en": "Don't worry about it.", "zh": "别放在心上。"},
+    {"en": "It's my pleasure.", "zh": "不客气（我很乐意）。"},
+    {"en": "Thank you for", "zh": "谢谢你（做了某事）"},
+    {"en": "I owe you one.", "zh": "我欠你个人情。"},
+    {"en": "That's very kind of you.", "zh": "你真好。"},
+    {"en": "No, thank you.", "zh": "不用了，谢谢。"},
+    {"en": "not interested", "zh": "不感兴趣"},
+    {"en": "maybe next time", "zh": "下次吧"},
+    {"en": "forgive", "zh": "原谅"},
+    {"en": "accident", "zh": "意外"},
+    {"en": "forget", "zh": "忘记"}
+  ],
+  "exchanges": [
+    {"hear": "You're twenty minutes late!", "hearZh": "你迟到了二十分钟！", "reply": "I'm so sorry. My bus broke down.", "replyZh": "真的很抱歉，我坐的公交坏了。"},
+    {"hear": "Sorry, I stepped on your foot.", "hearZh": "抱歉，我踩到你的脚了。", "reply": "No worries. It's fine.", "replyZh": "没关系，没事。"},
+    {"hear": "Thank you so much for dinner.", "hearZh": "非常感谢你请我吃晚饭。", "reply": "My pleasure. I'm glad you liked it.", "replyZh": "不客气，你喜欢就好。"},
+    {"hear": "I fixed your bike for you.", "hearZh": "我帮你把自行车修好了。", "reply": "Really? Thanks, I owe you one!", "replyZh": "真的？谢谢，我欠你个人情！"},
+    {"hear": "Would you like to try our new credit card?", "hearZh": "您想试试我们的新信用卡吗？", "reply": "No, thank you. I'm not interested.", "replyZh": "不用了，谢谢，我不感兴趣。"},
+    {"hear": "Do you want to come out for drinks tonight?", "hearZh": "今晚要出来喝一杯吗？", "reply": "Thanks, but I'm really tired. Maybe next time.", "replyZh": "谢谢，不过我太累了，下次吧。"},
+    {"hear": "Did you forget my birthday?", "hearZh": "你是不是忘了我的生日？", "reply": "I'm so sorry. It was my fault. Let me buy you dinner.", "replyZh": "真对不起，是我的错。我请你吃饭吧。"},
+    {"hear": "Here, take my umbrella.", "hearZh": "给，拿我的伞吧。", "reply": "That's very kind of you. Thank you.", "replyZh": "你真好，谢谢。"}
+  ],
+  "dialogue": {
+    "title": "弄坏了同事的杯子",
+    "other": "同事",
+    "lines": [
+      {"s": "me", "en": "Hey, Emma. I'm so sorry, but I broke your coffee cup.", "zh": "嘿，艾玛。真对不起，我把你的咖啡杯打碎了。"},
+      {"s": "o", "en": "Oh no! How did that happen?", "zh": "哎呀！怎么回事？"},
+      {"s": "me", "en": "It was an accident. I knocked it off the desk.", "zh": "是个意外，我不小心把它从桌上碰掉了。"},
+      {"s": "o", "en": "Don't worry about it. It was just a cheap cup.", "zh": "别放在心上，就是个便宜的杯子。"},
+      {"s": "me", "en": "Still, it was my fault. Let me buy you a new one.", "zh": "不过还是我的错，我给你买个新的吧。"},
+      {"s": "o", "en": "That's very kind of you, but you really don't have to.", "zh": "你真好，不过真的不用。"},
+      {"s": "me", "en": "I insist. Do you like blue?", "zh": "一定要。你喜欢蓝色吗？"},
+      {"s": "o", "en": "OK, thank you. Blue is perfect.", "zh": "好吧，谢谢。蓝色挺好。"}
+    ]
+  }
+}

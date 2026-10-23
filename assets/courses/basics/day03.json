@@ -1,0 +1,56 @@
+{
+  "day": 3,
+  "title": "问候与自我介绍",
+  "en": "Greetings & Introducing Yourself",
+  "icon": "person",
+  "goal": "认识新朋友时能介绍自己：名字、来自哪里、做什么工作、住在哪，并且会反问对方。",
+  "tips": [
+    "初次见面说 Nice to meet you.，告别时说 Nice meeting you. / It was nice to meet you.",
+    "介绍完自己，用 How about you? / And you? 把问题抛回去，对话就能继续。",
+    "What do you do? 问的是职业，不是“你在干什么”。"
+  ],
+  "words": [
+    {"en": "Nice to meet you.", "zh": "很高兴认识你。"},
+    {"en": "my name is", "zh": "我的名字是"},
+    {"en": "I'm from", "zh": "我来自"},
+    {"en": "hometown", "zh": "家乡"},
+    {"en": "live in", "zh": "住在"},
+    {"en": "work for", "zh": "在（某公司）工作"},
+    {"en": "student", "zh": "学生"},
+    {"en": "teacher", "zh": "老师"},
+    {"en": "nurse", "zh": "护士"},
+    {"en": "engineer", "zh": "工程师"},
+    {"en": "accountant", "zh": "会计"},
+    {"en": "married", "zh": "已婚的"},
+    {"en": "single", "zh": "单身的"},
+    {"en": "neighbor", "zh": "邻居"},
+    {"en": "How about you?", "zh": "你呢？"},
+    {"en": "See you later.", "zh": "回头见。"}
+  ],
+  "exchanges": [
+    {"hear": "Hi, I'm Tom. What's your name?", "hearZh": "你好，我是汤姆。你叫什么名字？", "reply": "Hi Tom, I'm Chen. Nice to meet you.", "replyZh": "你好汤姆，我是陈。很高兴认识你。"},
+    {"hear": "Where are you from originally?", "hearZh": "你老家是哪里的？", "reply": "I'm from Chengdu, in the southwest of China.", "replyZh": "我是成都人，在中国西南部。"},
+    {"hear": "What do you do for a living?", "hearZh": "你是做什么工作的？", "reply": "I'm a nurse. I work at a hospital.", "replyZh": "我是护士，在医院工作。"},
+    {"hear": "How long have you lived here?", "hearZh": "你在这里住多久了？", "reply": "About three years.", "replyZh": "大约三年了。"},
+    {"hear": "Are you married?", "hearZh": "你结婚了吗？", "reply": "Yes, I'm married with one kid.", "replyZh": "结了，有一个孩子。"},
+    {"hear": "Where do you live?", "hearZh": "你住在哪里？", "reply": "I live near the city center.", "replyZh": "我住在市中心附近。"},
+    {"hear": "Is Chen your first name or your last name?", "hearZh": "陈是你的名还是姓？", "reply": "It's my last name. My first name is Jing.", "replyZh": "是我的姓，我的名字是静。"},
+    {"hear": "It was nice meeting you.", "hearZh": "很高兴认识你。（告别时说）", "reply": "Nice meeting you too. See you around.", "replyZh": "我也是，回头见。"}
+  ],
+  "dialogue": {
+    "title": "在聚会上认识新朋友",
+    "other": "萨拉",
+    "lines": [
+      {"s": "o", "en": "Hi! I don't think we've met. I'm Sarah.", "zh": "嗨！我们好像还没见过。我是萨拉。"},
+      {"s": "me", "en": "Hi Sarah, I'm Jing. Nice to meet you.", "zh": "你好萨拉，我是静。很高兴认识你。"},
+      {"s": "o", "en": "Nice to meet you too. Where are you from?", "zh": "我也很高兴认识你。你是哪里人？"},
+      {"s": "me", "en": "I'm from Chengdu, in China. How about you?", "zh": "我是中国成都人。你呢？"},
+      {"s": "o", "en": "I'm from Toronto. What do you do?", "zh": "我是多伦多人。你做什么工作？"},
+      {"s": "me", "en": "I'm an engineer. I work for a car company.", "zh": "我是工程师，在一家汽车公司工作。"},
+      {"s": "o", "en": "Oh, interesting. How do you know Mike?", "zh": "哦，挺有意思。你怎么认识迈克的？"},
+      {"s": "me", "en": "We work together. He's my colleague.", "zh": "我们一起工作，他是我同事。"},
+      {"s": "o", "en": "Cool. Well, it was nice meeting you, Jing.", "zh": "好呀。那么，很高兴认识你，静。"},
+      {"s": "me", "en": "You too, Sarah. See you later.", "zh": "我也是，萨拉。回头见。"}
+    ]
+  }
+}

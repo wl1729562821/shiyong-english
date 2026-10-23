@@ -1,0 +1,57 @@
+{
+  "day": 17,
+  "title": "客房问题与投诉",
+  "en": "Room Problems & Complaints",
+  "icon": "build",
+  "goal": "说清房间的问题（空调、热水、马桶、噪音），要求维修或换房，必要时找经理。",
+  "tips": [
+    "万能句型：There's a problem with ... / The ... isn't working. / There's no ...",
+    "对方说 I'm afraid ...（恐怕……）通常是在委婉地拒绝你。可以礼貌坚持：Could I speak to the manager, please?",
+    "很多酒店要把房卡插进门边的卡槽（slot）才有电，空调不工作先检查这个。"
+  ],
+  "words": [
+    {"en": "problem", "zh": "问题"},
+    {"en": "air conditioner", "zh": "空调"},
+    {"en": "heating", "zh": "暖气"},
+    {"en": "not working", "zh": "坏了；不运转"},
+    {"en": "hot water", "zh": "热水"},
+    {"en": "shower", "zh": "淋浴"},
+    {"en": "toilet", "zh": "马桶；厕所"},
+    {"en": "clogged", "zh": "堵塞的"},
+    {"en": "leaking", "zh": "漏水的"},
+    {"en": "noisy", "zh": "吵闹的"},
+    {"en": "dirty", "zh": "脏的"},
+    {"en": "strange smell", "zh": "怪味"},
+    {"en": "fix", "zh": "修理"},
+    {"en": "change rooms", "zh": "换房间"},
+    {"en": "manager", "zh": "经理"},
+    {"en": "inconvenience", "zh": "不便"}
+  ],
+  "exchanges": [
+    {"hear": "Front desk. What seems to be the problem?", "hearZh": "前台。请问有什么问题？", "reply": "The air conditioner in my room isn't working.", "replyZh": "我房间的空调坏了。"},
+    {"hear": "I'll send someone to fix it this afternoon.", "hearZh": "今天下午我会派人去修。", "reply": "Could you send someone now? It's very hot.", "replyZh": "能现在派人来吗？太热了。"},
+    {"hear": "Have you tried the switch next to the door?", "hearZh": "您试过门边的开关吗？", "reply": "Yes, I have. It still doesn't work.", "replyZh": "试过了，还是不行。"},
+    {"hear": "What's wrong with the bathroom?", "hearZh": "浴室有什么问题？", "reply": "There's no hot water in the shower.", "replyZh": "淋浴没有热水。"},
+    {"hear": "Would you like to change rooms?", "hearZh": "您想换房间吗？", "reply": "Yes, please. A quieter room, if possible.", "replyZh": "是的，如果可以，换一间安静点的。"},
+    {"hear": "I'm afraid we don't have any other rooms tonight.", "hearZh": "恐怕我们今晚没有别的房间了。", "reply": "Then could I speak to the manager, please?", "replyZh": "那我能和经理谈谈吗？"},
+    {"hear": "Is there anything else wrong with the room?", "hearZh": "房间还有别的问题吗？", "reply": "Yes, the toilet is clogged.", "replyZh": "有，马桶堵了。"},
+    {"hear": "We apologize for the inconvenience.", "hearZh": "给您带来不便，我们深表歉意。", "reply": "It's OK. Thanks for fixing it quickly.", "replyZh": "没关系。谢谢你们修得这么快。"}
+  ],
+  "dialogue": {
+    "title": "空调坏了、隔壁太吵",
+    "other": "前台",
+    "lines": [
+      {"s": "o", "en": "Front desk. How can I help you?", "zh": "前台，有什么可以帮您？"},
+      {"s": "me", "en": "Hi, this is room six-oh-five. There's a problem with my room.", "zh": "你好，这里是605房。我的房间有点问题。"},
+      {"s": "o", "en": "I'm sorry to hear that. What's the problem?", "zh": "很抱歉。是什么问题？"},
+      {"s": "me", "en": "The air conditioner isn't working, and the room is very hot.", "zh": "空调坏了，房间里很热。"},
+      {"s": "o", "en": "Did you put your key card in the slot by the door?", "zh": "您把房卡插进门边的卡槽了吗？"},
+      {"s": "me", "en": "Yes, I did. The lights work, but the air conditioner doesn't.", "zh": "插了。灯是亮的，但空调不工作。"},
+      {"s": "o", "en": "I'm sorry. I'll send an engineer right away.", "zh": "抱歉，我马上派工程师过去。"},
+      {"s": "me", "en": "Also, the room next door is very noisy. Can I change rooms?", "zh": "另外，隔壁房间很吵。我能换房间吗？"},
+      {"s": "o", "en": "Let me check. Yes, we have a quiet room on the tenth floor.", "zh": "我查一下。有的，十楼有一间安静的房间。"},
+      {"s": "me", "en": "Great. Thank you.", "zh": "太好了，谢谢。"},
+      {"s": "o", "en": "I'll bring you a new key card. We apologize for the inconvenience.", "zh": "我给您送新房卡过去。给您带来不便，非常抱歉。"}
+    ]
+  }
+}

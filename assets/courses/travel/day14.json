@@ -1,0 +1,57 @@
+{
+  "day": 14,
+  "title": "酒店预订",
+  "en": "Booking a Hotel",
+  "icon": "hotel",
+  "goal": "会打电话订房：说清日期、房型、人数，问价格、早餐和取消政策。",
+  "tips": [
+    "double room = 一张双人床；twin room = 两张单人床。不要订错！",
+    "per night 是“每晚”，breakfast included 是“含早”。",
+    "订完一定要确认号（confirmation number），请对方发邮件：Could you send it to my email?"
+  ],
+  "words": [
+    {"en": "reservation", "zh": "预订"},
+    {"en": "book a room", "zh": "订房间"},
+    {"en": "single room", "zh": "单人间"},
+    {"en": "double room", "zh": "大床房（一张双人床）"},
+    {"en": "twin room", "zh": "双床房（两张单人床）"},
+    {"en": "suite", "zh": "套房"},
+    {"en": "night", "zh": "晚（住几晚）"},
+    {"en": "available", "zh": "有空房的；可用的"},
+    {"en": "fully booked", "zh": "订满了"},
+    {"en": "rate", "zh": "房价"},
+    {"en": "per night", "zh": "每晚"},
+    {"en": "breakfast included", "zh": "含早餐"},
+    {"en": "non-smoking", "zh": "无烟的"},
+    {"en": "cancel", "zh": "取消"},
+    {"en": "free cancellation", "zh": "免费取消"},
+    {"en": "confirmation number", "zh": "确认号"}
+  ],
+  "exchanges": [
+    {"hear": "Thank you for calling Ocean Hotel. How can I help you?", "hearZh": "感谢致电海洋酒店，有什么可以帮您？", "reply": "Hi, I'd like to book a room, please.", "replyZh": "你好，我想订一间房。"},
+    {"hear": "For which dates?", "hearZh": "哪几天？", "reply": "From May third to May sixth. Three nights.", "replyZh": "5月3日到5月6日，住三晚。"},
+    {"hear": "What kind of room would you like?", "hearZh": "您想要什么房型？", "reply": "A double room, non-smoking, please.", "replyZh": "一间无烟大床房。"},
+    {"hear": "The rate is one hundred and twenty dollars per night.", "hearZh": "房价是每晚120美元。", "reply": "Is breakfast included?", "replyZh": "含早餐吗？"},
+    {"hear": "Breakfast is fifteen dollars extra per person.", "hearZh": "早餐每人另加15美元。", "reply": "OK, I'll take the room without breakfast.", "replyZh": "好的，我订不含早餐的。"},
+    {"hear": "I'm sorry, we're fully booked that night.", "hearZh": "抱歉，那晚我们已经订满了。", "reply": "Can you recommend another hotel nearby?", "replyZh": "您能推荐附近别的酒店吗？"},
+    {"hear": "Can I have a name for the reservation?", "hearZh": "预订用什么名字？", "reply": "Li Ming. L, I, Li.", "replyZh": "李明。L-I，李。"},
+    {"hear": "Your confirmation number is H K seven four two.", "hearZh": "您的确认号是HK742。", "reply": "Could you send it to my email, please?", "replyZh": "能发到我的邮箱吗？"}
+  ],
+  "dialogue": {
+    "title": "打电话订房",
+    "other": "酒店前台",
+    "lines": [
+      {"s": "o", "en": "Good morning, Riverside Hotel. How may I help you?", "zh": "早上好，河畔酒店。有什么可以帮您？"},
+      {"s": "me", "en": "Hi. I'd like to book a room for two nights, from June tenth.", "zh": "你好。我想订一间房，6月10日起住两晚。"},
+      {"s": "o", "en": "Certainly. What kind of room would you like?", "zh": "好的。您想要什么房型？"},
+      {"s": "me", "en": "A twin room, please. How much is it per night?", "zh": "双床房。每晚多少钱？"},
+      {"s": "o", "en": "It's ninety-five pounds per night, including breakfast.", "zh": "每晚95英镑，含早餐。"},
+      {"s": "me", "en": "That's fine. Is there free Wi-Fi?", "zh": "可以。有免费无线网吗？"},
+      {"s": "o", "en": "Yes, Wi-Fi is free in all rooms. Can I have your name, please?", "zh": "有，所有房间都有免费无线网。请问您的名字？"},
+      {"s": "me", "en": "Chen Jie. C, H, E, N, Chen.", "zh": "陈杰。C-H-E-N，陈。"},
+      {"s": "o", "en": "Thank you, Mr. Chen. Your confirmation number is R five six eight one.", "zh": "谢谢陈先生。您的确认号是R5681。"},
+      {"s": "me", "en": "Thank you. Can I cancel for free?", "zh": "谢谢。可以免费取消吗？"},
+      {"s": "o", "en": "Yes, up to two days before arrival.", "zh": "可以，到店前两天之前都可以。"}
+    ]
+  }
+}

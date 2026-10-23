@@ -1,0 +1,39 @@
+{
+  "day": 20,
+  "title": "复习 + 模拟：一天的生活",
+  "en": "Review: A Day in English",
+  "icon": "review",
+  "goal": "复习第 1–19 课；用英语过完一整天：和邻居寒暄、买咖啡、和同事聊天、约朋友、打电话。",
+  "review": [1, 19],
+  "tips": [
+    "复习日不学新词。先把生词本过一遍，再做复习测验。",
+    "这一课的对话里有好几个人，注意听是谁在说话（气泡上方有标注）。",
+    "把这 20 课里你最常用的句子加上自己的标注，比如“我在哪种场合会用”，以后复习更有用。"
+  ],
+  "words": [],
+  "exchanges": [],
+  "dialogue": {
+    "title": "从早到晚的一天",
+    "other": "路人",
+    "lines": [
+      {"s": "o", "who": "邻居", "en": "Morning! Lovely day, isn't it?", "zh": "早！天气真好，是吧？"},
+      {"s": "me", "en": "Yes, finally some sun! How's it going?", "zh": "是啊，终于出太阳了！最近怎么样？"},
+      {"s": "o", "who": "邻居", "en": "Pretty good. Have a nice day!", "zh": "挺好的。祝你愉快！"},
+      {"s": "o", "who": "咖啡店员", "en": "Hi! What can I get for you?", "zh": "你好！要点什么？"},
+      {"s": "me", "en": "Can I get a medium latte with oat milk, please?", "zh": "我要一杯中杯燕麦奶拿铁。"},
+      {"s": "o", "who": "咖啡店员", "en": "Sure. For here or to go?", "zh": "好的。在这儿喝还是带走？"},
+      {"s": "me", "en": "To go, please.", "zh": "带走。"},
+      {"s": "o", "who": "同事", "en": "Hey, how was your weekend?", "zh": "嘿，周末过得怎么样？"},
+      {"s": "me", "en": "Great! I went hiking. What did you do?", "zh": "很好！我去徒步了。你干什么了？"},
+      {"s": "o", "who": "同事", "en": "I stayed home. Do you want to grab lunch later?", "zh": "我待在家。待会儿一起吃午饭吗？"},
+      {"s": "me", "en": "I'd love to, but I have a meeting. How about tomorrow?", "zh": "很想去，可是我要开会。明天怎么样？"},
+      {"s": "o", "who": "同事", "en": "Tomorrow works. Twelve o'clock?", "zh": "明天可以。十二点？"},
+      {"s": "me", "en": "Perfect. See you then.", "zh": "完美，到时见。"},
+      {"s": "o", "who": "朋友", "en": "Hello?", "zh": "喂？"},
+      {"s": "me", "en": "Hi, it's me. Are you free on Saturday? I'm going to cook dinner.", "zh": "嗨，是我。你星期六有空吗？我要做晚饭。"},
+      {"s": "o", "who": "朋友", "en": "Sounds great! Can I bring anything?", "zh": "太好了！需要我带点什么吗？"},
+      {"s": "me", "en": "Just bring yourself. Come at seven.", "zh": "人来就行，七点来吧。"},
+      {"s": "o", "who": "朋友", "en": "OK, I will. Thanks for inviting me!", "zh": "好的，一定。谢谢邀请！"}
+    ]
+  }
+}

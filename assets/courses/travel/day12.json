@@ -1,0 +1,39 @@
+{
+  "day": 12,
+  "title": "复习 + 模拟：从下飞机到出机场",
+  "en": "Review: From Landing to Arrivals Hall",
+  "icon": "review",
+  "goal": "复习第 1–11 天的单词和句子；完整演练一遍：填入境卡 → 过移民局 → 取行李 → 过海关。",
+  "review": [1, 11],
+  "tips": [
+    "复习日不学新词。先把生词本里的词过一遍，再做复习测验。",
+    "角色扮演时，先看中文自己说一遍，再听示范对比。卡住的句子加到生词本。",
+    "目标：不看文字，只听声音，也能答出移民官和海关的每个问题。"
+  ],
+  "words": [],
+  "exchanges": [],
+  "dialogue": {
+    "title": "全流程模拟：落地到出关",
+    "other": "工作人员",
+    "lines": [
+      {"s": "o", "who": "空乘", "en": "Would you like an arrival card? Please fill it out before landing.", "zh": "您需要入境卡吗？请在落地前填好。"},
+      {"s": "me", "en": "Yes, please. Could I borrow a pen?", "zh": "要的，谢谢。能借我一支笔吗？"},
+      {"s": "o", "who": "移民官", "en": "Next, please. What's the purpose of your visit?", "zh": "下一位。来访目的是什么？"},
+      {"s": "me", "en": "Sightseeing. I'm here on vacation.", "zh": "观光，我来度假。"},
+      {"s": "o", "who": "移民官", "en": "How long will you be staying?", "zh": "你要待多久？"},
+      {"s": "me", "en": "One week.", "zh": "一周。"},
+      {"s": "o", "who": "移民官", "en": "Where are you staying?", "zh": "住在哪里？"},
+      {"s": "me", "en": "At the Grand Hotel in the city center.", "zh": "市中心的格兰德酒店。"},
+      {"s": "o", "who": "移民官", "en": "Is this your first time here?", "zh": "第一次来吗？"},
+      {"s": "me", "en": "Yes, it is.", "zh": "是的。"},
+      {"s": "o", "who": "移民官", "en": "Please put your fingers on the scanner and look at the camera. OK. Enjoy your stay.", "zh": "请把手指放在扫描仪上，看摄像头。好了，祝你玩得愉快。"},
+      {"s": "me", "en": "Thank you. Excuse me, where is the baggage claim?", "zh": "谢谢。请问行李提取处在哪里？"},
+      {"s": "o", "who": "移民官", "en": "Go down the escalator. Check the screens for your carousel number.", "zh": "坐扶梯下去，看屏幕上的转盘号。"},
+      {"s": "o", "who": "海关官员", "en": "Hello. Do you have anything to declare?", "zh": "你好。有东西要申报吗？"},
+      {"s": "me", "en": "No, nothing to declare.", "zh": "没有，没什么要申报的。"},
+      {"s": "o", "who": "海关官员", "en": "Any fruit, meat, or plants?", "zh": "有水果、肉类或植物吗？"},
+      {"s": "me", "en": "No. Just some snacks.", "zh": "没有，只有一些零食。"},
+      {"s": "o", "who": "海关官员", "en": "OK. Go ahead.", "zh": "好的，走吧。"}
+    ]
+  }
+}

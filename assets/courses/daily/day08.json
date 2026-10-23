@@ -1,0 +1,57 @@
+{
+  "day": 8,
+  "title": "咖啡店与外卖",
+  "en": "Coffee Shop & Takeout",
+  "icon": "coffee",
+  "goal": "能在咖啡店点单并说出要求（大小、冰热、少糖、换奶），听懂店员追问；会打电话点外卖。",
+  "tips": [
+    "点单句型：Can I get a ...? / I'll have a ..., please. 比 I want ... 更自然。",
+    "常见要求：iced 冰的，less sugar 少糖，oat milk 燕麦奶，extra shot 多加一份浓缩，no ice 去冰。",
+    "店员常问 For here or to go? 和 Can I get a name for the order?（报个名字，做好叫你）"
+  ],
+  "words": [
+    {"en": "coffee shop", "zh": "咖啡店"},
+    {"en": "latte", "zh": "拿铁"},
+    {"en": "americano", "zh": "美式咖啡"},
+    {"en": "small, medium, large", "zh": "小杯、中杯、大杯"},
+    {"en": "iced", "zh": "冰的"},
+    {"en": "hot", "zh": "热的"},
+    {"en": "less sugar", "zh": "少糖"},
+    {"en": "oat milk", "zh": "燕麦奶"},
+    {"en": "extra shot", "zh": "多加一份浓缩"},
+    {"en": "no ice", "zh": "去冰"},
+    {"en": "pastry", "zh": "酥皮点心"},
+    {"en": "for here", "zh": "在这儿吃"},
+    {"en": "to go", "zh": "带走"},
+    {"en": "order", "zh": "点单；订单"},
+    {"en": "delivery", "zh": "外送"},
+    {"en": "pick up", "zh": "自取"}
+  ],
+  "exchanges": [
+    {"hear": "Hi, what can I get for you?", "hearZh": "你好，要点什么？", "reply": "Can I get a medium iced latte, please?", "replyZh": "我要一杯中杯冰拿铁。"},
+    {"hear": "Would you like regular milk or oat milk?", "hearZh": "要普通牛奶还是燕麦奶？", "reply": "Oat milk, please.", "replyZh": "燕麦奶。"},
+    {"hear": "Anything else?", "hearZh": "还要别的吗？", "reply": "That's it, thanks.", "replyZh": "就这些，谢谢。"},
+    {"hear": "Can I get a name for the order?", "hearZh": "请问留个名字？", "reply": "It's Amy. A, M, Y.", "replyZh": "艾米，A-M-Y。"},
+    {"hear": "Is this for delivery or pick up?", "hearZh": "外送还是自取？", "reply": "Delivery, please.", "replyZh": "外送。"},
+    {"hear": "It'll be about forty minutes.", "hearZh": "大约需要四十分钟。", "reply": "That's fine. How much is the delivery fee?", "replyZh": "可以。配送费多少？"},
+    {"hear": "Sorry, we're out of croissants.", "hearZh": "抱歉，可颂卖完了。", "reply": "OK, I'll have a muffin instead.", "replyZh": "好吧，那我换一个松饼。"},
+    {"hear": "How sweet would you like it?", "hearZh": "甜度要多少？", "reply": "Less sugar, please.", "replyZh": "少糖。"}
+  ],
+  "dialogue": {
+    "title": "在咖啡店点单",
+    "other": "店员",
+    "lines": [
+      {"s": "o", "en": "Hi there! What can I get for you?", "zh": "你好！要点什么？"},
+      {"s": "me", "en": "Hi. Can I get a large americano, please?", "zh": "你好。我要一杯大杯美式。"},
+      {"s": "o", "en": "Sure. Hot or iced?", "zh": "好的。热的还是冰的？"},
+      {"s": "me", "en": "Iced, with no sugar.", "zh": "冰的，不加糖。"},
+      {"s": "o", "en": "Got it. Anything else?", "zh": "好的。还要别的吗？"},
+      {"s": "me", "en": "Yes, one chocolate muffin.", "zh": "要，一个巧克力松饼。"},
+      {"s": "o", "en": "For here or to go?", "zh": "在这儿吃还是带走？"},
+      {"s": "me", "en": "For here.", "zh": "在这儿吃。"},
+      {"s": "o", "en": "That's eight fifty. Can I get a name for the order?", "zh": "一共 8.5。请留个名字？"},
+      {"s": "me", "en": "Ken. K, E, N.", "zh": "肯，K-E-N。"},
+      {"s": "o", "en": "Thanks, Ken. We'll call you when it's ready.", "zh": "谢谢肯，做好了叫你。"}
+    ]
+  }
+}

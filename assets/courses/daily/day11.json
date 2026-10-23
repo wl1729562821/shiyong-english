@@ -1,0 +1,57 @@
+{
+  "day": 11,
+  "title": "预约看病",
+  "en": "Seeing a Doctor",
+  "icon": "doctor",
+  "goal": "会打电话预约门诊，向医生描述症状、持续多久、疼得怎么样，听懂医生的建议和用药说明。",
+  "tips": [
+    "预约：I'd like to make an appointment with Dr. ... / Do you have anything available today?",
+    "描述疼痛：sharp pain 刺痛，dull pain 隐痛，It comes and goes.（时好时坏）",
+    "医生常问：How long have you had it? / Are you taking any medication?（在吃什么药吗）"
+  ],
+  "words": [
+    {"en": "appointment", "zh": "预约"},
+    {"en": "clinic", "zh": "诊所"},
+    {"en": "symptom", "zh": "症状"},
+    {"en": "cough", "zh": "咳嗽"},
+    {"en": "sore throat", "zh": "嗓子疼"},
+    {"en": "runny nose", "zh": "流鼻涕"},
+    {"en": "fever", "zh": "发烧"},
+    {"en": "dizzy", "zh": "头晕的"},
+    {"en": "sharp pain", "zh": "刺痛"},
+    {"en": "medication", "zh": "药物"},
+    {"en": "prescription", "zh": "处方"},
+    {"en": "side effects", "zh": "副作用"},
+    {"en": "blood test", "zh": "验血"},
+    {"en": "take a rest", "zh": "休息一下"},
+    {"en": "get better", "zh": "好起来"},
+    {"en": "sick note", "zh": "病假条"}
+  ],
+  "exchanges": [
+    {"hear": "Riverside Clinic, how can I help you?", "hearZh": "河畔诊所，有什么可以帮您？", "reply": "I'd like to make an appointment with Dr. Lee.", "replyZh": "我想预约李医生。"},
+    {"hear": "The earliest we have is Thursday at two.", "hearZh": "最早的是星期四两点。", "reply": "Do you have anything available today?", "replyZh": "今天还有号吗？"},
+    {"hear": "What seems to be the problem?", "hearZh": "哪里不舒服？", "reply": "I've had a bad cough and a sore throat.", "replyZh": "我一直咳得很厉害，嗓子也疼。"},
+    {"hear": "How long have you had these symptoms?", "hearZh": "这些症状多久了？", "reply": "For about four days.", "replyZh": "大约四天了。"},
+    {"hear": "Are you taking any medication?", "hearZh": "你在吃什么药吗？", "reply": "Just some cough syrup.", "replyZh": "只喝了点止咳糖浆。"},
+    {"hear": "Where exactly does it hurt?", "hearZh": "具体哪里疼？", "reply": "Right here. It's a sharp pain.", "replyZh": "就这儿，是刺痛。"},
+    {"hear": "Take this twice a day for five days.", "hearZh": "这个药一天两次，吃五天。", "reply": "Does it have any side effects?", "replyZh": "有副作用吗？"},
+    {"hear": "Do you need a sick note for work?", "hearZh": "你需要给公司开病假条吗？", "reply": "Yes, please. For two days.", "replyZh": "需要，开两天的。"}
+  ],
+  "dialogue": {
+    "title": "在诊所看医生",
+    "other": "医生",
+    "lines": [
+      {"s": "o", "en": "Hello, have a seat. What brings you in today?", "zh": "你好，请坐。今天哪里不舒服？"},
+      {"s": "me", "en": "I've had a fever and a bad cough since Monday.", "zh": "我从星期一开始发烧、咳嗽得厉害。"},
+      {"s": "o", "en": "Any other symptoms? A sore throat or a runny nose?", "zh": "还有别的症状吗？嗓子疼或流鼻涕？"},
+      {"s": "me", "en": "Yes, my throat hurts, and I feel a bit dizzy.", "zh": "有，嗓子疼，还有点头晕。"},
+      {"s": "o", "en": "Let me take your temperature. Hmm, thirty-eight point five.", "zh": "我量一下体温。嗯，三十八度五。"},
+      {"s": "me", "en": "Is it serious?", "zh": "严重吗？"},
+      {"s": "o", "en": "It looks like the flu. You need to rest and drink lots of water.", "zh": "看起来是流感。你需要休息、多喝水。"},
+      {"s": "me", "en": "Do I need any medicine?", "zh": "需要吃药吗？"},
+      {"s": "o", "en": "I'll give you a prescription. Take one tablet three times a day.", "zh": "我给你开个处方。一天三次，每次一片。"},
+      {"s": "me", "en": "OK. Could I also get a sick note for work?", "zh": "好的。能再开个病假条吗？"},
+      {"s": "o", "en": "Of course. Take three days off and you should get better.", "zh": "当然。休息三天应该就好了。"}
+    ]
+  }
+}

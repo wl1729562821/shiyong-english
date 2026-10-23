@@ -1,0 +1,56 @@
+{
+  "day": 13,
+  "title": "打电话与发消息",
+  "en": "Phone Calls & Messages",
+  "icon": "message",
+  "goal": "接打电话时会自报身份、找人、请对方重复、留言、挂断，也会写简单的英文消息。",
+  "tips": [
+    "电话开头：Hi, this is ...（不说 I am ...）。找人：Is Tom there? / Can I speak to Tom?",
+    "信号不好：Sorry, you're breaking up. / I can't hear you very well. Can I call you back?",
+    "常见消息缩写：BTW = by the way（顺便说一下），ASAP = as soon as possible（尽快），LOL（笑死）。"
+  ],
+  "words": [
+    {"en": "call", "zh": "打电话；电话"},
+    {"en": "call back", "zh": "回电话"},
+    {"en": "hang up", "zh": "挂电话"},
+    {"en": "This is", "zh": "我是（电话里）"},
+    {"en": "missed call", "zh": "未接来电"},
+    {"en": "voicemail", "zh": "语音信箱"},
+    {"en": "text", "zh": "发短信；短信"},
+    {"en": "message", "zh": "消息；留言"},
+    {"en": "breaking up", "zh": "（信号）断断续续"},
+    {"en": "battery", "zh": "电池；电量"},
+    {"en": "charger", "zh": "充电器"},
+    {"en": "video call", "zh": "视频通话"},
+    {"en": "wrong number", "zh": "打错电话"},
+    {"en": "by the way", "zh": "顺便说一下"},
+    {"en": "as soon as possible", "zh": "尽快"},
+    {"en": "Talk to you later.", "zh": "回头聊。"}
+  ],
+  "exchanges": [
+    {"hear": "Hello, who's calling?", "hearZh": "喂，请问是谁？", "reply": "Hi, this is Mei from the bookstore.", "replyZh": "你好，我是书店的小梅。"},
+    {"hear": "Sorry, you're breaking up.", "hearZh": "抱歉，你的声音断断续续的。", "reply": "Let me call you back in a minute.", "replyZh": "我等一下再打给你。"},
+    {"hear": "I think you have the wrong number.", "hearZh": "我觉得你打错了。", "reply": "Oh, I'm sorry to bother you.", "replyZh": "哦，抱歉打扰了。"},
+    {"hear": "He's not here right now. Can I take a message?", "hearZh": "他现在不在，要留言吗？", "reply": "Yes, please tell him Mei called.", "replyZh": "好的，请告诉他小梅打过电话。"},
+    {"hear": "I saw a missed call from you. What's up?", "hearZh": "我看到你的未接来电，什么事？", "reply": "I just wanted to ask about tomorrow's plan.", "replyZh": "我就是想问问明天的安排。"},
+    {"hear": "My battery is almost dead.", "hearZh": "我手机快没电了。", "reply": "OK, I'll text you the address.", "replyZh": "好，我把地址发短信给你。"},
+    {"hear": "Can we do a video call tonight?", "hearZh": "今晚能视频通话吗？", "reply": "Sure, how about nine o'clock?", "replyZh": "好啊，九点怎么样？"},
+    {"hear": "I have to go now. Talk to you later.", "hearZh": "我得挂了，回头聊。", "reply": "OK, bye for now.", "replyZh": "好的，先拜拜。"}
+  ],
+  "dialogue": {
+    "title": "打电话找朋友",
+    "other": "朋友的室友",
+    "lines": [
+      {"s": "o", "en": "Hello?", "zh": "喂？"},
+      {"s": "me", "en": "Hi, this is Lin. Is Kate there?", "zh": "你好，我是小林。凯特在吗？"},
+      {"s": "o", "en": "Sorry, she's out right now. Can I take a message?", "zh": "抱歉，她出去了。要留言吗？"},
+      {"s": "me", "en": "Yes, please. Can you ask her to call me back?", "zh": "好的，麻烦让她给我回个电话。"},
+      {"s": "o", "en": "Sure. Does she have your number?", "zh": "好。她有你的号码吗？"},
+      {"s": "me", "en": "I think so, but just in case, it's one three six, oh oh eight eight, one two three four.", "zh": "应该有，以防万一，号码是 136-0088-1234。"},
+      {"s": "o", "en": "Sorry, you're breaking up. Could you say that again?", "zh": "抱歉，信号不好。能再说一遍吗？"},
+      {"s": "me", "en": "One three six, double oh, double eight, one two three four.", "zh": "136，00，88，1234。"},
+      {"s": "o", "en": "Got it. I'll tell her as soon as she gets back.", "zh": "记下了。她一回来我就告诉她。"},
+      {"s": "me", "en": "Thanks a lot. Bye!", "zh": "非常感谢，拜拜！"}
+    ]
+  }
+}

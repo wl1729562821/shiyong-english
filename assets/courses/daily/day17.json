@@ -1,0 +1,57 @@
+{
+  "day": 17,
+  "title": "讲过去的事",
+  "en": "Talking about the Past",
+  "icon": "history",
+  "goal": "会说昨天、上周末、上次旅行做了什么，听懂 Did you ...? / What did you ...? 并用过去式回答。",
+  "tips": [
+    "过去式多数加 -ed：watch → watched，play → played；常用的不规则：go → went，eat → ate，see → saw，have → had，buy → bought。",
+    "问过去：Did you ...? / What did you do ...? 后面的动词用原形：Did you go? 不是 Did you went?",
+    "讲故事的连接词：first, then, after that, finally。"
+  ],
+  "words": [
+    {"en": "yesterday", "zh": "昨天"},
+    {"en": "last weekend", "zh": "上个周末"},
+    {"en": "last year", "zh": "去年"},
+    {"en": "ago", "zh": "……以前"},
+    {"en": "went", "zh": "去了（go 的过去式）"},
+    {"en": "saw", "zh": "看见了（see 的过去式）"},
+    {"en": "ate", "zh": "吃了（eat 的过去式）"},
+    {"en": "had", "zh": "有过；吃过（have 的过去式）"},
+    {"en": "bought", "zh": "买了（buy 的过去式）"},
+    {"en": "met", "zh": "遇见了（meet 的过去式）"},
+    {"en": "stayed home", "zh": "待在家"},
+    {"en": "visited", "zh": "拜访了；参观了"},
+    {"en": "then", "zh": "然后"},
+    {"en": "after that", "zh": "在那之后"},
+    {"en": "finally", "zh": "最后"},
+    {"en": "had a great time", "zh": "玩得很开心"}
+  ],
+  "exchanges": [
+    {"hear": "What did you do last weekend?", "hearZh": "你上周末干什么了？", "reply": "I went hiking with some friends.", "replyZh": "和几个朋友去徒步了。"},
+    {"hear": "Did you have a good holiday?", "hearZh": "假期过得好吗？", "reply": "Yes, I had a great time in Yunnan.", "replyZh": "很好，在云南玩得很开心。"},
+    {"hear": "When did you start learning English?", "hearZh": "你什么时候开始学英语的？", "reply": "About two months ago.", "replyZh": "大约两个月前。"},
+    {"hear": "Did you see the game last night?", "hearZh": "你看了昨晚的比赛吗？", "reply": "Yes! What an amazing goal at the end!", "replyZh": "看了！最后那个进球太精彩了！"},
+    {"hear": "What did you have for dinner?", "hearZh": "你晚饭吃了什么？", "reply": "I ate some dumplings at home.", "replyZh": "在家吃了点饺子。"},
+    {"hear": "Where did you buy that jacket?", "hearZh": "那件夹克在哪儿买的？", "reply": "I bought it online last month.", "replyZh": "上个月网上买的。"},
+    {"hear": "How did you two meet?", "hearZh": "你们俩是怎么认识的？", "reply": "We met at university.", "replyZh": "我们是大学认识的。"},
+    {"hear": "Did you go out yesterday?", "hearZh": "你昨天出门了吗？", "reply": "No, I stayed home and watched TV.", "replyZh": "没有，在家看电视。"}
+  ],
+  "dialogue": {
+    "title": "星期一和同事聊周末",
+    "other": "同事",
+    "lines": [
+      {"s": "o", "en": "Morning! How was your weekend?", "zh": "早！周末过得怎么样？"},
+      {"s": "me", "en": "It was great, thanks. I went to the beach with my family.", "zh": "很好，谢谢。我和家人去海边了。"},
+      {"s": "o", "en": "Nice! What did you do there?", "zh": "不错！在那儿做什么了？"},
+      {"s": "me", "en": "First, we swam in the sea. Then we had a barbecue.", "zh": "先在海里游泳，然后吃了烧烤。"},
+      {"s": "o", "en": "Sounds fun. Was it crowded?", "zh": "听起来很好玩。人多吗？"},
+      {"s": "me", "en": "A little, but we found a quiet spot. How about you?", "zh": "有一点，不过我们找到一个安静的地方。你呢？"},
+      {"s": "o", "en": "I stayed home and finally cleaned my apartment.", "zh": "我待在家，终于把公寓打扫了。"},
+      {"s": "me", "en": "Ha, that's important too!", "zh": "哈，那也很重要！"},
+      {"s": "o", "en": "Yes. And on Sunday I saw a movie with my sister.", "zh": "是啊。星期天我还和我妹妹看了场电影。"},
+      {"s": "me", "en": "Which movie did you see?", "zh": "看的哪部？"},
+      {"s": "o", "en": "A new comedy. It was really funny.", "zh": "一部新喜剧，特别好笑。"}
+    ]
+  }
+}

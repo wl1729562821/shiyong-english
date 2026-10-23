@@ -1,0 +1,55 @@
+{
+  "day": 9,
+  "title": "身体与心情",
+  "en": "Body & Feelings",
+  "icon": "mood",
+  "goal": "会说哪里不舒服、现在心情怎么样，听懂别人关心你的话并回应。",
+  "tips": [
+    "身体部位 + hurt(s)：My back hurts. 也可以用 -ache：headache 头痛，toothache 牙痛，stomachache 肚子痛。",
+    "不规则复数：tooth → teeth，foot → feet。",
+    "I can't wait! 是“我等不及了”，表示特别期待。"
+  ],
+  "words": [
+    {"en": "head", "zh": "头"},
+    {"en": "eye", "zh": "眼睛"},
+    {"en": "nose", "zh": "鼻子"},
+    {"en": "tooth", "zh": "牙齿（复数 teeth）"},
+    {"en": "throat", "zh": "喉咙"},
+    {"en": "back", "zh": "背；后背"},
+    {"en": "stomach", "zh": "胃；肚子"},
+    {"en": "hand", "zh": "手"},
+    {"en": "leg", "zh": "腿"},
+    {"en": "foot", "zh": "脚（复数 feet）"},
+    {"en": "hurt", "zh": "疼；受伤"},
+    {"en": "happy", "zh": "开心的"},
+    {"en": "sad", "zh": "难过的"},
+    {"en": "angry", "zh": "生气的"},
+    {"en": "worried", "zh": "担心的"},
+    {"en": "excited", "zh": "兴奋的；期待的"},
+    {"en": "nervous", "zh": "紧张的"}
+  ],
+  "exchanges": [
+    {"hear": "How are you feeling today?", "hearZh": "你今天感觉怎么样？", "reply": "Much better, thanks.", "replyZh": "好多了，谢谢。"},
+    {"hear": "What's wrong?", "hearZh": "怎么了？", "reply": "My back hurts.", "replyZh": "我背疼。"},
+    {"hear": "Why do you look so happy?", "hearZh": "你怎么这么高兴？", "reply": "I passed my driving test!", "replyZh": "我驾照考过了！"},
+    {"hear": "Are you nervous about the interview?", "hearZh": "你对面试紧张吗？", "reply": "A little, but I'm ready.", "replyZh": "有一点，不过我准备好了。"},
+    {"hear": "Does your tooth still hurt?", "hearZh": "你的牙还疼吗？", "reply": "Yes, I need to see a dentist.", "replyZh": "还疼，我得去看牙医。"},
+    {"hear": "You look worried. Is everything OK?", "hearZh": "你看起来很担心，没事吧？", "reply": "I can't find my phone.", "replyZh": "我找不到手机了。"},
+    {"hear": "Are you excited about your trip?", "hearZh": "你对这次旅行很期待吧？", "reply": "Yes, I can't wait!", "replyZh": "是啊，我等不及了！"},
+    {"hear": "Why is he so angry?", "hearZh": "他为什么这么生气？", "reply": "Because someone took his parking space.", "replyZh": "因为有人占了他的车位。"}
+  ],
+  "dialogue": {
+    "title": "朋友关心你的身体",
+    "other": "朋友",
+    "lines": [
+      {"s": "o", "en": "Hey, you don't look well. What's wrong?", "zh": "嘿，你脸色不太好。怎么了？"},
+      {"s": "me", "en": "I have a headache, and my throat hurts.", "zh": "我头疼，喉咙也疼。"},
+      {"s": "o", "en": "Oh no. Do you have a fever?", "zh": "哎呀，发烧吗？"},
+      {"s": "me", "en": "I don't think so. I'm just tired.", "zh": "应该没有，就是累。"},
+      {"s": "o", "en": "You should go home and rest.", "zh": "你应该回家休息。"},
+      {"s": "me", "en": "You're right. I'm also a bit worried about my exam tomorrow.", "zh": "你说得对。我还有点担心明天的考试。"},
+      {"s": "o", "en": "Don't worry. You studied hard. You'll be fine.", "zh": "别担心，你那么用功，没问题的。"},
+      {"s": "me", "en": "Thanks. That makes me feel better.", "zh": "谢谢，听你这么说我好受多了。"}
+    ]
+  }
+}

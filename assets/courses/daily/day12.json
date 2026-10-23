@@ -1,0 +1,56 @@
+{
+  "day": 12,
+  "title": "生活服务：理发、维修、快递",
+  "en": "Everyday Services",
+  "icon": "services",
+  "goal": "理发时说清楚想要的样子，约维修上门，取寄快递时听懂工作人员的问题。",
+  "tips": [
+    "理发：Just a trim, please.（修一下就行）/ Not too short. / Can you take a little off the sides?（两边剪短一点）",
+    "约上门：When can someone come? / Could you give me a time window?（大概几点到几点）",
+    "快递：package 包裹，tracking number 快递单号，sign for 签收，drop off 寄出。"
+  ],
+  "words": [
+    {"en": "haircut", "zh": "理发"},
+    {"en": "just a trim", "zh": "稍微修一下"},
+    {"en": "the sides", "zh": "两边"},
+    {"en": "bangs", "zh": "刘海（美式）"},
+    {"en": "wash and blow-dry", "zh": "洗吹"},
+    {"en": "repairman", "zh": "维修工"},
+    {"en": "fix", "zh": "修理"},
+    {"en": "broken", "zh": "坏了的"},
+    {"en": "package", "zh": "包裹"},
+    {"en": "tracking number", "zh": "快递单号"},
+    {"en": "sign for", "zh": "签收"},
+    {"en": "drop off", "zh": "送去；寄出"},
+    {"en": "post office", "zh": "邮局"},
+    {"en": "send", "zh": "寄；发送"},
+    {"en": "how much do I owe you", "zh": "我该付多少钱"},
+    {"en": "walk-in", "zh": "不用预约的（顾客）"}
+  ],
+  "exchanges": [
+    {"hear": "How would you like your hair today?", "hearZh": "今天想剪什么样？", "reply": "Just a trim, please. Not too short.", "replyZh": "修一下就好，别太短。"},
+    {"hear": "Do you have an appointment?", "hearZh": "您有预约吗？", "reply": "No, I'm a walk-in. Is that OK?", "replyZh": "没有，我是直接来的。可以吗？"},
+    {"hear": "Is this length OK?", "hearZh": "这个长度可以吗？", "reply": "Could you take a little more off the sides?", "replyZh": "两边能再剪短一点吗？"},
+    {"hear": "What's the problem with your air conditioner?", "hearZh": "你的空调有什么问题？", "reply": "It makes a loud noise and doesn't cool the room.", "replyZh": "它声音很大，而且不制冷。"},
+    {"hear": "The repairman can come tomorrow.", "hearZh": "维修工明天可以上门。", "reply": "Great. Could you give me a time window?", "replyZh": "好的，能给个大概时间段吗？"},
+    {"hear": "I have a package for you. Can you sign for it?", "hearZh": "有您的包裹，请签收一下。", "reply": "Sure. Where do I sign?", "replyZh": "好的。在哪儿签？"},
+    {"hear": "How would you like to send it?", "hearZh": "您想怎么寄？", "reply": "The cheapest way, please. It's not urgent.", "replyZh": "最便宜的方式，不着急。"},
+    {"hear": "Do you have the tracking number?", "hearZh": "您有快递单号吗？", "reply": "Yes, it's in this text message.", "replyZh": "有，在这条短信里。"}
+  ],
+  "dialogue": {
+    "title": "在理发店",
+    "other": "理发师",
+    "lines": [
+      {"s": "o", "en": "Hi, have a seat. What are we doing today?", "zh": "你好，请坐。今天怎么剪？"},
+      {"s": "me", "en": "I'd like a haircut. Not too short, please.", "zh": "我想剪个头发，别太短。"},
+      {"s": "o", "en": "Sure. Do you want me to keep the length on top?", "zh": "好的。上面的长度要保留吗？"},
+      {"s": "me", "en": "Yes, just a trim on top. And a little shorter on the sides.", "zh": "对，上面修一下，两边短一点。"},
+      {"s": "o", "en": "Got it. Would you like a wash first?", "zh": "明白。要先洗头吗？"},
+      {"s": "me", "en": "Yes, please.", "zh": "要的。"},
+      {"s": "o", "en": "OK, take a look. How's this?", "zh": "好了，看一下，这样行吗？"},
+      {"s": "me", "en": "It looks great. Thank you! How much do I owe you?", "zh": "很好看，谢谢！我该付多少？"},
+      {"s": "o", "en": "That's thirty-five dollars.", "zh": "三十五美元。"},
+      {"s": "me", "en": "Here's forty. Keep the change.", "zh": "给你四十，不用找了。"}
+    ]
+  }
+}

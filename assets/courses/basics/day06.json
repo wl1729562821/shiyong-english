@@ -1,0 +1,55 @@
+{
+  "day": 6,
+  "title": "疑问词：什么、哪里、为什么",
+  "en": "Question Words",
+  "icon": "question",
+  "goal": "听问句先抓第一个词，马上知道对方在问什么；自己也能用 What / Where / When / Who / Why / How 提问。",
+  "tips": [
+    "What 问东西，Where 问地点，When 问时间，Who 问人，Why 问原因，Which 问“哪一个”，How 问方式或程度。",
+    "How + 形容词很常用：how long 多久，how far 多远，how often 多久一次，how much 多少钱。",
+    "回答 Why 用 Because ...：Because I want to travel."
+  ],
+  "words": [
+    {"en": "what", "zh": "什么"},
+    {"en": "where", "zh": "哪里"},
+    {"en": "when", "zh": "什么时候"},
+    {"en": "who", "zh": "谁"},
+    {"en": "whose", "zh": "谁的"},
+    {"en": "why", "zh": "为什么"},
+    {"en": "which", "zh": "哪一个"},
+    {"en": "how", "zh": "怎么；如何"},
+    {"en": "how much", "zh": "多少（钱）"},
+    {"en": "how many", "zh": "多少（个）"},
+    {"en": "how long", "zh": "多长时间"},
+    {"en": "how often", "zh": "多久一次"},
+    {"en": "how far", "zh": "多远"},
+    {"en": "what time", "zh": "几点"},
+    {"en": "because", "zh": "因为"}
+  ],
+  "exchanges": [
+    {"hear": "What's that called in English?", "hearZh": "那个用英语怎么说？", "reply": "It's called a stapler.", "replyZh": "它叫 stapler（订书机）。"},
+    {"hear": "Why are you learning English?", "hearZh": "你为什么学英语？", "reply": "Because I want to travel abroad.", "replyZh": "因为我想出国旅行。"},
+    {"hear": "How often do you go to the gym?", "hearZh": "你多久去一次健身房？", "reply": "Twice a week.", "replyZh": "一周两次。"},
+    {"hear": "Who's that man over there?", "hearZh": "那边那个男的是谁？", "reply": "That's my boss.", "replyZh": "那是我老板。"},
+    {"hear": "Which one do you want, the red one or the blue one?", "hearZh": "你要哪个，红的还是蓝的？", "reply": "The blue one, please.", "replyZh": "蓝的，谢谢。"},
+    {"hear": "How long does it take to get to work?", "hearZh": "你上班路上要多久？", "reply": "About forty minutes by bus.", "replyZh": "坐公交大约四十分钟。"},
+    {"hear": "Whose phone is this?", "hearZh": "这是谁的手机？", "reply": "It's mine. Thanks!", "replyZh": "是我的，谢谢！"},
+    {"hear": "When does the movie start?", "hearZh": "电影什么时候开始？", "reply": "At seven thirty.", "replyZh": "七点半。"}
+  ],
+  "dialogue": {
+    "title": "同事问你的周末安排",
+    "other": "同事",
+    "lines": [
+      {"s": "o", "en": "What are you doing this weekend?", "zh": "这个周末你干什么？"},
+      {"s": "me", "en": "I'm going to Hangzhou.", "zh": "我要去杭州。"},
+      {"s": "o", "en": "Nice! Who are you going with?", "zh": "不错！和谁一起去？"},
+      {"s": "me", "en": "With my sister.", "zh": "和我姐姐。"},
+      {"s": "o", "en": "How are you getting there?", "zh": "怎么去？"},
+      {"s": "me", "en": "By high-speed train. It only takes an hour.", "zh": "坐高铁，只要一个小时。"},
+      {"s": "o", "en": "When are you coming back?", "zh": "什么时候回来？"},
+      {"s": "me", "en": "On Sunday evening.", "zh": "星期天晚上。"},
+      {"s": "o", "en": "Why Hangzhou?", "zh": "为什么去杭州？"},
+      {"s": "me", "en": "Because my sister wants to see West Lake.", "zh": "因为我姐姐想看西湖。"}
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "day": 15,
+  "title": "礼貌地请求与求助",
+  "en": "Polite Requests & Asking for Help",
+  "icon": "request",
+  "goal": "会用 Could you ...? / Would you mind ...? 礼貌地请别人帮忙，也会答应或婉拒别人的请求。",
+  "tips": [
+    "越往后越礼貌：Can you ...? → Could you ...? → Would you mind ...ing?",
+    "Would you mind opening the window? 的意思是“你介意开窗吗”，同意要说 No, not at all.（不介意），而不是 Yes。",
+    "开口求助先说 Excuse me, sorry to bother you, but ...（打扰一下，不好意思……）"
+  ],
+  "words": [
+    {"en": "Could you", "zh": "你能……吗（礼貌）"},
+    {"en": "Would you mind", "zh": "你介意……吗"},
+    {"en": "Not at all.", "zh": "一点也不介意。"},
+    {"en": "Sorry to bother you.", "zh": "不好意思打扰你。"},
+    {"en": "favor", "zh": "帮忙；恩惠"},
+    {"en": "do me a favor", "zh": "帮我个忙"},
+    {"en": "borrow", "zh": "借（进来）"},
+    {"en": "lend", "zh": "借（出去）"},
+    {"en": "hold", "zh": "拿着；扶着"},
+    {"en": "carry", "zh": "搬；提"},
+    {"en": "turn down", "zh": "调小（音量）"},
+    {"en": "show me how", "zh": "教我怎么做"},
+    {"en": "of course", "zh": "当然"},
+    {"en": "I'm afraid I can't.", "zh": "恐怕我不行。"},
+    {"en": "Go ahead.", "zh": "请便；你用吧。"},
+    {"en": "I appreciate it.", "zh": "我很感激。"}
+  ],
+  "exchanges": [
+    {"hear": "Could you do me a favor?", "hearZh": "能帮我个忙吗？", "reply": "Sure, what do you need?", "replyZh": "当然，你需要什么？"},
+    {"hear": "Would you mind closing the window?", "hearZh": "你介意关一下窗吗？", "reply": "Not at all.", "replyZh": "不介意。", "generic": true},
+    {"hear": "Can I borrow your pen for a second?", "hearZh": "能借一下你的笔吗？", "reply": "Go ahead.", "replyZh": "你用吧。"},
+    {"hear": "Could you help me carry these boxes upstairs?", "hearZh": "能帮我把这些箱子搬上楼吗？", "reply": "I'd love to help, but I'm afraid I hurt my back.", "replyZh": "我很想帮忙，可惜我背受伤了。"},
+    {"hear": "Excuse me, sorry to bother you. Could you show me how to use this machine?", "hearZh": "打扰一下，不好意思。能教我怎么用这台机器吗？", "reply": "Of course. First, put your card here.", "replyZh": "当然。先把卡放这里。"},
+    {"hear": "Would you mind turning the music down a little?", "hearZh": "你介意把音乐调小一点吗？", "reply": "Oh, sorry. Is this better?", "replyZh": "哦，抱歉。这样好点吗？"},
+    {"hear": "Could you lend me fifty dollars until Friday?", "hearZh": "能借我五十美元吗？周五还你。", "reply": "Sure, no problem.", "replyZh": "当然，没问题。", "generic": true},
+    {"hear": "Thanks so much for your help.", "hearZh": "非常感谢你的帮助。", "reply": "Anytime. I'm glad I could help.", "replyZh": "随时，能帮上忙我很高兴。"}
+  ],
+  "dialogue": {
+    "title": "请邻居帮忙",
+    "other": "邻居",
+    "lines": [
+      {"s": "me", "en": "Hi, sorry to bother you. Could you do me a favor?", "zh": "你好，不好意思打扰。能帮我个忙吗？"},
+      {"s": "o", "en": "Sure. What's up?", "zh": "当然，什么事？"},
+      {"s": "me", "en": "I'm going away for the weekend. Would you mind watering my plants?", "zh": "我周末要出门，你介意帮我浇浇花吗？"},
+      {"s": "o", "en": "Not at all. How often do they need water?", "zh": "不介意。多久浇一次？"},
+      {"s": "me", "en": "Just once, on Saturday. I'll leave the key with you.", "zh": "星期六浇一次就行。我把钥匙留给你。"},
+      {"s": "o", "en": "No problem. Anything else?", "zh": "没问题。还有别的吗？"},
+      {"s": "me", "en": "Could you also take in my mail?", "zh": "能顺便帮我收一下信吗？"},
+      {"s": "o", "en": "Of course. Have a great trip!", "zh": "当然。旅途愉快！"},
+      {"s": "me", "en": "Thank you so much. I really appreciate it.", "zh": "太感谢了，真的很感激。"}
+    ]
+  }
+}

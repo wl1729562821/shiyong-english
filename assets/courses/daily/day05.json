@@ -1,0 +1,57 @@
+{
+  "day": 5,
+  "title": "家与家务",
+  "en": "Home & Housework",
+  "icon": "home",
+  "goal": "会描述自己的家（几室、在哪、有什么），会说家务和家里的东西坏了需要修。",
+  "tips": [
+    "美式 apartment，英式 flat，都是公寓；a two-bedroom apartment = 两室的公寓。",
+    "家务用 do / take out / clean：do the dishes 洗碗，do the laundry 洗衣服，take out the trash 倒垃圾。",
+    "东西坏了：The ... is broken. / The ... doesn't work. / The sink is leaking.（水槽漏水）"
+  ],
+  "words": [
+    {"en": "apartment", "zh": "公寓（美式）"},
+    {"en": "flat", "zh": "公寓（英式）"},
+    {"en": "bedroom", "zh": "卧室"},
+    {"en": "living room", "zh": "客厅"},
+    {"en": "kitchen", "zh": "厨房"},
+    {"en": "bathroom", "zh": "卫生间；浴室"},
+    {"en": "balcony", "zh": "阳台"},
+    {"en": "rent", "zh": "房租；租"},
+    {"en": "landlord", "zh": "房东"},
+    {"en": "roommate", "zh": "室友"},
+    {"en": "do the dishes", "zh": "洗碗"},
+    {"en": "do the laundry", "zh": "洗衣服"},
+    {"en": "take out the trash", "zh": "倒垃圾"},
+    {"en": "vacuum", "zh": "用吸尘器打扫"},
+    {"en": "washing machine", "zh": "洗衣机"},
+    {"en": "fridge", "zh": "冰箱"},
+    {"en": "leaking", "zh": "漏水的"}
+  ],
+  "exchanges": [
+    {"hear": "Do you live in a house or an apartment?", "hearZh": "你住独栋房子还是公寓？", "reply": "An apartment. It has two bedrooms.", "replyZh": "公寓，两室的。"},
+    {"hear": "Do you rent or own your place?", "hearZh": "你的房子是租的还是自己的？", "reply": "I rent it. The rent is a bit high.", "replyZh": "租的，房租有点贵。"},
+    {"hear": "Who does the cooking at home?", "hearZh": "你家谁做饭？", "reply": "My husband cooks, and I do the dishes.", "replyZh": "我丈夫做饭，我洗碗。"},
+    {"hear": "Can you take out the trash?", "hearZh": "你能去倒下垃圾吗？", "reply": "Sure, I'll do it now.", "replyZh": "好，我现在就去。"},
+    {"hear": "What's wrong with the washing machine?", "hearZh": "洗衣机怎么了？", "reply": "It doesn't turn on. I think it's broken.", "replyZh": "开不了机，我觉得坏了。"},
+    {"hear": "Hi, this is your landlord. Is everything OK with the apartment?", "hearZh": "你好，我是房东。房子一切都好吗？", "reply": "Mostly, but the kitchen sink is leaking.", "replyZh": "基本都好，就是厨房水槽漏水。"},
+    {"hear": "How do you like your new place?", "hearZh": "你觉得新家怎么样？", "reply": "I love it. The balcony gets a lot of sun.", "replyZh": "很喜欢，阳台阳光特别好。"},
+    {"hear": "Do you get along with your roommate?", "hearZh": "你和室友相处得好吗？", "reply": "Yes, but he never cleans the bathroom.", "replyZh": "挺好的，就是他从来不打扫卫生间。"}
+  ],
+  "dialogue": {
+    "title": "给房东打电话报修",
+    "other": "房东",
+    "lines": [
+      {"s": "o", "en": "Hello?", "zh": "喂？"},
+      {"s": "me", "en": "Hi, Mr. Brown. This is Li from apartment three B.", "zh": "布朗先生你好，我是 3B 的小李。"},
+      {"s": "o", "en": "Oh, hi Li. What can I do for you?", "zh": "哦，你好小李。有什么事吗？"},
+      {"s": "me", "en": "The fridge isn't working. It's not cold at all.", "zh": "冰箱坏了，一点都不冷。"},
+      {"s": "o", "en": "I'm sorry to hear that. When did it stop working?", "zh": "很抱歉。什么时候开始不工作的？"},
+      {"s": "me", "en": "Yesterday evening. All my food is going bad.", "zh": "昨天晚上。我的食物都要坏了。"},
+      {"s": "o", "en": "I'll send someone to fix it. Are you home tomorrow morning?", "zh": "我派人去修。你明天上午在家吗？"},
+      {"s": "me", "en": "I have to work, but my roommate will be home.", "zh": "我要上班，不过我室友在家。"},
+      {"s": "o", "en": "Great. The repairman will come around ten.", "zh": "好的，维修工大概十点到。"},
+      {"s": "me", "en": "Thank you. I'll let her know.", "zh": "谢谢，我会告诉她的。"}
+    ]
+  }
+}

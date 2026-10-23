@@ -1,0 +1,57 @@
+{
+  "day": 9,
+  "title": "入境检查（二）：商务与追问",
+  "en": "Immigration (2): Business & Follow-up Questions",
+  "icon": "work",
+  "goal": "应对移民官的追问：职业、公司、见谁、带多少钱、以前来过吗；商务出行会说明来开会、参展。",
+  "tips": [
+    "免签或商务签入境时，不要说 I'm here to work（意思像是来当地打工），要说 I'm here on business / to attend a meeting / to visit a client。",
+    "What brings you here? = 你来这里做什么？和 What's the purpose of your visit? 意思一样。",
+    "邀请函、展会门票、酒店订单放在一起，被追问时一次性拿出来。"
+  ],
+  "words": [
+    {"en": "occupation", "zh": "职业"},
+    {"en": "company", "zh": "公司"},
+    {"en": "engineer", "zh": "工程师"},
+    {"en": "sales manager", "zh": "销售经理"},
+    {"en": "conference", "zh": "（大型）会议"},
+    {"en": "trade fair", "zh": "展销会"},
+    {"en": "exhibition", "zh": "展览"},
+    {"en": "client", "zh": "客户"},
+    {"en": "invitation letter", "zh": "邀请函"},
+    {"en": "relatives", "zh": "亲戚"},
+    {"en": "itinerary", "zh": "行程（单）"},
+    {"en": "tour group", "zh": "旅行团"},
+    {"en": "be carrying", "zh": "随身携带"},
+    {"en": "before", "zh": "以前"}
+  ],
+  "exchanges": [
+    {"hear": "What do you do?", "hearZh": "你是做什么工作的？", "reply": "I'm an engineer.", "replyZh": "我是工程师。"},
+    {"hear": "Which company do you work for?", "hearZh": "你在哪家公司工作？", "reply": "A trading company in Shanghai.", "replyZh": "上海的一家贸易公司。"},
+    {"hear": "Who are you meeting here?", "hearZh": "你在这里要见谁？", "reply": "I'm meeting a client.", "replyZh": "我来见一个客户。"},
+    {"hear": "Do you have an invitation letter?", "hearZh": "你有邀请函吗？", "reply": "Yes, from our client. Here it is.", "replyZh": "有，是客户发的。在这里。"},
+    {"hear": "Are you here for a conference?", "hearZh": "你是来开会的吗？", "reply": "Yes, I'm attending a trade fair.", "replyZh": "是的，我来参加展会。"},
+    {"hear": "How much cash are you carrying?", "hearZh": "你带了多少现金？", "reply": "About two thousand dollars.", "replyZh": "大约两千美元。"},
+    {"hear": "Do you have any relatives here?", "hearZh": "你在这里有亲戚吗？", "reply": "No, I don't.", "replyZh": "没有。", "generic": true},
+    {"hear": "Have you been here before?", "hearZh": "你以前来过吗？", "reply": "Yes, I came here last year on business.", "replyZh": "来过，去年来出差。"},
+    {"hear": "Can you show me your hotel booking?", "hearZh": "能给我看一下你的酒店预订吗？", "reply": "Sure. It's on my phone.", "replyZh": "当然，在我手机上。"}
+  ],
+  "dialogue": {
+    "title": "过移民局（商务）",
+    "other": "移民官",
+    "lines": [
+      {"s": "o", "en": "Good afternoon. What brings you here?", "zh": "下午好。你来这里做什么？"},
+      {"s": "me", "en": "I'm here on business.", "zh": "我来出差。"},
+      {"s": "o", "en": "What kind of business?", "zh": "什么样的公务？"},
+      {"s": "me", "en": "I'm attending a trade fair in Frankfurt.", "zh": "我来参加法兰克福的一个展会。"},
+      {"s": "o", "en": "What do you do?", "zh": "你是做什么的？"},
+      {"s": "me", "en": "I'm a sales manager at an electronics company.", "zh": "我是一家电子公司的销售经理。"},
+      {"s": "o", "en": "How long will you stay?", "zh": "你待多久？"},
+      {"s": "me", "en": "Five days. I'm leaving on Saturday.", "zh": "五天，周六走。"},
+      {"s": "o", "en": "Do you have an invitation letter?", "zh": "有邀请函吗？"},
+      {"s": "me", "en": "Yes. Here it is, and here's my hotel booking.", "zh": "有，在这里，这是我的酒店预订。"},
+      {"s": "o", "en": "All right. Have a good trip.", "zh": "好的。旅途愉快。"},
+      {"s": "me", "en": "Thank you.", "zh": "谢谢。"}
+    ]
+  }
+}
